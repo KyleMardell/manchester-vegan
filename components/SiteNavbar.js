@@ -8,7 +8,7 @@ export default function SiteNavbar() {
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
                 <Navbar.Brand as={Link} href="/">
-                    Vegan Bee
+                    Manchester Vegan Guide
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -16,8 +16,14 @@ export default function SiteNavbar() {
                         <Nav.Link as={Link} href="/">
                             Home
                         </Nav.Link>
+                        <Nav.Link as={Link} href="/restaurants">
+                            All Restaurants
+                        </Nav.Link>
                         <Nav.Link as={Link} href="/">
-                            Restaurants
+                            Vegan Only Restaurants
+                        </Nav.Link>
+                        <Nav.Link as={Link} href="/">
+                            Blog
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
