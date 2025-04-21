@@ -1,7 +1,6 @@
 import data from "@/data/restaurants.json";
-
-import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
+import { Container, Row, Col } from "react-bootstrap";
 
 export default function Restaurants() {
     return (
@@ -33,11 +32,9 @@ export default function Restaurants() {
             <Row>
                 {data.map((restaurant) => (
                     <Col xs={12}>
-                    <Link href={`/restaurants/${restaurant.slug}`}>{restaurant.name}</Link>
+                    <Link key={restaurant.name} href={`/restaurants/${restaurant.slug}`}>{restaurant.name}</Link>
                 </Col>
                 ))}
-
-                
             </Row>
         </Container>
     );

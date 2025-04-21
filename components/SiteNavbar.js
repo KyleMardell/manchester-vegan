@@ -19,6 +19,9 @@ export default function SiteNavbar() {
                         <Nav.Link as={Link} href="/restaurants">
                             All Restaurants
                         </Nav.Link>
+                        <Nav.Link as={Link} href="/locations">
+                            Locations / Areas
+                        </Nav.Link>
                         <Nav.Link as={Link} href="/">
                             Vegan Only Restaurants
                         </Nav.Link>

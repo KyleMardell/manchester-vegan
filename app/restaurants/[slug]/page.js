@@ -1,6 +1,6 @@
 import data from "@/data/restaurants.json";
 import Link from "next/link";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 export async function generateStaticParams() {
     return data.map((restaurant) => ({
