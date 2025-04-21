@@ -32,6 +32,9 @@ export default function SiteNavbar() {
                         <Nav.Link as={Link} href="/locations" onClick={() => setExpanded(false)}>
                             Locations / Areas
                         </Nav.Link>
+                        <Nav.Link as={Link} href="/cuisines" onClick={() => setExpanded(false)}>
+                            Cuisines
+                        </Nav.Link>
                         <Nav.Link as={Link} href="/" onClick={() => setExpanded(false)}>
                             Vegan Only Restaurants
                         </Nav.Link>

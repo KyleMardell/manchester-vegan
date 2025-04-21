@@ -125,6 +125,13 @@ export default async function RestaurantPage({ params }) {
                     </div>
                 </Col>
             </Row>
+            <Row>
+                <Col>
+                    <Link href="/locations">
+                        View more vegetarian and vegan restaurants.
+                    </Link>
+                </Col>
+            </Row>
         </Container>
     );
 }
