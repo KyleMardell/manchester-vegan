@@ -17,6 +17,7 @@
     "twitter": "https://x.com/bundobustmcr",
     "instagram": "https://www.instagram.com/explore/locations/1022596143/bundobust-manchester-piccadilly/",
     "maps": "https://www.google.com/maps/place/Bundobust+Manchester+Piccadilly/data=!4m7!3m6!1s0x487bb1befb96b89b:0xd173ebbf98295f53!8m2!3d53.4809389!4d-2.2346556!16s%2Fg%2F11c5g7twt7!19sChIJm7iW-76xe0gRU18pmL_rc9E?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.301702779047!2d-2.2346556!3d53.4809389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1befb96b89b%3A0xd173ebbf98295f53!2sBundobust%20Manchester%20Piccadilly!5e0!3m2!1sen!2suk!4v1745191983634!5m2!1sen!2suk",
     "summary": "Bundobust Manchester is a popular vegetarian and vegan restaurant offering an exciting menu of Indian street food with a modern twist. Located in the heart of Manchester near Piccadilly Gardens, Bundobust is a go-to destination for vegan and vegetarian dining, serving flavour-packed dishes such as okra fries, bhel puri, and vegan vada pav. The menu is designed to cater to both plant-based and vegetarian diets, with plenty of vegan options available. Pair your meal with craft beers brewed locally and in-house for a truly unique experience. With its laid-back canteen-style setting and commitment to serving fresh, creative food, Bundobust is one of the best vegan and vegetarian restaurants in Manchester for those seeking delicious, sustainable dining."
   },
   {
@@ -37,12 +38,13 @@
     "twitter": "https://x.com/comptoirlibanai?lang=en",
     "instagram": "https://www.instagram.com/comptoirlibanais/",
     "maps": "https://www.google.com/maps/place/Comptoir+Libanais+Manchester/data=!4m7!3m6!1s0x487bb1dd22c72003:0x704d60d1367ce067!8m2!3d53.4800446!4d-2.2506524!16s%2Fg%2F11ckw28h8_!19sChIJAyDHIt2xe0gRZ-B8NtFgTXA?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.3517503477233!2d-2.2506523999999994!3d53.4800446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1dd22c72003%3A0x704d60d1367ce067!2sComptoir%20Libanais%20Manchester!5e0!3m2!1sen!2suk!4v1745192867161!5m2!1sen!2suk",
     "summary": "Comptoir Libanais Manchester offers an authentic taste of Lebanese and Middle Eastern cuisine, located in the heart of Manchester's Spinningfields district. This popular restaurant specialises in healthy, flavour-packed dishes with a strong focus on vegan and vegetarian options. From delicious vegan mezze platters and falafel to hearty tagines and lentil soup, Comptoir Libanais provides a diverse range of plant-based meals that cater to both vegan and vegetarian diets. Whether you're looking for vegan-friendly lunch spots or a casual dinner with vibrant Lebanese flavours, Comptoir Libanais is a top choice for plant-based dining in Manchester. With its colourful décor, fast-casual service, and emphasis on fresh, healthy ingredients, it's a must-visit for anyone searching for vegan and vegetarian restaurants in Manchester."
   },
   {
     "name": "Purezza - Manchester",
     "slug": "purezza-manchester",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "Italian, Pizza",
     "score": 4.8,
     "reviews": "2400+",
@@ -57,6 +59,7 @@
     "twitter": "https://x.com/purezza/",
     "instagram": "https://www.instagram.com/purezza/",
     "maps": "https://www.google.com/maps/place/Purezza+Manchester/data=!4m7!3m6!1s0x487bb115d3ba8801:0xef25c3be1c5c2bfc!8m2!3d53.4844779!4d-2.2375091!16s%2Fg%2F11px92rk34!19sChIJAYi60xWxe0gR_CtcHL7DJe8?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.1036446112607!2d-2.2375091!3d53.484477899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb115d3ba8801%3A0xef25c3be1c5c2bfc!2sPurezza%20Manchester!5e0!3m2!1sen!2suk!4v1745192915531!5m2!1sen!2suk",
     "summary": "Purezza Manchester is a fully vegan restaurant and pizzeria located in Manchester's vibrant Northern Quarter, offering an award-winning plant-based dining experience. Specialising in vegan pizza, Purezza uses unique sourdough bases, house-made vegan cheese, and fresh, organic ingredients to create delicious Italian-style dishes. The 100% plant-based menu includes gluten-free vegan pizza options, vegan pasta, garlic bread, sides, and indulgent vegan desserts. Known as the first vegan pizzeria in the UK, Purezza is a top choice for vegan restaurants in Manchester, ideal for anyone searching for vegan-friendly, vegetarian, or dairy-free dining options in the city. Whether you're vegan, vegetarian, or simply curious about plant-based food, Purezza delivers one of the best vegan meals in Manchester."
   },
   {
@@ -77,6 +80,7 @@
     "twitter": "https://twitter.com/LilysVegi/status/1535968838147350528",
     "instagram": "https://www.instagram.com/lilysvegi/",
     "maps": "https://www.google.com/maps/place/Lily%27s+Indian+Vegetarian+Cuisine/data=!4m7!3m6!1s0x487bb65412d13313:0x84730c1dfaf1d4da!8m2!3d53.4897035!4d-2.0991457!16s%2Fg%2F1hc1k0zwc!19sChIJEzPRElS2e0gR2tTx-h0Mc4Q?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.811180250985!2d-2.0991457000000002!3d53.4897035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb65412d13313%3A0x84730c1dfaf1d4da!2sLily&#39;s%20Indian%20Vegetarian%20Cuisine!5e0!3m2!1sen!2suk!4v1745192952912!5m2!1sen!2suk",
     "summary": "Lily's Indian Vegetarian Manchester is a hidden gem for vegan and vegetarian food lovers, offering a wide variety of authentic Indian vegetarian dishes. Located in the heart of Manchester, Lily's serves flavourful, plant-based meals that are perfect for vegans, vegetarians, and those seeking healthy dining options. From delicious curries and daals to crispy bhajis and fresh naan, Lily’s menu is packed with traditional Indian flavours made entirely from vegetarian ingredients, with numerous vegan options available. Whether you're looking for a hearty lunch or a satisfying dinner, Lily's provides a warm, inviting atmosphere and is one of the best vegetarian restaurants in Manchester for a tasty and wholesome dining experience."
   },
   {
@@ -97,6 +101,7 @@
     "twitter": "https://x.com/Sanskruti95",
     "instagram": "https://www.instagram.com/sanskrutirestaurant/",
     "maps": "https://www.google.com/maps/place/Sanskruti+Restaurant/data=!4m7!3m6!1s0x487bb24a759c63db:0xcfd71ecdf59fee68!8m2!3d53.4355125!4d-2.213743!16s%2Fg%2F1jkwc5bmf!19sChIJ22OcdUqye0gRaO6f9c0e188?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.843161364874!2d-2.213743!3d53.435512499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb24a759c63db%3A0xcfd71ecdf59fee68!2sSanskruti%20Restaurant!5e0!3m2!1sen!2suk!4v1745192978368!5m2!1sen!2suk",
     "summary": "Sanskruti Restaurant Manchester offers a vibrant and authentic taste of vegetarian Indian cuisine, specialising in a diverse range of vegan and vegetarian dishes. Located in the heart of Manchester, Sanskruti is a must-visit for plant-based food lovers seeking traditional Indian meals made with fresh, high-quality ingredients. The menu features an array of vegan-friendly options, from fragrant curries and dosas to crispy pakoras and tangy chutneys. Sanskruti’s commitment to delivering healthy, flavorful, and entirely vegetarian dishes makes it a standout choice for anyone searching for vegan and vegetarian restaurants in Manchester. With its warm ambiance and exceptional service, Sanskruti provides a memorable dining experience for both vegetarians and vegans."
   },
   {
@@ -117,6 +122,7 @@
     "twitter": "https://twitter.com/allotmentvegan/status/1275920145060421633",
     "instagram": "https://www.instagram.com/allotmentvegan/",
     "maps": "https://www.google.com/maps/place/The+Allotment+Vegan+%26+Vegetarian+Eatery/data=!4m7!3m6!1s0x487bb37fae567773:0x26d0a2eed2611339!8m2!3d53.484775!4d-2.2444795!16s%2Fg%2F11c0rpyqq6!19sChIJc3dWrn-ze0gRORNh0u6i0CY?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.0870171627844!2d-2.2444794999999997!3d53.484775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb37fae567773%3A0x26d0a2eed2611339!2sThe%20Allotment%20Vegan%20%26%20Vegetarian%20Eatery!5e0!3m2!1sen!2suk!4v1745193010017!5m2!1sen!2suk",
     "summary": "The Allotment Vegan Eatery Manchester is a plant-based paradise offering creative, fine dining vegan cuisine in the heart of Manchester. Known for its innovative dishes that transform locally sourced vegetables into gourmet meals, The Allotment Vegan Eatery provides an unforgettable dining experience for vegans, vegetarians, and anyone interested in trying plant-based fine dining. From indulgent vegan tasting menus to mouthwatering mains like mushroom wellingtons and cauliflower steaks, every dish is a celebration of fresh, sustainable ingredients. Perfect for special occasions or a luxurious vegan dining experience, The Allotment Vegan Eatery is a top choice for those seeking the best vegan restaurants in Manchester, offering refined dishes that are both flavourful and beautifully presented."
   },
   {
@@ -137,6 +143,7 @@
     "twitter": "https://x.com/sicilianfoodnq",
     "instagram": "https://www.instagram.com/sicilianfoodnq/#",
     "maps": "https://www.google.com/maps/place/Sicilian+NQ+-+Restaurant+and+Bar/data=!4m7!3m6!1s0x487bb1ace826d909:0xcc1c7fbacdac96ef!8m2!3d53.4838032!4d-2.2380075!16s%2Fg%2F11g69h24gd!19sChIJCdkm6Kyxe0gR75aszbp_HMw?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.1414045205415!2d-2.2380074999999997!3d53.4838032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1ace826d909%3A0xcc1c7fbacdac96ef!2sSicilian%20NQ%20-%20Restaurant%20and%20Bar!5e0!3m2!1sen!2suk!4v1745193039324!5m2!1sen!2suk",
     "summary": "Sicilian NQ Manchester brings authentic Sicilian cuisine to the heart of Manchester, offering a variety of vegetarian and vegan-friendly Italian dishes. Located in the vibrant Northern Quarter, Sicilian NQ is a must-visit for plant-based diners looking to enjoy traditional Italian food with a twist. The menu includes an array of vegan pizzas, fresh pastas, and creative plant-based options, all made with the finest ingredients. Whether you're craving a classic Margherita pizza with vegan cheese or a hearty pasta dish, Sicilian NQ caters to vegan and vegetarian diets without compromising on flavour. For a delicious and satisfying vegan meal in Manchester, Sicilian NQ provides a warm, welcoming atmosphere and authentic Sicilian flavours."
   },
   {
@@ -157,12 +164,13 @@
     "twitter": "https://x.com/bundobustmcr",
     "instagram": "https://www.instagram.com/explore/locations/1022596143/bundobust-manchester-piccadilly/",
     "maps": "https://www.google.com/maps/place/Bundobust+Brewery/data=!4m7!3m6!1s0x487bb104e6ba8a9d:0xa12ee9f35718d47e!8m2!3d53.4753863!4d-2.2416075!16s%2Fg%2F11qh2v71xd!19sChIJnYq65gSxe0gRftQYV_PpLqE?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.612432695599!2d-2.2416074999999998!3d53.4753863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb104e6ba8a9d%3A0xa12ee9f35718d47e!2sBundobust%20Brewery!5e0!3m2!1sen!2suk!4v1745193067272!5m2!1sen!2suk",
     "summary": "Bundobust Brewery Manchester is a unique vegan-friendly brewery offering craft beers and flavour-packed Indian street food in a relaxed, vibrant setting. Located in the heart of Manchester, Bundobust Brewery combines the best of both worlds—craft beer and delicious, plant-based Indian dishes. The brewery's menu features a wide variety of vegan and vegetarian street food options like bhel puri, okra fries, and vegan curries, all perfectly complemented by a selection of in-house brewed craft beers. Whether you're a vegan beer enthusiast or simply looking for a laid-back spot to enjoy great food and drinks, Bundobust Brewery is one of the best places in Manchester for vegan and vegetarian dining paired with local craft beer."
   },
   {
     "name": "The Globe",
     "slug": "the-globe",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "World Menu",
     "score": 4.6,
     "reviews": "800+",
@@ -177,12 +185,13 @@
     "twitter": "N/A",
     "instagram": "https://www.instagram.com/theglobeglossop/?hl=en",
     "maps": "https://www.google.com/maps/place/The+Globe/data=!4m7!3m6!1s0x487bcbf3c9adf27d:0x2a03d3089154c29e!8m2!3d53.4435667!4d-1.956675!16s%2Fg%2F1thly_dt!19sChIJffKtyfPLe0gRnsJUkQjTAyo?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.392664124835!2d-1.9566750000000004!3d53.4435667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bcbf3c9adf27d%3A0x2a03d3089154c29e!2sThe%20Globe!5e0!3m2!1sen!2suk!4v1745193094034!5m2!1sen!2suk",
     "summary": "The Globe Glossop is a charming pub and restaurant offering a delightful selection of vegan dishes, located in the heart of Glossop. Known for its inviting atmosphere and commitment to quality ingredients, The Globe serves plant-based 100% vegan meals. The menu features a variety of hearty dishes, from rich vegan stews and curries to fresh salads and plant-based burgers. Whether you're looking for a cozy spot for a casual meal or a place to unwind with friends, The Globe Glossop is a top choice for vegan dining in Glossop, offering a warm, welcoming environment and delicious plant-based options for all."
   },
   {
     "name": "Little Aladdin Vegan Cafe",
     "slug": "little-aladdin-vegan-cafe",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "Indian, Curry, Kebabs, Burgers",
     "score": 4.4,
     "reviews": "600+",
@@ -197,6 +206,7 @@
     "twitter": "N/A",
     "instagram": "https://www.instagram.com/littlealaddinvegan/",
     "maps": "https://www.google.com/maps/place/Little+Aladdin+%28vegan+cafe%29/data=!4m7!3m6!1s0x487bb1b8e9122e75:0x7f64d3aab09a90b6!8m2!3d53.4840724!4d-2.2381317!16s%2Fg%2F1td12trn!19sChIJdS4S6bixe0gRtpCasKrTZH8?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.126338652827!2d-2.2381316999999994!3d53.4840724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1b8e9122e75%3A0x7f64d3aab09a90b6!2sLittle%20Aladdin%20(vegan%20cafe)!5e0!3m2!1sen!2suk!4v1745193132150!5m2!1sen!2suk",
     "summary": "Little Aladdin Vegan Cafe is a cozy, hidden gem offering a delightful array of vegan and vegetarian dishes. Located in the Northern Quarter, this charming cafe specializes in plant-based meals that are both healthy and flavourful. The menu features a variety of delicious vegan-friendly options, including hearty curries, fresh salads, and satisfying wraps, all made with wholesome ingredients. Known for its warm, welcoming atmosphere, Little Aladdin Vegan Cafe is a top choice for vegan and vegetarian dining, perfect for those seeking tasty, plant-based meals in a relaxed setting. Whether you're craving a light bite or a filling meal, Little Aladdin offers a truly memorable vegan dining experience."
   },
   {
@@ -217,6 +227,7 @@
     "twitter": "https://x.com/EighthDayVeg",
     "instagram": "https://www.instagram.com/eighthdayveg/",
     "maps": "https://www.google.com/maps/place/The+Eighth+Day+Shop+%26+Cafe/data=!4m7!3m6!1s0x487bb1ecb5567f17:0x9d0bf485902847bc!8m2!3d53.4710317!4d-2.2375489!16s%2Fg%2F1td0y08r!19sChIJF39Wteyxe0gRvEcokIX0C50?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.856105543726!2d-2.2375488999999997!3d53.4710317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1ecb5567f17%3A0x9d0bf485902847bc!2sThe%20Eighth%20Day%20Shop%20%26%20Cafe!5e0!3m2!1sen!2suk!4v1745193156302!5m2!1sen!2suk",
     "summary": "8th Day Co-op Manchester is a renowned workers' co-operative and health food store, proudly offering a 100% vegan and vegetarian menu since 1970. Nestled on Oxford Road, this iconic establishment is celebrated for its hearty, healthy, and ethically sourced plant-based meals. The café's menu is dynamic, featuring daily specials such as vegan dhal, seasonal stews, and fresh salads, all crafted from scratch using seasonal ingredients. In addition to savoury dishes, the café offers a selection of in-house baked vegan cakes, smoothies, and barista-made coffee with plant-based milk options. Whether you're seeking a nutritious lunch or a cozy spot to enjoy ethically prepared food, 8th Day Co-op provides a welcoming atmosphere for vegans, vegetarians, and anyone passionate about sustainable living."
   },
   {
@@ -237,6 +248,7 @@
     "twitter": "https://www.twitter.com/wholesomejunkie",
     "instagram": "N/A",
     "maps": "https://www.google.com/maps/place/Wholesome+Junkies/data=!4m7!3m6!1s0x487bb1d2a374de69:0x9f0028c9029c869d!8m2!3d53.4837737!4d-2.2378896!16s%2Fg%2F11h4kn550d!19sChIJad50o9Kxe0gRnYacAskoAJ8?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.1430554946855!2d-2.2378896!3d53.48377370000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1d2a374de69%3A0x9f0028c9029c869d!2sWholesome%20Junkies!5e0!3m2!1sen!2suk!4v1745193180471!5m2!1sen!2suk",
     "summary": "Wholesome Junkies Manchester is a vibrant vegan junk food bar located in the heart of the Northern Quarter, offering a 100% plant-based menu that's as indulgent as it is ethical. Situated at Hinterland Bar on Turner Street, this eatery serves up a variety of creative vegan burgers, loaded fries, mac 'n' cheese, and crispy sides, all crafted with a wholesome twist. Whether you're craving a hearty lunch, a late-night snack, or a weekend brunch, Wholesome Junkies provides a welcoming atmosphere for vegans, vegetarians, and anyone seeking delicious, sustainable comfort food."
   },
   {
@@ -257,6 +269,7 @@
     "twitter": "https://twitter.com/WahJiWahMcr",
     "instagram": "https://www.instagram.com/wahjiwahmcr/",
     "maps": "https://www.google.com/maps/place/Wah+Ji+Wah/data=!4m7!3m6!1s0x487bb1afc5dbfe97:0x8a71a3b3ead46d60!8m2!3d53.4816836!4d-2.2492761!16s%2Fg%2F11h5qqgx2v!19sChIJl_7bxa-xe0gRYG3U6rOjcYo?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.2600268099904!2d-2.2492761000000003!3d53.481683600000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1afc5dbfe97%3A0x8a71a3b3ead46d60!2sWah%20Ji%20Wah!5e0!3m2!1sen!2suk!4v1745193209262!5m2!1sen!2suk",
     "summary": "Wah Ji Wah Manchester offers authentic Punjabi-style cuisine in the heart of Manchester's vibrant King Street West. This modern Indian restaurant is renowned for its extensive vegan and vegetarian options, making it a top choice for plant-based diners. The menu features a variety of dishes such as vegan 'chicken' pepper fry, chickpea masala, saag aloo, and biryani, all crafted with traditional spices and fresh ingredients. Whether you're craving a hearty curry or a flavorful street food snack, Wah Ji Wah provides a memorable dining experience for vegans, vegetarians, and anyone seeking authentic Indian cuisine in Manchester."
   },
   {
@@ -277,6 +290,7 @@
     "twitter": "https://twitter.com/bhajipala?lang=en",
     "instagram": "https://www.instagram.com/bhajipala/?hl=en",
     "maps": "https://www.google.com/maps/place/Bhaji+Pala/data=!4m7!3m6!1s0x487bb3cf809f7301:0xa260efdf60f85772!8m2!3d53.3931357!4d-2.2344681!16s%2Fg%2F11fpr8q4lq!19sChIJAXOfgM-ze0gRclf4YN_vYKI?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.2126578436846!2d-2.2344681!3d53.393135699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb3cf809f7301%3A0xa260efdf60f85772!2sBhaji%20Pala!5e0!3m2!1sen!2suk!4v1745193235877!5m2!1sen!2suk",
     "summary": "Bhaji Pala is Greater Manchester's first fully vegan Indian restaurant, offering an authentic taste of Western Indian cuisine in the heart of Gatley, Cheadle. The name 'Bhaji Pala,' derived from Marathi, translates to 'green veggies and herbs,' which are central to the vegetarian cooking traditions of Maharashtra, Rajasthan, Gujarat, and Goa. The restaurant's menu features a diverse array of dishes, including Tandoori Broccoli, Jackfruit Tandoor, and Indo-Chinese options like Tofu Mushroom Chilli, all crafted with plant-based ingredients to deliver rich, complex flavors. Bhaji Pala has garnered acclaim for its innovative approach to vegan dining, offering a unique and flavorful experience for vegans, vegetarians, and anyone seeking authentic Indian cuisine."
   },
   {
@@ -297,6 +311,7 @@
     "twitter": "N/A",
     "instagram": "https://www.instagram.com/lotus_plantbased_kitchen?igsh=Nm92ZTlmYmxoNW85&utm_source=qr",
     "maps": "https://www.google.com/maps/place/Lotus+Plant+Based+Kitchen/data=!4m7!3m6!1s0x487bb2413906a7d9:0x50a9b37400db1439!8m2!3d53.430767!4d-2.2288634!16s%2Fg%2F11b5wl8t1j!19sChIJ2acGOUGye0gRORTbAHSzqVA?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.10857041267!2d-2.2288634!3d53.430766999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb2413906a7d9%3A0x50a9b37400db1439!2sLotus%20Plant%20Based%20Kitchen!5e0!3m2!1sen!2suk!4v1745193262480!5m2!1sen!2suk",
     "summary": "Lotus Plant Based Kitchen Manchester is a fully vegan restaurant specializing in authentic pan-Asian cuisine. Located in Withington, the restaurant offers a diverse menu filled with plant-based dishes inspired by traditional Chinese and broader Asian flavors. Lotus features a variety of vegan-friendly options such as mock meats, tofu stir-fries, dumplings, and flavorful rice and noodle bowls. The menu caters to both vegan and vegetarian diets, providing healthy and satisfying plant-based meals made with fresh, wholesome ingredients. Whether you're in the mood for spicy curries or crispy tofu, Lotus Plant Based Kitchen is a top destination for vegan dining in Manchester, offering creative takes on classic Asian dishes."
   },
   {
@@ -317,6 +332,7 @@
     "twitter": "https://x.com/gofalafel",
     "instagram": "https://www.instagram.com/gofalafel/?hl=en",
     "maps": "https://www.google.com/maps/place/Go+Falafel+-+Piccadilly/data=!4m7!3m6!1s0x487bb1bef0838691:0x3ae132b5b89690d!8m2!3d53.4809918!4d-2.2343452!16s%2Fg%2F12hn4h2f3!19sChIJkYaD8L6xe0gRDWmJWysTrgM?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.2987423266395!2d-2.2343452000000004!3d53.480991800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1bef0838691%3A0x3ae132b5b89690d!2sGo%20Falafel%20-%20Piccadilly!5e0!3m2!1sen!2suk!4v1745193290066!5m2!1sen!2suk",
     "summary": "Go Falafel Manchester is a popular vegan-friendly eatery specializing in freshly made falafel wraps, salad bowls, and smoothies. Located in the Northern Quarter, this family-run establishment offers a variety of customizable options, including classic falafel wraps, hummus platters, and tabbouleh salads. Their menu features a selection of daily salads such as tabbouleh and hummus, complemented by falafel pieces and flatbread. Additionally, Go Falafel provides a range of juices and smoothies made from fresh ingredients, catering to health-conscious diners seeking quick and flavorful meals."
   },
   {
@@ -337,12 +353,13 @@
     "twitter": "https://x.com/gofalafel",
     "instagram": "https://www.instagram.com/gofalafel/?hl=en",
     "maps": "https://www.google.com/maps/place/Go+Falafel+-+Deansgate/data=!4m7!3m6!1s0x487bb1c3a4ae418b:0xcdfebf1f2bb3b74a!8m2!3d53.4812607!4d-2.2475456!16s%2Fg%2F11g6x1pmmg!19sChIJi0GupMOxe0gRSrezKx-__s0?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.2836937953043!2d-2.2475456!3d53.4812607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1c3a4ae418b%3A0xcdfebf1f2bb3b74a!2sGo%20Falafel%20-%20Deansgate!5e0!3m2!1sen!2suk!4v1745193315135!5m2!1sen!2suk",
     "summary": "Go Falafel Manchester is a popular vegan-friendly eatery specializing in freshly made falafel wraps, salad bowls, and smoothies. Located in the Northern Quarter, this family-run establishment offers a variety of customizable options, including classic falafel wraps, hummus platters, and tabbouleh salads. Their menu features a selection of daily salads such as tabbouleh and hummus, complemented by falafel pieces and flatbread. Additionally, Go Falafel provides a range of juices and smoothies made from fresh ingredients, catering to health-conscious diners seeking quick and flavorful meals."
   },
   {
     "name": "Otto Vegan Empire",
     "slug": "otto-vegan-empire",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "World Menu",
     "score": 4.9,
     "reviews": "190+",
@@ -357,12 +374,13 @@
     "twitter": "https://x.com/The_Ottomen",
     "instagram": "https://www.instagram.com/otto_veganempire/",
     "maps": "https://www.google.com/maps/place/Otto+Vegan+Empire/data=!4m7!3m6!1s0x487a4d2463d677c7:0xb3f954e541d30157!8m2!3d53.3579117!4d-2.1652891!16s%2Fg%2F11qb3qvd9k!19sChIJx3fWYyRNekgRVwHTQeVU-bM?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.181215433949!2d-2.1652891!3d53.357911699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487a4d2463d677c7%3A0xb3f954e541d30157!2sOtto%20Vegan%20Empire!5e0!3m2!1sen!2suk!4v1745193340838!5m2!1sen!2suk",
     "summary": "Otto Vegan Empire is a fully vegan restaurant in Bramhall, Greater Manchester, serving Middle Eastern and Mediterranean-inspired plant-based food. This vegan-friendly Manchester spot offers a wide range of vegan dishes including falafel wraps, hummus, tabbouleh, vegan shawarma, mezze platters, and fresh salads. Otto Vegan Empire is a top choice for anyone looking for vegan restaurants near Manchester or vegetarian-friendly places in Greater Manchester. With its 100% plant-based menu, it's a must-visit for lovers of healthy, flavourful vegan and vegetarian food."
   },
   {
     "name": "Ortica Italian Plant Based",
     "slug": "ortica-italian-plant-based",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "Italian",
     "score": 5,
     "reviews": "180+",
@@ -377,12 +395,13 @@
     "twitter": "N/A",
     "instagram": "https://instagram.com/ortica_italianplantbased",
     "maps": "https://www.google.com/maps/place/Ortica+Italian+Plant+Based/data=!4m7!3m6!1s0x487badc694649fcd:0x1e7970a3358fd524!8m2!3d53.4484073!4d-2.3569857!16s%2Fg%2F11s3clcgm7!19sChIJzZ9klMate0gRJNWPNaNweR4?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.121891247817!2d-2.3569857!3d53.4484073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487badc694649fcd%3A0x1e7970a3358fd524!2sOrtica%20Italian%20Plant%20Based!5e0!3m2!1sen!2suk!4v1745193378759!5m2!1sen!2suk",
     "summary": "Ortica Italian Plant Based is a fully vegan Italian restaurant and deli located in Urmston, Greater Manchester. This independent, family-run eatery offers a 100% plant-based menu inspired by traditional Italian and Mediterranean cuisine. Dishes include vegan pizzas, homemade pastas, antipasti, and seasonal specials, all crafted with fresh, wholesome ingredients. Ortica is a top destination for vegan and vegetarian dining in Manchester, catering to those seeking authentic, flavourful plant-based Italian food."
   },
   {
     "name": "Herbivorous Vegan - Withington",
     "slug": "herbivorous-vegan-withington",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "American, Burgers, Fried food",
     "score": 4.8,
     "reviews": "120+",
@@ -397,6 +416,7 @@
     "twitter": "N/A",
     "instagram": "https://www.instagram.com/herbivorousfood/?hl=en",
     "maps": "https://www.google.com/maps/place/Herbivorous+Vegan+%7C+Withington+%7C/data=!4m7!3m6!1s0x487bb3b2d6d582bb:0xd891167611cb9a75!8m2!3d53.4344639!4d-2.2276815!16s%2Fg%2F11qg986qdx!19sChIJu4LV1rKze0gRdZrLEXYWkdg?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.901809470979!2d-2.2276815!3d53.4344639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb3b2d6d582bb%3A0xd891167611cb9a75!2sHerbivorous%20Vegan%20%7C%20Withington%20%7C!5e0!3m2!1sen!2suk!4v1745193406413!5m2!1sen!2suk",
     "summary": "Herbivorous Manchester is a fully vegan restaurant in Withington, Greater Manchester, specializing in plant-based comfort food. Their menu features vegan burgers, seitan 'chicken' sandwiches, Philly cheesesteaks, loaded fries, and mac & cheese, all crafted with house-made ingredients. As a top destination for vegan and vegetarian dining in Manchester, Herbivorous offers hearty and satisfying plant-based meals for those seeking flavourful vegan options."
   },
   {
@@ -417,12 +437,13 @@
     "twitter": "N/A",
     "instagram": "https://www.instagram.com/desertislanddumplings/?hl=en",
     "maps": "https://www.google.com/maps/place/Desert+Island+Dumplings+-+plant+based+fusion+dumplings/data=!4m7!3m6!1s0x487b21d095ff1e8f:0x1fc2287418e606ef!8m2!3d53.4825594!4d-2.2361736!16s%2Fg%2F11nl7519j_!19sChIJjx7_ldAhe0gR7wbmGHQowh8?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.211013521556!2d-2.2361736!3d53.48255939999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b21d095ff1e8f%3A0x1fc2287418e606ef!2sDesert%20Island%20Dumplings%20-%20plant%20based%20fusion%20dumplings!5e0!3m2!1sen!2suk!4v1745193434700!5m2!1sen!2suk",
     "summary": "Desert Island Dumplings is a plant-based fusion dumpling restaurant in Manchester, offering unique, handmade dumplings filled with a variety of delicious vegan ingredients. Known for their creative approach to plant-based cuisine, Desert Island Dumplings offers a selection of vegan dumplings with a mix of Asian and Western influences. Whether you're craving crispy dumplings, steamed options, or flavorful fillings, this is the perfect spot for vegan food lovers looking for something different in Manchester. With a focus on fresh, wholesome ingredients, Desert Island Dumplings is a top choice for plant-based dining in the city."
   },
   {
     "name": "Vegan Shack",
     "slug": "vegan-shack",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "World Menu, Burgers, Fried food",
     "score": 4.7,
     "reviews": "70+",
@@ -437,12 +458,13 @@
     "twitter": "https://twitter.com/veganshackuk",
     "instagram": "https://www.instagram.com/veganshackuk",
     "maps": "https://www.google.com/maps/place/Vegan+Shack/data=!4m7!3m6!1s0x487bb14bab953d55:0xa07c8294359b8552!8m2!3d53.4955412!4d-2.2226127!16s%2Fg%2F11fsbb_pqg!19sChIJVT2Vq0uxe0gRUoWbNZSCfKA?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.4844347641324!2d-2.2226126999999996!3d53.49554119999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb14bab953d55%3A0xa07c8294359b8552!2sVegan%20Shack!5e0!3m2!1sen!2suk!4v1745193462533!5m2!1sen!2suk",
     "summary": "Vegan Shack is a 100% vegan fast food restaurant in Manchester, specializing in plant-based versions of classic takeaway favorites. The menu features vegan burgers, including the Shack Burger with a Beyond Meat patty, Chick'n Burgers, and Fillet Faux Fish sandwiches. Other offerings include vegan kebabs, doner wraps, loaded fries, crispy chick'n wings, and a variety of vegan milkshakes such as Oreo and Biscoff. Vegan Shack is a top destination for vegan and vegetarian fast food in Manchester, catering to those seeking indulgent, plant-based meals."
   },
   {
     "name": "Vegan Green Kitchen Chinese",
     "slug": "vegan-green-kitchen-chinese",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "Chinese",
     "score": 4.5,
     "reviews": "65+",
@@ -457,12 +479,13 @@
     "twitter": "https://twitter.com/greenkitchenuk",
     "instagram": "https://www.instagram.com/vegangreenkitchen.mcr/?locale=bz-hans&hl=am-et",
     "maps": "https://www.google.com/maps/place/Vegan+Green+Kitchen+Chinese/data=!4m7!3m6!1s0x487bb17d6c44a34d:0x379104dabb485b6f!8m2!3d53.4762012!4d-2.2191343!16s%2Fg%2F11sg8ltgz2!19sChIJTaNEbH2xe0gRb1tIu9oEkTc?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.5668313455826!2d-2.2191343!3d53.476201200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb17d6c44a34d%3A0x379104dabb485b6f!2sVegan%20Green%20Kitchen%20Chinese!5e0!3m2!1sen!2suk!4v1745193487552!5m2!1sen!2suk",
     "summary": "Vegan Green Kitchen is a fully vegan Chinese takeaway in Manchester, offering a diverse menu of plant-based versions of classic Chinese dishes. The menu features vegan alternatives to traditional favorites such as sweet and sour chicken, crispy aromatic duck, kung po, and Szechuan-style dishes, all crafted with mock meats and fresh vegetables. Popular items include salt and pepper vegan chicken, vegan special fried rice, and mapo tofu. Vegan Green Kitchen is a top destination for vegan and vegetarian Chinese food in Manchester, catering to those seeking flavorful, plant-based meals."
   },
   {
     "name": "Wawin Vegan Chinese - Manchester",
     "slug": "wawin-vegan-chinese-manchester",
-    "type": "Vegan Only",
+    "type": "Vegan",
     "cuisine": "Chinese",
     "score": 4.3,
     "reviews": "20+",
@@ -477,6 +500,7 @@
     "twitter": "N/A",
     "instagram": "https://www.instagram.com/wawinveganchinese/?hl=en",
     "maps": "https://www.google.com/maps/place/Wawin+Vegan+Chinese+%28Manchester%29/data=!4m7!3m6!1s0x487bb11926326a63:0x27bf5bd1e626f07f!8m2!3d53.476879!4d-2.2441877!16s%2Fg%2F11sww2qpwh!19sChIJY2oyJhmxe0gRf_Am5tFbvyc?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.528901669269!2d-2.2441877!3d53.476879000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb11926326a63%3A0x27bf5bd1e626f07f!2sWawin%20Vegan%20Chinese%20(Manchester)!5e0!3m2!1sen!2suk!4v1745193512920!5m2!1sen!2suk",
     "summary": "Wawin Vegan Chinese is a fully vegan Chinese takeaway in Manchester, offering a diverse menu of plant-based versions of classic Chinese dishes. The menu features vegan alternatives to traditional favorites such as sweet and sour ch'ken, crispy aromatic mock duck, kung po, and Szechuan-style dishes, all crafted with mock meats and fresh vegetables. Popular items include salt and pepper vegan chicken, vegan special fried rice, and mapo tofu. Wawin Vegan Chinese is a top destination for vegan and vegetarian Chinese food in Manchester, catering to those seeking flavorful, plant-based meals."
   },
   {
@@ -497,6 +521,7 @@
     "twitter": "https://x.com/wpcmanchester",
     "instagram": "https://www.instagram.com/world_peace_cafe_chorlton/",
     "maps": "https://www.google.com/maps/place/World+Peace+Cafe/data=!4m7!3m6!1s0x487bade93a136f35:0x9811b2b383e24923!8m2!3d53.440991!4d-2.2818778!16s%2Fg%2F11b5pjjy7n!19sChIJNW8TOumte0gRI0nig7OyEZg?authuser=0&hl=en&rclk=1",
+    "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.53673639528!2d-2.2818777999999997!3d53.440991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bade93a136f35%3A0x9811b2b383e24923!2sWorld%20Peace%20Cafe!5e0!3m2!1sen!2suk!4v1745193537924!5m2!1sen!2suk",
     "summary": "World Peace Café Manchester is a vegetarian and vegan café located at the Kadampa Meditation Centre in Chorlton, Greater Manchester. The café offers a range of plant-based dishes including vegan burgers, soups, sandwiches, and cakes. Perfect for vegans and vegetarians in Manchester, World Peace Café serves wholesome, affordable meals made from fresh ingredients. With its peaceful atmosphere and focus on vegetarian and vegan dining, it's an ideal spot for anyone seeking healthy plant-based food in Manchester."
   }
 ]

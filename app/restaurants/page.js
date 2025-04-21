@@ -1,3 +1,5 @@
+import data from "@/data/restaurants.json";
+
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
 
@@ -17,7 +19,7 @@ export default function Restaurants() {
                         restaurants across the city. Whether you're craving a
                         hearty vegan pub menu, vegetarian Chinese food packed
                         with flavour, or a stylish plant-based bistro, you'll
-                        find it all here in one place. This complete list of
+                        find it all here in one place. This complete list of the 25+
                         meat-free restaurants in Manchester showcases everything
                         from hidden gems and street food stalls to well-known
                         vegan hotspots. Browse all listings, discover new
@@ -29,9 +31,13 @@ export default function Restaurants() {
                 </Col>
             </Row>
             <Row>
-                <Col>
-                    <Link href="/">Links</Link>
+                {data.map((restaurant) => (
+                    <Col xs={12}>
+                    <Link href={`/restaurants/${restaurant.slug}`}>{restaurant.name}</Link>
                 </Col>
+                ))}
+
+                
             </Row>
         </Container>
     );
