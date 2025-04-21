@@ -21,6 +21,17 @@ export default async function LocationPage({ params }) {
     return (
         <Container>
             <h1>Vegan and Vegetarian Restaurants in {readableLocation}</h1>
+            <p>
+                Searching for the best vegan and vegetarian restaurants in{" "}
+                {location}? This guide highlights the top plant-based and
+                vegetarian-friendly spots in {location}, Manchester, where you
+                can enjoy everything from quick vegan lunches to flavourful
+                meat-free dinners. Whether you live nearby or you're just
+                visiting, explore delicious plant-based options in {location}
+                —from vibrant cafés to creative vegetarian eateries. Discover
+                where to eat vegan and vegetarian in {location}, and find your
+                next go-to meat-free meal.
+            </p>
             <Row>
                 {restaurants.map((rest) => (
                     <Col xs={12} key={rest.name}>
