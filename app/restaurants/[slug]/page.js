@@ -8,6 +8,44 @@ export async function generateStaticParams() {
     }));
 }
 
+export async function generateMetadata({ params }) {
+    const { slug } = await params;
+    const restaurant = data.find((rest) => rest.slug === slug);
+
+    if (!restaurant) return {};
+
+    const title = `${restaurant.name} - Vegan & Vegetarian Restaurant in Manchester | Manchester Vegan Guide`;
+    const description = `${restaurant.name} is a ${restaurant.type} restaurant located in ${restaurant.location}. Explore their menu, find opening times, social media links, location, and more in this detailed guide.`;
+    const keywords = `${restaurant.name}, vegan ${restaurant.type} restaurant, vegan restaurant in ${restaurant.location}, ${restaurant.location}, vegetarian restaurant in ${restaurant.location}, vegan restaurant in Manchester, vegetarian restaurant in Manchester, plant-based dining, ${restaurant.type} food, Manchester restaurant`;
+
+    return {
+        title,
+        description,
+        keywords,
+        // openGraph: {
+        //     title,
+        //     description,
+        //     url: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
+        //     type: "website",
+        //     images: [
+        //         {
+        //             url: `/images/og-image-${restaurant.slug}.jpg`, // Ensure you have a custom image for each restaurant if possible
+        //             width: 1200,
+        //             height: 630,
+        //             alt: `${restaurant.name} - Vegan and Vegetarian Restaurant in Manchester`,
+        //         },
+        //     ],
+        // },
+        // twitter: {
+        //     card: "summary_large_image",
+        //     title,
+        //     description,
+        //     image: `/images/og-image-${restaurant.slug}.jpg`, // Same for Twitter
+        // },
+        // canonical: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
+    };
+}
+
 export default async function RestaurantPage({ params }) {
     const { slug } = await params;
     const restaurant = data.find((rest) => rest.slug === slug);

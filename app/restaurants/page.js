@@ -2,6 +2,12 @@ import data from "@/data/restaurants.json";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 
+export const metadata = {
+    title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
+    description:
+        "Discover the top vegan and vegetarian restaurants in Manchester with Manchester Vegan Guide. Explore 100% vegan spots, vegetarian cafés, street food, and plant-based dining across the city centre and Greater Manchester. Your go-to guide for the best meat-free food in Manchester.",
+};
+
 export default function Restaurants() {
     return (
         <Container>
@@ -18,11 +24,11 @@ export default function Restaurants() {
                         restaurants across the city. Whether you're craving a
                         hearty vegan pub menu, vegetarian Chinese food packed
                         with flavour, or a stylish plant-based bistro, you'll
-                        find it all here in one place. This complete list of the 25+
-                        meat-free restaurants in Manchester showcases everything
-                        from hidden gems and street food stalls to well-known
-                        vegan hotspots. Browse all listings, discover new
-                        favourites, and explore the ever-growing world of
+                        find it all here in one place. This complete list of the
+                        25+ meat-free restaurants in Manchester showcases
+                        everything from hidden gems and street food stalls to
+                        well-known vegan hotspots. Browse all listings, discover
+                        new favourites, and explore the ever-growing world of
                         plant-based dining in Manchester. Whether you're local
                         or just visiting, this guide makes it easy to eat well
                         and meat-free.
@@ -32,8 +38,10 @@ export default function Restaurants() {
             <Row>
                 {data.map((restaurant) => (
                     <Col xs={12} key={restaurant.name}>
-                    <Link href={`/restaurants/${restaurant.slug}`}>{restaurant.name}</Link>
-                </Col>
+                        <Link href={`/restaurants/${restaurant.slug}`}>
+                            {restaurant.name}
+                        </Link>
+                    </Col>
                 ))}
             </Row>
         </Container>
