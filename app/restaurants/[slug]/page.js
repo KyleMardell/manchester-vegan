@@ -40,7 +40,7 @@ export default async function RestaurantPage({ params }) {
             <Row>
                 <Col xs={12}>
                     <h2>
-                        {restaurant.type} Restaurant in {restaurant.area}.
+                        {restaurant.type} Restaurant in {restaurant.location}.
                     </h2>
                     <p>{restaurant.summary}</p>
                 </Col>
