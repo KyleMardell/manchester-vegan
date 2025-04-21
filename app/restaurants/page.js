@@ -31,8 +31,8 @@ export default function Restaurants() {
             </Row>
             <Row>
                 {data.map((restaurant) => (
-                    <Col xs={12}>
-                    <Link key={restaurant.name} href={`/restaurants/${restaurant.slug}`}>{restaurant.name}</Link>
+                    <Col xs={12} key={restaurant.name}>
+                    <Link href={`/restaurants/${restaurant.slug}`}>{restaurant.name}</Link>
                 </Col>
                 ))}
             </Row>
