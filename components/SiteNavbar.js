@@ -23,22 +23,40 @@ export default function SiteNavbar() {
                 />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} href="/" onClick={() => setExpanded(false)}>
+                        <Nav.Link
+                            as={Link}
+                            href="/"
+                            onClick={() => setExpanded(false)}>
                             Home
                         </Nav.Link>
-                        <Nav.Link as={Link} href="/restaurants" onClick={() => setExpanded(false)}>
+                        <Nav.Link
+                            as={Link}
+                            href="/restaurants"
+                            onClick={() => setExpanded(false)}>
                             All Restaurants
                         </Nav.Link>
-                        <Nav.Link as={Link} href="/locations" onClick={() => setExpanded(false)}>
-                            Locations / Areas
+                        <Nav.Link
+                            as={Link}
+                            href="/cuisines/vegan-only"
+                            onClick={() => setExpanded(false)}>
+                            100% Vegan Restaurants
                         </Nav.Link>
-                        <Nav.Link as={Link} href="/cuisines" onClick={() => setExpanded(false)}>
+                        <Nav.Link
+                            as={Link}
+                            href="/cuisines"
+                            onClick={() => setExpanded(false)}>
                             Cuisines
                         </Nav.Link>
-                        <Nav.Link as={Link} href="/" onClick={() => setExpanded(false)}>
-                            Vegan Only Restaurants
+                        <Nav.Link
+                            as={Link}
+                            href="/locations"
+                            onClick={() => setExpanded(false)}>
+                            Locations / Areas
                         </Nav.Link>
-                        <Nav.Link as={Link} href="/" onClick={() => setExpanded(false)}>
+                        <Nav.Link
+                            as={Link}
+                            href="/"
+                            onClick={() => setExpanded(false)}>
                             Blog
                         </Nav.Link>
                     </Nav>

@@ -30,7 +30,10 @@ export default async function CuisinePage({ params }) {
             .includes(cuisineSlug)
     );
 
-    const readableCuisine = cuisineSlug.replace(/-/g, " ");
+    const capitalizeWords = (str) =>
+        str.replace(/\b\w/g, (char) => char.toUpperCase());
+    
+    const readableCuisine = capitalizeWords(cuisineSlug.replace(/-/g, " "));
 
     return (
         <Container>

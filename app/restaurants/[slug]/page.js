@@ -126,9 +126,14 @@ export default async function RestaurantPage({ params }) {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                { restaurant.type === "Vegan" ? (
+                    <Link href="/cuisines/vegan-only">
+                    View more vegan only restaurants in Manchester.
+                </Link>
+                ) : (<></>)}
+                <Col xs={12}>
                     <Link href="/locations">
-                        View more vegetarian and vegan restaurants.
+                        View more vegetarian and vegan restaurants in Manchester.
                     </Link>
                 </Col>
             </Row>
