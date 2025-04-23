@@ -4,7 +4,7 @@ import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
 
 export async function generateMetadata({ params }) {
-    const { location } = params;
+    const { location } = await params;
 
     // You may want to convert the slug back to the original label, but here's a readable fallback:
     const readableLocation = location

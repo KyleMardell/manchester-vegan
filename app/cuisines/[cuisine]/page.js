@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 
 export async function generateMetadata({ params }) {
-    const { cuisine } = params;
+    const { cuisine } = await params;
 
     const readableCuisine = cuisine
         .replace(/-/g, " ")
