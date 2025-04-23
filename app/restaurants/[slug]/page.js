@@ -1,5 +1,6 @@
 import data from "@/data/restaurants.json";
 import Link from "next/link";
+import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
 
 export async function generateStaticParams() {
@@ -73,6 +74,25 @@ export default async function RestaurantPage({ params }) {
                     <Link href={restaurant.menu} target="_blank" rel="noopener">
                         Menu Link
                     </Link>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <div
+                        style={{
+                            position: "relative",
+                            width: "100%",
+                            height: "auto",
+                            aspectRatio: "16/9",
+                        }}>
+                        <Image
+                            src="/images/manchester-vegan-guide-placeholder.webp"
+                            alt="Manchester Vegan Guide text over a portrait showing a table of fruit with a view of farmers fields in the background."
+                            fill
+                            sizes="(max-width: 768px) 100vw, 768px"
+                            style={{ objectFit: "cover" }}
+                        />
+                    </div>
                 </Col>
             </Row>
             <Row>
@@ -164,14 +184,17 @@ export default async function RestaurantPage({ params }) {
                 </Col>
             </Row>
             <Row>
-                { restaurant.type === "Vegan" ? (
+                {restaurant.type === "Vegan" ? (
                     <Link href="/cuisines/vegan-only">
-                    View more vegan only restaurants in Manchester.
-                </Link>
-                ) : (<></>)}
+                        View more vegan only restaurants in Manchester.
+                    </Link>
+                ) : (
+                    <></>
+                )}
                 <Col xs={12}>
                     <Link href="/locations">
-                        View more vegetarian and vegan restaurants in Manchester.
+                        View more vegetarian and vegan restaurants in
+                        Manchester.
                     </Link>
                 </Col>
             </Row>
