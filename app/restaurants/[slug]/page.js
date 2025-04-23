@@ -176,6 +176,7 @@ export default async function RestaurantPage({ params }) {
                 <Col>
                     <div className="ratio ratio-16x9">
                         <iframe
+                        title="google maps"
                             src={restaurant.mapembed}
                             allowFullScreen=""
                             loading="lazy"
