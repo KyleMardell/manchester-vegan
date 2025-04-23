@@ -3,6 +3,21 @@ import Link from "next/link";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
 
+export async function generateMetadata({ params }) {
+    const { location } = params;
+
+    // You may want to convert the slug back to the original label, but here's a readable fallback:
+    const readableLocation = location
+        .replace(/-/g, " ")
+        .replace(/\b\w/g, (c) => c.toUpperCase());
+
+    return {
+        title: `Vegan and Vegetarian Restaurants in ${readableLocation} | Manchester Vegan Guide`,
+        description: `Discover the best vegan and vegetarian restaurants in ${readableLocation}, Manchester. Enjoy top plant-based cafés, vegetarian-friendly eateries, and meat-free dining options in ${readableLocation}.`,
+        keywords: `vegan restaurants ${readableLocation}, vegetarian restaurants ${readableLocation}, plant-based food ${readableLocation}, vegan cafes ${readableLocation}, vegetarian dining ${readableLocation}, Manchester vegan guide, vegan food ${readableLocation}, vegetarian food ${readableLocation}`,
+    };
+}
+
 export async function generateStaticParams() {
     const locations = [...new Set(data.map((rest) => rest.location))];
     return locations.map((location) => ({

@@ -3,7 +3,15 @@ import Link from "next/link";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
 
-export default function CuisinesPage() {
+export const metadata = {
+    title: "Vegan and Vegetarian Cuisines in Manchester | Manchester Vegan Guide",
+    description:
+        "Explore a wide range of vegan and vegetarian cuisines in Manchester. From Indian curries and falafel wraps to vegan pizza, dumplings, and desserts, discover the best plant-based food by cuisine.",
+    keywords:
+        "vegan cuisines Manchester, vegetarian cuisines Manchester, plant-based food Manchester, vegan food by cuisine, vegetarian restaurants by cuisine, Manchester vegan guide, vegan Indian Manchester, vegan Chinese Manchester, vegan pizza Manchester, vegetarian food Manchester",
+};
+
+export default function Cuisines() {
     const cuisinesSet = new Set();
 
     data.forEach((restaurant) => {

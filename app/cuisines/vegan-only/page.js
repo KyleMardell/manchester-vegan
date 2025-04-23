@@ -2,6 +2,14 @@ import data from "@/data/restaurants.json";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 
+export const metadata = {
+    title: "100% Vegan Restaurants in Manchester | Manchester Vegan Guide",
+    description:
+        "Explore fully vegan restaurants in Manchester serving 100% plant-based, cruelty-free food. From vegan pizzas and Asian cuisine to healthy lunches and sit-down dinners, discover top-rated vegan-only spots in the city.",
+    keywords:
+        "100% vegan restaurants Manchester, fully vegan Manchester, vegan-only restaurants Manchester, plant-based food Manchester, vegan dining Manchester, cruelty-free restaurants Manchester, vegan pizza Manchester, vegan Asian food Manchester, Manchester vegan guide",
+};
+
 export default function VeganOnlyPage() {
     const veganOnlyRestaurants = data.filter((rest) => rest.type === "Vegan");
 
