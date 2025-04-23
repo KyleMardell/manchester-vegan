@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
     title: "Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
     description:
-        "Discover the best vegetarian and vegan restaurants in Manchester. Your complete guide to meat-free dining in Manchester, from plant-based cafes to vegetarian bistros.",
+        "Find the best vegan and vegetarian restaurants in Manchester. Explore meat-free dining options including vegan cafes, vegetarian bistros, and plant-based eateries across the city centre and Greater Manchester.",
     keywords:
-        "vegan restaurants in Manchester, vegetarian restaurants in Manchester, vegan restaurants Manchester, vegetarian restaurants Manchester, Manchester vegan, Manchester vegetarian, plant-based Manchester",
+        "vegan restaurants Manchester, vegetarian restaurants Manchester, plant-based food Manchester, vegan cafes Manchester, vegetarian cafes Manchester, meat-free restaurants Manchester, vegan food guide Manchester, vegan dining Manchester, plant-based cafes Manchester, Manchester vegan restaurants, best vegan Manchester, healthy vegan restaurants Manchester, vegan bistro Manchester",
     robots: "index, follow",
     language: "en",
     // // Open Graph metadata

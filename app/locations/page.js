@@ -3,6 +3,14 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import { slugify } from "@/utils/slugify";
 
+export const metadata = {
+    title: "Vegan and Vegetarian Restaurants by Location | Manchester Vegan Guide",
+    description:
+        "Browse the best vegan and vegetarian restaurants in Manchester by area. Explore plant-based dining in the City Centre and Greater Manchester suburbs like Chorlton, Withington, and more.",
+    keywords:
+        "vegan restaurants Manchester locations, vegetarian restaurants Manchester locations, vegan restaurants by area Manchester, vegetarian cafes Manchester City Centre, vegan food Chorlton, plant-based Withington, vegan dining Greater Manchester, meat-free restaurants Manchester suburbs, vegan restaurants near me Manchester",
+};
+
 export default function Locations() {
     const cityCentreLocations = [
         ...new Set(
