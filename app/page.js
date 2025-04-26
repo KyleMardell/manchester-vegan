@@ -1,15 +1,17 @@
 import { Container, Row, Col } from "react-bootstrap";
+import heroStyles from "./hero.module.css";
+import Image from "next/image";
 
 export default function Home() {
     return (
-        <Container>
-            <Row>
+        <Container fluid="lg">
+            <Row className={heroStyles.hero}>
                 <Col>
                     <h1>Vegan & Vegetarian Restaurants in Manchester</h1>
                 </Col>
             </Row>
-            <Row>
-                <Col>
+            <Row className="my-2">
+                <Col xs={8}>
                     <h2>
                         Explore the best vegan and vegetarian food in
                         Manchester.
@@ -32,6 +34,15 @@ export default function Home() {
                         to upscale vegetarian restaurants, we've got
                         Manchester's meat-free scene covered.
                     </p>
+                </Col>
+                <Col xs={4}>
+                    <Image
+                        src="/images/vegan-food1.webp"
+                        alt="Manchester Vegan Guide text over a portrait showing a table of fruit with a view of farmers fields in the background."
+                        width={3920}
+                        height={5928}
+                        style={{ width: '100%', height: 'auto' }}
+                    />
                 </Col>
             </Row>
             <Row>
@@ -75,12 +86,12 @@ export default function Home() {
                         and inclusive food scene for everyone.
                     </p>
                     <p>
-                        From independent vegetarian eateries in the Northern Quarter
-                        to vegan-friendly gastropubs in Glossop and
-                        plant-based Italian cafés in Urmston, there's no shortage of
-                        creative veggie cuisine to explore. The city's
-                        diverse culinary culture has embraced everything from
-                        vegan burgers and loaded fries to fully raw vegan
+                        From independent vegetarian eateries in the Northern
+                        Quarter to vegan-friendly gastropubs in Glossop and
+                        plant-based Italian cafés in Urmston, there's no
+                        shortage of creative veggie cuisine to explore. The
+                        city's diverse culinary culture has embraced everything
+                        from vegan burgers and loaded fries to fully raw vegan
                         tasting menus and globally inspired vegetarian dishes.
                     </p>
                     <p>

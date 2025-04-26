@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Photo by <a href="https://unsplash.com/@mylokaye?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mylo Kaye</a> on <a href="https://unsplash.com/photos/a-view-of-a-city-from-the-top-of-a-building-NXtGjC7osPs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+Photo by <a href="https://unsplash.com/@chriscurry92?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Curry</a> on <a href="https://unsplash.com/photos/white-and-blue-bird-statue-HzHFQW7aYcA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+Photo by <a href="https://unsplash.com/@mirzazohaib51?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zohaib Alam</a> on <a href="https://unsplash.com/photos/blue-and-white-street-sign-ZoIygkLkTMY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+Photo by <a href="https://unsplash.com/@nadineprimeau?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nadine Primeau</a> on <a href="https://unsplash.com/photos/close-up-photo-of-vegetable-salad--ftWfohtjNw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      

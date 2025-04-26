@@ -1,0 +1,13 @@
+.hero {
+    background-image: linear-gradient(rgba(69, 71, 75, 0.5), rgba(69, 71, 75, 0.5)),
+        url("/images/manchester-skyline.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: #f5f7f8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem; /* Same as Bootstrap p-5 */
+}
