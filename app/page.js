@@ -7,6 +7,7 @@ export default function Home() {
         <Container fluid="lg">
             <Row className={heroStyles.hero}>
                 <Col>
+                    <p className="logo-name">Manchester Vegan Guide</p>
                     <h1>Vegan & Vegetarian Restaurants in Manchester</h1>
                 </Col>
             </Row>
@@ -39,14 +40,23 @@ export default function Home() {
                     <Image
                         src="/images/vegan-food1.webp"
                         alt="Manchester Vegan Guide text over a portrait showing a table of fruit with a view of farmers fields in the background."
-                        width={3920}
-                        height={5928}
-                        style={{ width: '100%', height: 'auto' }}
+                        width={980}
+                        height={1472}
+                        style={{ width: "100%", height: "auto" }}
                     />
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col xs={4}>
+                    <Image
+                        src="/images/manchester-bee.webp"
+                        alt="A sculpture of a manchester bee sat on top of an egg shaped globe with bees drawn on the globe."
+                        width={920}
+                        height={1227}
+                        style={{ width: "100%", height: "auto" }}
+                    />
+                </Col>
+                <Col xs={8}>
                     <h2>Top Vegan & Vegetarian Restaurants in Manchester</h2>
                     <p>
                         Discover some of the best vegan and vegetarian
@@ -64,11 +74,6 @@ export default function Home() {
                         Explore our curated picks below to find your next
                         plant-powered favourite.
                     </p>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <h2>Browse Vegan & Vegetarian Restaurants by Area</h2>
                 </Col>
             </Row>
             <Row>
@@ -119,6 +124,15 @@ export default function Home() {
                         vegetarian food in the UK. It's never been easier—or
                         tastier—to enjoy plant-based dining in Manchester.
                     </p>
+                </Col>
+                <Col xs={4}>
+                    <Image
+                        src="/images/manchester-signs.webp"
+                        alt="Public directional signs on Tib Street, Manchester."
+                        width={841}
+                        height={1120}
+                        style={{ width: "100%", height: "auto" }}
+                    />
                 </Col>
             </Row>
         </Container>

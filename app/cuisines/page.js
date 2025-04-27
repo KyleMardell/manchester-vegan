@@ -1,5 +1,6 @@
 import data from "@/data/restaurants.json";
 import Link from "next/link";
+import Image from "next/image";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
 
