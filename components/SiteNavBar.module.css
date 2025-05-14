@@ -1,0 +1,25 @@
+.LogoText {
+    font-family: var(--font-dancing-script);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .LogoText {
+        font-size: 2rem;
+    }
+}
+
+.NavText {
+    font-family: var(--font-roboto);
+    font-size: 1rem;
+}
+
+.NavText:hover {
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px var(--color-green);
+}
+
+.ActiveNavLink {
+    font-weight: bold;
+}

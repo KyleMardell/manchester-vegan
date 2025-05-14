@@ -1,15 +1,15 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Dancing_Script, Roboto } from "next/font/google";
 import SiteNavbar from "@/components/SiteNavbar";
 
-const geistSans = Geist({
-    variable: "--font-geist-sans",
+const dancingScript = Dancing_Script({
+    variable: "--font-dancing-script",
     subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
+const roboto = Roboto({
+    variable: "--font-roboto",
     subsets: ["latin"],
 });
 
@@ -52,7 +52,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${geistSans.variable} ${geistMono.variable}`}>
+            <body className={`${roboto.variable} ${dancingScript.variable}`}>
                 <SiteNavbar />
                 {children}
             </body>

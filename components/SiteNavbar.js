@@ -1,10 +1,13 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import useClickOutsideToggle from "@/hooks/useClickOutsideToggle";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import styles from "./SiteNavBar.module.css";
 
 export default function SiteNavbar() {
+    const pathname = usePathname();
     const { expanded, setExpanded, ref } = useClickOutsideToggle();
 
     return (
@@ -14,7 +17,10 @@ export default function SiteNavbar() {
             className="bg-body-tertiary"
             ref={ref}>
             <Container>
-                <Navbar.Brand as={Link} href="/">
+                <Navbar.Brand
+                    as={Link}
+                    href="/"
+                    className={`${styles.LogoText}`}>
                     Manchester Vegan Guide
                 </Navbar.Brand>
                 <Navbar.Toggle
@@ -26,37 +32,43 @@ export default function SiteNavbar() {
                         <Nav.Link
                             as={Link}
                             href="/"
-                            onClick={() => setExpanded(false)}>
+                            onClick={() => setExpanded(false)}
+                            className={`${styles.NavText} ${pathname === "/" ? styles.ActiveNavLink : ""}`}>
                             Home
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
                             href="/restaurants"
-                            onClick={() => setExpanded(false)}>
+                            onClick={() => setExpanded(false)}
+                            className={`${styles.NavText} ${pathname === "/restaurants" ? styles.ActiveNavLink : ""}`}>
                             All Restaurants
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
                             href="/cuisines/vegan-only"
-                            onClick={() => setExpanded(false)}>
+                            onClick={() => setExpanded(false)}
+                            className={`${styles.NavText} ${pathname === "/cuisines/vegan-only" ? styles.ActiveNavLink : ""}`}>
                             100% Vegan Restaurants
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
                             href="/cuisines"
-                            onClick={() => setExpanded(false)}>
+                            onClick={() => setExpanded(false)}
+                            className={`${styles.NavText} ${pathname === "/cuisines" ? styles.ActiveNavLink : ""}`}>
                             Cuisines
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
                             href="/locations"
-                            onClick={() => setExpanded(false)}>
+                            onClick={() => setExpanded(false)}
+                            className={`${styles.NavText} ${pathname === "/locations" ? styles.ActiveNavLink : ""}`}>
                             Locations / Areas
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
                             href="/"
-                            onClick={() => setExpanded(false)}>
+                            onClick={() => setExpanded(false)}
+                            className={`${styles.NavText} ${pathname === "/" ? styles.ActiveNavLink : ""}`}>
                             Blog
                         </Nav.Link>
                     </Nav>

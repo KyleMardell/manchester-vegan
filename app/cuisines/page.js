@@ -44,10 +44,11 @@ export default function Cuisines() {
                         </Link>*/}
             <Row>
                 {allCuisines.map((cuisine) => (
-                    
-                        
-                        <CuisineCard key={cuisine} cuisine={cuisine} imageUrl={`/images/cuisines/${slugify(cuisine)}.webp`} />
-                    
+                    <CuisineCard
+                        key={cuisine}
+                        cuisine={cuisine}
+                        imageUrl={`/images/cuisines/${slugify(cuisine)}.webp`}
+                    />
                 ))}
             </Row>
         </Container>
