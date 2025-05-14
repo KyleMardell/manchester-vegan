@@ -1,19 +1,24 @@
 import { Container, Row, Col } from "react-bootstrap";
 import heroStyles from "./hero.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
     return (
         <Container fluid="lg">
-            <Row className={heroStyles.hero}>
+            <Row className={heroStyles.HeroMainImage}>
                 <Col>
-                    <p className="logo-name">Manchester Vegan Guide</p>
-                    <h1>Vegan & Vegetarian Restaurants in Manchester</h1>
+                    <p className={heroStyles.HeroText}>
+                        Manchester Vegan Guide
+                    </p>
+                    <h1 className={heroStyles.HeroDescription}>
+                        Vegan & Vegetarian Restaurants in Manchester
+                    </h1>
                 </Col>
             </Row>
             <Row className="my-2">
-                <Col xs={8}>
-                    <h2>
+                <Col xs={12} md={8}>
+                    <h2 className="my-2">
                         Explore the best vegan and vegetarian food in
                         Manchester.
                     </h2>
@@ -36,28 +41,38 @@ export default function Home() {
                         Manchester's meat-free scene covered.
                     </p>
                 </Col>
-                <Col xs={4}>
+                <Col xs={12} md={4} className="my-2">
                     <Image
                         src="/images/vegan-food1.webp"
                         alt="Manchester Vegan Guide text over a portrait showing a table of fruit with a view of farmers fields in the background."
                         width={980}
                         height={1472}
+                        className={heroStyles.HeroImage}
                         style={{ width: "100%", height: "auto" }}
                     />
                 </Col>
+                <Col xs={12} className="text-center p-3 my-2">
+                    <Link href="/cuisines" className={heroStyles.HeroLink}>
+                        Check out our list of vegan and vegetarian restaurant
+                        cuisines in Manchester
+                    </Link>
+                </Col>
             </Row>
             <Row>
-                <Col xs={4}>
+                <Col xs={12} md={4} className="my-2">
                     <Image
                         src="/images/manchester-bee.webp"
                         alt="A sculpture of a manchester bee sat on top of an egg shaped globe with bees drawn on the globe."
                         width={920}
                         height={1227}
+                        className={heroStyles.HeroImage}
                         style={{ width: "100%", height: "auto" }}
                     />
                 </Col>
-                <Col xs={8}>
-                    <h2>Top Vegan & Vegetarian Restaurants in Manchester</h2>
+                <Col xs={12} md={8}>
+                    <h2 className="my-2">
+                        Top Vegan & Vegetarian Restaurants in Manchester
+                    </h2>
                     <p>
                         Discover some of the best vegan and vegetarian
                         restaurants Manchester has to offer. Whether you're
@@ -77,8 +92,16 @@ export default function Home() {
                 </Col>
             </Row>
             <Row>
-                <Col>
-                    <h2>
+                <Col xs={12} className="text-center p-3 my-2">
+                    <Link
+                        href="/locations"
+                        className={`${heroStyles.HeroLink}`}>
+                        Find vegan and vegetarian restaurants in Manchester City
+                        Center and Greater Manchester
+                    </Link>
+                </Col>
+                <Col xs={12} md={8}>
+                    <h2 className="my-2">
                         Why Manchester is a Great City for Plant-Based Dining
                     </h2>
                     <p>
@@ -125,12 +148,13 @@ export default function Home() {
                         tastier—to enjoy plant-based dining in Manchester.
                     </p>
                 </Col>
-                <Col xs={4}>
+                <Col xs={12} md={4} className="my-2">
                     <Image
                         src="/images/manchester-signs.webp"
                         alt="Public directional signs on Tib Street, Manchester."
                         width={841}
                         height={1120}
+                        className={heroStyles.HeroImage}
                         style={{ width: "100%", height: "auto" }}
                     />
                 </Col>

@@ -1,4 +1,4 @@
-.hero {
+.HeroMainImage {
     background-image: linear-gradient(rgba(69, 71, 75, 0.5), rgba(69, 71, 75, 0.5)),
         url("/images/manchester-skyline.webp");
     background-size: cover;
@@ -9,5 +9,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem 1rem; /* Same as Bootstrap p-5 */
+    padding: 3rem 1rem;
+}
+
+.HeroImage {
+    border-radius: 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .HeroImage {
+    border-radius: 50%;
+}
+    
+}
+
+.HeroText {
+    font-family: var(--font-dancing-script), sans-serif !important;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.HeroDescription {
+    font-family: var(--font-roboto), sans-serif !important;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.HeroLink {
+    color: var(--color-green);
+    font-size: 1.2rem;
 }
