@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
+import CuisineCard from "@/components/CuisineCard";
 
 export const metadata = {
     title: "Vegan and Vegetarian Cuisines in Manchester | Manchester Vegan Guide",
@@ -38,13 +39,15 @@ export default function Cuisines() {
                 cuisine. Browse all categories below to discover your next
                 plant-powered meal.
             </p>
+            {/*<Link href={`/cuisines/${slugify(cuisine)}`}>
+                            {cuisine}
+                        </Link>*/}
             <Row>
                 {allCuisines.map((cuisine) => (
-                    <Col xs={12} key={cuisine}>
-                        <Link href={`/cuisines/${slugify(cuisine)}`}>
-                            {cuisine}
-                        </Link>
-                    </Col>
+                    
+                        
+                        <CuisineCard key={cuisine} cuisine={cuisine} imageUrl={`/images/cuisines/${slugify(cuisine)}.webp`} />
+                    
                 ))}
             </Row>
         </Container>
