@@ -38,8 +38,8 @@ export default function Cuisines() {
                         taste. <br />
                         Whether you're craving Lebanese mezze, Sicilian pasta,
                         Pan-Asian dumplings, or American-style vegan burgers and
-                        fries, here you will find the best vegetarian and
-                        vegan restaurants in Manchester by cuisine.
+                        fries, here you will find the best vegetarian and vegan
+                        restaurants in Manchester by cuisine.
                         <br />
                         Browse all categories below to discover Manchester's
                         best vegan cuisines.
@@ -48,14 +48,19 @@ export default function Cuisines() {
             </Row>
 
             <Row>
-                {allCuisines.map((cuisine, index) => (
-                    <CuisineCard
-                        key={cuisine}
-                        cuisine={cuisine}
-                        imageUrl={`/images/cuisines/${slugify(cuisine)}.webp`}
-                        priority={index === 0}
-                    />
-                ))}
+                {allCuisines
+                    .slice()
+                    .sort((a, b) => a.localeCompare(b))
+                    .map((cuisine, index) => (
+                        <CuisineCard
+                            key={cuisine}
+                            cuisine={cuisine}
+                            imageUrl={`/images/cuisines/${slugify(
+                                cuisine
+                            )}.webp`}
+                            priority={index === 0}
+                        />
+                    ))}
             </Row>
         </Container>
     );
