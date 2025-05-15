@@ -7,7 +7,18 @@ export default function Home() {
     return (
         <Container fluid="lg">
             <Row className={heroStyles.HeroMainImage}>
-                <Col>
+                <Image
+                    src="/images/manchester-skyline.webp"
+                    alt="Manchester skyline"
+                    fill
+                    priority
+                    style={{
+                        objectFit: "cover",
+                        zIndex: 0,
+                        filter: "brightness(0.6)",
+                    }}
+                />
+                <Col style={{ zIndex: 1 }}>
                     <p className={heroStyles.HeroText}>
                         Manchester Vegan Guide
                     </p>

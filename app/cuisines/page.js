@@ -1,16 +1,12 @@
 import data from "@/data/restaurants.json";
-import Link from "next/link";
-import Image from "next/image";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
 import CuisineCard from "@/components/CuisineCard";
 
 export const metadata = {
     title: "Vegan and Vegetarian Cuisines in Manchester | Manchester Vegan Guide",
-    description:
-        "Explore a wide range of vegan and vegetarian cuisines in Manchester. From Indian curries and falafel wraps to vegan pizza, dumplings, and desserts, discover the best plant-based food by cuisine.",
-    keywords:
-        "vegan cuisines Manchester, vegetarian cuisines Manchester, plant-based food Manchester, vegan food by cuisine, vegetarian restaurants by cuisine, Manchester vegan guide, vegan Indian Manchester, vegan Chinese Manchester, vegan pizza Manchester, vegetarian food Manchester",
+    description: "Explore a wide range of vegan and vegetarian cuisines in Manchester. From Indian curries and falafel wraps to vegan pizza, dumplings, and desserts, discover the best plant-based food by cuisine.",
+    keywords: "vegan cuisines Manchester, vegetarian cuisines Manchester, plant-based food Manchester, vegan food by cuisine, vegetarian restaurants by cuisine, Manchester vegan guide, vegan Indian Manchester, vegan Chinese Manchester, vegan pizza Manchester, vegetarian food Manchester",
 };
 
 export default function Cuisines() {
@@ -39,15 +35,13 @@ export default function Cuisines() {
                 cuisine. Browse all categories below to discover your next
                 plant-powered meal.
             </p>
-            {/*<Link href={`/cuisines/${slugify(cuisine)}`}>
-                            {cuisine}
-                        </Link>*/}
             <Row>
-                {allCuisines.map((cuisine) => (
+                {allCuisines.map((cuisine, index) => (
                     <CuisineCard
                         key={cuisine}
                         cuisine={cuisine}
                         imageUrl={`/images/cuisines/${slugify(cuisine)}.webp`}
+                        priority={index === 0}
                     />
                 ))}
             </Row>
