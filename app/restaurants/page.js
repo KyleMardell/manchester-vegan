@@ -1,3 +1,4 @@
+import RestaurantCard from "@/components/RestaurantCard";
 import data from "@/data/restaurants.json";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
@@ -39,10 +40,11 @@ export default function Restaurants() {
             </Row>
             <Row>
                 {data.map((restaurant) => (
-                    <Col xs={12} key={restaurant.name}>
-                        <Link href={`/restaurants/${restaurant.slug}`}>
-                            {restaurant.name}
-                        </Link>
+                    <Col xs={12} md={6} xl={4} key={restaurant.name}>
+                        <RestaurantCard
+                            name={restaurant.name}
+                            slug={restaurant.slug}
+                        />
                     </Col>
                 ))}
             </Row>
