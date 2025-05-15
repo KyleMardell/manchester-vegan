@@ -23,10 +23,6 @@
     transform: scale(1.05);
 }
 
-.card:hover .text {
-     
-}
-
 .text {
     position: absolute;
     z-index: 2;
