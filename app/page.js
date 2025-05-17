@@ -6,8 +6,9 @@ import Link from "next/link";
 export default function Home() {
     return (
         <Container fluid="lg">
-            <Row className={`${heroStyles.HeroMainImage} mb-3`}>
+            <Row className={`${heroStyles.HeroMainImage} p-0 mb-3`}>
                 <Image
+                className="p-0"
                     src="/images/manchester-skyline.webp"
                     alt="Manchester skyline"
                     fill
@@ -18,7 +19,7 @@ export default function Home() {
                         filter: "brightness(0.6)",
                     }}
                 />
-                <Col style={{ zIndex: 1 }}>
+                <Col style={{ zIndex: 1 }} className="p-0">
                     <p className={heroStyles.HeroText}>
                         Manchester Vegan Guide
                     </p>
@@ -27,9 +28,9 @@ export default function Home() {
                     </h1>
                 </Col>
             </Row>
-            <Row className="my-2">
+            <Row className="my-1">
                 <Col xs={12} md={8}>
-                    <h2 className="my-5">
+                    <h2 className="my-4 text-center">
                         Explore the best vegan and vegetarian food in
                         Manchester.
                     </h2>
@@ -62,7 +63,7 @@ export default function Home() {
                         style={{ width: "100%", height: "auto" }}
                     />
                 </Col>
-                <Col xs={12} className="text-center p-3 my-5">
+                <Col xs={12} className="text-center p-3 my-4">
                     <Link href="/cuisines" className={heroStyles.HeroLink}>
                         Check out our list of vegan and vegetarian restaurant
                         cuisines in Manchester
@@ -81,7 +82,7 @@ export default function Home() {
                     />
                 </Col>
                 <Col xs={12} md={8}>
-                    <h2 className="my-5">
+                    <h2 className="my-4 text-center">
                         Top Vegan & Vegetarian Restaurants in Manchester
                     </h2>
                     <p>
@@ -103,7 +104,7 @@ export default function Home() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} className="text-center p-3 my-5">
+                <Col xs={12} className="text-center p-3 my-4">
                     <Link
                         href="/locations"
                         className={`${heroStyles.HeroLink}`}>
@@ -112,7 +113,7 @@ export default function Home() {
                     </Link>
                 </Col>
                 <Col xs={12} md={8}>
-                    <h2 className="mt-2 mb-5">
+                    <h2 className="my-4 text-center">
                         Why Manchester is a Great City for Plant-Based Dining
                     </h2>
                     <p>

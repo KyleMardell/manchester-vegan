@@ -2,12 +2,13 @@
     box-shadow: 0 2px 4px var(--color-dark);
 }
 
-.RestName {
-    font-weight: bold;
+.RestCard:hover {
+    color: var(--color-green);
+    box-shadow: 0 2px 4px var(--color-green);
 }
 
-.RestName:hover {
-    color: var(--color-green);
+.RestName {
+    font-weight: bold;
 }
 
 .RestDetails {
