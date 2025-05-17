@@ -1,3 +1,4 @@
+import RestaurantCard from "@/components/RestaurantCard";
 import data from "@/data/restaurants.json";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
@@ -15,29 +16,45 @@ export default function VeganOnlyPage() {
 
     return (
         <Container>
-            <h1>100% Vegan Restaurants in Manchester</h1>
-            <p>
-                Discover the best 100% vegan restaurants in Manchester, where
-                every dish is completely plant-based and cruelty-free. This
-                curated list features only fully vegan eateries—perfect for
-                anyone seeking authentic vegan food in Manchester without
-                compromise. From delicious vegan pizzas at Purezza to
-                flavour-packed Chinese cuisine at Wawin Vegan and Vegan Green
-                Kitchen, these Manchester vegan restaurants are dedicated to
-                creative, meat-free dining. Whether you're looking for a quick
-                bite, a healthy lunch, or a full sit-down dinner, these
-                plant-based restaurants in Manchester offer something for every
-                craving. Explore the top-rated vegan-only spots in Manchester
-                and enjoy food that's ethical, sustainable, and seriously tasty.
-            </p>
+            <Row>
+                <Col xs={12} className="text-center my-5">
+                    <h1>100% Vegan Restaurants in Manchester</h1>
+                </Col>
+                <Col xs={12} className="mb-5">
+                    <p>
+                        Discover the best 100% vegan restaurants in Manchester,
+                        where every dish is completely plant-based and
+                        cruelty-free. This curated list features only fully
+                        vegan eateries—perfect for anyone seeking authentic
+                        vegan food in Manchester without compromise. From
+                        delicious vegan pizzas at Purezza to flavour-packed
+                        Chinese cuisine at Wawin Vegan and Vegan Green Kitchen,
+                        these Manchester vegan restaurants are dedicated to
+                        creative, meat-free dining. Whether you're looking for a
+                        quick bite, a healthy lunch, or a full sit-down dinner,
+                        these plant-based restaurants in Manchester offer
+                        something for every craving. Explore the top-rated
+                        vegan-only spots in Manchester and enjoy food that's
+                        ethical, sustainable, and seriously tasty.
+                    </p>
+                </Col>
+            </Row>
+
             <Row className="mb-4">
-                {veganOnlyRestaurants.map((rest) => (
-                    <Col xs={12} key={rest.name}>
-                        <Link href={`/restaurants/${rest.slug}`}>
-                            {rest.name}
-                        </Link>
-                    </Col>
-                ))}
+                {[...veganOnlyRestaurants]
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map((restaurant) => (
+                        <Col xs={12} md={6} xl={4} key={restaurant.name}>
+                            <RestaurantCard
+                                name={restaurant.name}
+                                slug={restaurant.slug}
+                                restType={restaurant.type}
+                                location={restaurant.location}
+                                mapembed={restaurant.mapembed}
+                                cuisine={restaurant.cuisine}
+                            />
+                        </Col>
+                    ))}
             </Row>
         </Container>
     );

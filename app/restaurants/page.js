@@ -37,18 +37,20 @@ export default function Restaurants() {
                 </Col>
             </Row>
             <Row>
-                {data.map((restaurant) => (
-                    <Col xs={12} md={6} xl={4} key={restaurant.name}>
-                        <RestaurantCard
-                            name={restaurant.name}
-                            slug={restaurant.slug}
-                            restType={restaurant.type}
-                            location={restaurant.location}
-                            mapembed={restaurant.mapembed}
-                            cuisine={restaurant.cuisine}
-                        />
-                    </Col>
-                ))}
+                {[...data]
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map((restaurant) => (
+                        <Col xs={12} md={6} xl={4} key={restaurant.name}>
+                            <RestaurantCard
+                                name={restaurant.name}
+                                slug={restaurant.slug}
+                                restType={restaurant.type}
+                                location={restaurant.location}
+                                mapembed={restaurant.mapembed}
+                                cuisine={restaurant.cuisine}
+                            />
+                        </Col>
+                    ))}
             </Row>
         </Container>
     );

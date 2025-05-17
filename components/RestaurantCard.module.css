@@ -1,3 +1,7 @@
+.RestCard {
+    box-shadow: 0 2px 4px var(--color-dark);
+}
+
 .RestName {
     font-weight: bold;
 }
@@ -7,5 +11,10 @@
 }
 
 .RestDetails {
-    font-family: var(--font-roboto);
+    font-size: 1.2rem;
+}
+
+.CTA {
+    color: var(--color-green);
+    font-weight: bold;
 }
