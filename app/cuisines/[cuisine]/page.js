@@ -1,3 +1,4 @@
+import RestaurantCard from "@/components/RestaurantCard";
 import data from "@/data/restaurants.json";
 import { slugify } from "@/utils/slugify";
 import Link from "next/link";
@@ -53,8 +54,12 @@ export default async function CuisinePage({ params }) {
 
     return (
         <Container>
-            <h1>Vegetarian and Vegan Restaurants serving {readableCuisine}</h1>
-            <p>
+            <Row>
+                <Col xs={12} className="text-center my-5">
+                <h1>Vegetarian and Vegan Restaurants serving {readableCuisine}</h1>
+                </Col>
+                <Col xs={12} className="mb-5">
+                <p>
                 Looking for delicious vegan {readableCuisine} in Manchester?
                 This short list highlights the top meat-free restaurants in the
                 city serving flavour-packed {readableCuisine} dishes—all 100%
@@ -65,17 +70,31 @@ export default async function CuisinePage({ params }) {
                 hidden gems, explore where to enjoy vegan and vegetarian{" "}
                 {readableCuisine} plates in Manchester today.
             </p>
+                </Col>
+            </Row>
+            
+            
             <Row>
-                {filteredRestaurants.map((rest) => (
-                    <Col xs={12} key={rest.slug}>
-                        <Link href={`/restaurants/${rest.slug}`}>
-                            {rest.name}
-                        </Link>
-                    </Col>
-                ))}
+                {[...filteredRestaurants]
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map((restaurant) => (
+                        <Col xs={12} md={6} xl={4} key={restaurant.name}>
+                            <RestaurantCard
+                                name={restaurant.name}
+                                slug={restaurant.slug}
+                                restType={restaurant.type}
+                                location={restaurant.location}
+                                mapembed={restaurant.mapembed}
+                                cuisine={restaurant.cuisine}
+                            />
+                        </Col>
+                    ))}
             </Row>
             <Row>
+                <Col className="my-5 text-center">
                 <Link href="/cuisines">Back to Cuisines</Link>
+                </Col>
+                
             </Row>
         </Container>
     );

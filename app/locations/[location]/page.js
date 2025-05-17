@@ -2,6 +2,7 @@ import data from "@/data/restaurants.json";
 import Link from "next/link";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
+import RestaurantCard from "@/components/RestaurantCard";
 
 export async function generateMetadata({ params }) {
     const { location } = await params;
@@ -35,29 +36,48 @@ export default async function LocationPage({ params }) {
 
     return (
         <Container>
-            <h1>Vegan and Vegetarian Restaurants in {readableLocation}</h1>
-            <p>
-                Searching for the best vegan and vegetarian restaurants in{" "}
-                {location}? This guide highlights the top plant-based and
-                vegetarian-friendly spots in {location}, Manchester, where you
-                can enjoy everything from quick vegan lunches to flavourful
-                meat-free dinners. Whether you live nearby or you're just
-                visiting, explore delicious plant-based options in {location}
-                —from vibrant cafés to creative vegetarian eateries. Discover
-                where to eat vegan and vegetarian in {location}, and find your
-                next go-to meat-free meal.
-            </p>
             <Row>
-                {restaurants.map((rest) => (
-                    <Col xs={12} key={rest.name}>
-                        <Link href={`/restaurants/${rest.slug}`}>
-                            {rest.name}
-                        </Link>
-                    </Col>
-                ))}
+                <Col xs={12} className="text-center my-5">
+                    <h1>
+                        Vegan and Vegetarian Restaurants in {readableLocation}
+                    </h1>
+                </Col>
+                <Col xs={12} className="mb-5">
+                    <p>
+                        Searching for the best vegan and vegetarian restaurants
+                        in {location}? This guide highlights the top plant-based
+                        and vegetarian-friendly spots in {location}, Manchester,
+                        where you can enjoy everything from quick vegan lunches
+                        to flavourful meat-free dinners. Whether you live nearby
+                        or you're just visiting, explore delicious plant-based
+                        options in {location}
+                        —from vibrant cafés to creative vegetarian eateries.
+                        Discover where to eat vegan and vegetarian in {location}
+                        , and find your next go-to meat-free meal.
+                    </p>
+                </Col>
+            </Row>
+
+            <Row>
+                {[...restaurants]
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map((restaurant) => (
+                        <Col xs={12} md={6} xl={4} key={restaurant.name}>
+                            <RestaurantCard
+                                name={restaurant.name}
+                                slug={restaurant.slug}
+                                restType={restaurant.type}
+                                location={restaurant.location}
+                                mapembed={restaurant.mapembed}
+                                cuisine={restaurant.cuisine}
+                            />
+                        </Col>
+                    ))}
             </Row>
             <Row>
-                <Link href="/locations">Back to Locations</Link>
+                <Col xs={12} className="my-5 text-center">
+                    <Link href="/locations">Back to Locations</Link>
+                </Col>
             </Row>
         </Container>
     );
