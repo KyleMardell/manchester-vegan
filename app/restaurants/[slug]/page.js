@@ -56,24 +56,8 @@ export default async function RestaurantPage({ params }) {
     return (
         <Container>
             <Row>
-                <h1>{restaurant.name}</h1>
-
-                {restaurant.website != "N/A" ? (
-                    <Col>
-                        <Link
-                            href={restaurant.website}
-                            target="_blank"
-                            rel="noopener">
-                            Website - {restaurant.website}
-                        </Link>
-                    </Col>
-                ) : (
-                    <></>
-                )}
-                <Col>
-                    <Link href={restaurant.menu} target="_blank" rel="noopener">
-                        Menu Link
-                    </Link>
+                <Col xs={12} className="text-center my-5">
+                    <h1>{restaurant.name}</h1>
                 </Col>
             </Row>
             <Row>
@@ -95,14 +79,35 @@ export default async function RestaurantPage({ params }) {
                     </div>
                 </Col>
             </Row>
+            <Row className="my-5">
+                {restaurant.website != "N/A" ? (
+                    <Col className="text-center my-2">
+                        <Link
+                            href={restaurant.website}
+                            target="_blank"
+                            rel="noopener">
+                            Visit Restaurant Website <br /> {restaurant.website}
+                        </Link>
+                    </Col>
+                ) : (
+                    <></>
+                )}
+                <Col className="text-center my-2">
+                    <Link href={restaurant.menu} target="_blank" rel="noopener">
+                        Restaurant Menu <br /> {restaurant.menu}
+                    </Link>
+                </Col>
+            </Row>
             <Row>
-                <Col xs={12}>
+                <Col xs={12} className="text-center mb-5">
                     <h2>
                         {restaurant.type} Restaurant in {restaurant.location}.
                     </h2>
+                </Col>
+                <Col xs={12} className="text-center mb-2">
                     <p>{restaurant.summary}</p>
                 </Col>
-                <Col xs={12}>
+                <Col xs={12} className="text-center mb-5">
                     <p>
                         {restaurant.reviews} Google reviews with an average
                         review score of {restaurant.score}
@@ -110,26 +115,29 @@ export default async function RestaurantPage({ params }) {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col className="mb-4">
                     <h3>Address</h3>
-                    <p>{restaurant.address}</p>
+                    <p className="m-0">{restaurant.address}</p>
+                    <Link href={restaurant.maps} target="_blank" rel="noopener">
+                        Google Maps Link
+                    </Link>
                 </Col>
-                <Col>
+                <Col className="mb-4">
                     <h3>Phone</h3>
                     <p>{restaurant.phone}</p>
                 </Col>
-                <Col>
+                <Col className="mb-4">
                     <h3>Opening Times</h3>
                     <p>{restaurant.times}</p>
                 </Col>
             </Row>
             <Row>
-                <Col xs={12}>
+                <Col xs={12} className="text-center mb-4">
                     <h3>Social Media Links</h3>
                 </Col>
 
                 {restaurant.facebook != "N/A" ? (
-                    <Col>
+                    <Col className="text-center mb-4">
                         <Link
                             href={restaurant.facebook}
                             target="_blank"
@@ -142,7 +150,7 @@ export default async function RestaurantPage({ params }) {
                 )}
 
                 {restaurant.twitter != "N/A" ? (
-                    <Col>
+                    <Col className="text-center mb-4">
                         <Link
                             href={restaurant.twitter}
                             target="_blank"
@@ -155,7 +163,7 @@ export default async function RestaurantPage({ params }) {
                 )}
 
                 {restaurant.instagram != "N/A" ? (
-                    <Col>
+                    <Col className="text-center mb-4">
                         <Link
                             href={restaurant.instagram}
                             target="_blank"
@@ -176,7 +184,7 @@ export default async function RestaurantPage({ params }) {
                 <Col>
                     <div className="ratio ratio-16x9">
                         <iframe
-                        title="google maps"
+                            title="google maps"
                             src={restaurant.mapembed}
                             allowFullScreen=""
                             loading="lazy"
@@ -192,7 +200,7 @@ export default async function RestaurantPage({ params }) {
                 ) : (
                     <></>
                 )}
-                <Col xs={12}>
+                <Col xs={12} className="text-center my-5">
                     <Link href="/locations">
                         View more vegetarian and vegan restaurants in
                         Manchester.
