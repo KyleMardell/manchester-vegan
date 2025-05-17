@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <Container fluid="lg">
-            <Row className={heroStyles.HeroMainImage}>
+            <Row className={`${heroStyles.HeroMainImage} mb-3`}>
                 <Image
                     src="/images/manchester-skyline.webp"
                     alt="Manchester skyline"
@@ -29,7 +29,7 @@ export default function Home() {
             </Row>
             <Row className="my-2">
                 <Col xs={12} md={8}>
-                    <h2 className="my-2">
+                    <h2 className="my-5">
                         Explore the best vegan and vegetarian food in
                         Manchester.
                     </h2>
@@ -62,7 +62,7 @@ export default function Home() {
                         style={{ width: "100%", height: "auto" }}
                     />
                 </Col>
-                <Col xs={12} className="text-center p-3 my-2">
+                <Col xs={12} className="text-center p-3 my-5">
                     <Link href="/cuisines" className={heroStyles.HeroLink}>
                         Check out our list of vegan and vegetarian restaurant
                         cuisines in Manchester
@@ -81,7 +81,7 @@ export default function Home() {
                     />
                 </Col>
                 <Col xs={12} md={8}>
-                    <h2 className="my-2">
+                    <h2 className="my-5">
                         Top Vegan & Vegetarian Restaurants in Manchester
                     </h2>
                     <p>
@@ -103,7 +103,7 @@ export default function Home() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} className="text-center p-3 my-2">
+                <Col xs={12} className="text-center p-3 my-5">
                     <Link
                         href="/locations"
                         className={`${heroStyles.HeroLink}`}>
@@ -112,7 +112,7 @@ export default function Home() {
                     </Link>
                 </Col>
                 <Col xs={12} md={8}>
-                    <h2 className="my-2">
+                    <h2 className="mt-2 mb-5">
                         Why Manchester is a Great City for Plant-Based Dining
                     </h2>
                     <p>

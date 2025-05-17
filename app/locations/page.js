@@ -30,20 +30,31 @@ export default function Locations() {
 
     return (
         <Container>
-            <h1>Vegan and Vegetarian Restaurant Manchester Locations</h1>
+            <Row>
+                <Col xs={12} className="text-center my-5">
+                    <h1>
+                        Vegan and Vegetarian Restaurant Manchester Locations
+                    </h1>
+                </Col>
+            </Row>
             <Row className="mb-4">
-                <h2>Manchester City Centre</h2>
-                <p>
-                    Discover the heart of the city's plant-based dining scene
-                    with our curated list of vegan and vegetarian restaurants in
-                    Manchester City Centre. From the Northern Quarter to
-                    Deansgate, this area is packed with vibrant vegan cafés,
-                    vegetarian street food stalls, and trendy plant-based
-                    eateries. Whether you're exploring Oxford Road, enjoying the
-                    buzz of Spinningfields, or grabbing lunch near Piccadilly,
-                    Manchester City Centre offers some of the best meat-free
-                    dining options in the UK.
-                </p>
+                <Col xs={12} className="text-center my-5">
+                    <h2>Manchester City Centre</h2>
+                </Col>
+                <Col xs={12} className="mb-5">
+                    <p>
+                        Discover the heart of the city's plant-based dining
+                        scene with our curated list of vegan and vegetarian
+                        restaurants in Manchester City Centre. From the Northern
+                        Quarter to Deansgate, this area is packed with vibrant
+                        vegan cafés, vegetarian street food stalls, and trendy
+                        plant-based eateries. Whether you're exploring Oxford
+                        Road, enjoying the buzz of Spinningfields, or grabbing
+                        lunch near Piccadilly, Manchester City Centre offers
+                        some of the best meat-free dining options in the UK.
+                    </p>
+                </Col>
+
                 {cityCentreLocations.map((location) => (
                     <Col xs={12} key={location}>
                         <Link href={`/locations/${slugify(location)}`}>
@@ -53,7 +64,10 @@ export default function Locations() {
                 ))}
             </Row>
             <Row>
+                <Col xs={12} className="text-center my-5">
                 <h2>Greater Manchester</h2>
+                </Col>
+                <Col xs={12} className="mb-5">
                 <p>
                     Looking for vegan and vegetarian restaurants beyond the city
                     centre? Our Greater Manchester directory highlights top
@@ -65,6 +79,8 @@ export default function Locations() {
                     Manchester plant-based scene and find your next favourite
                     local vegan or vegetarian eatery.
                 </p>
+                </Col>
+                
                 {greaterManchesterLocations.map((location) => (
                     <Col xs={12} key={location}>
                         <Link href={`/locations/${slugify(location)}`}>
