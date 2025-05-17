@@ -1,0 +1,11 @@
+.RestName {
+    font-weight: bold;
+}
+
+.RestName:hover {
+    color: var(--color-green);
+}
+
+.RestDetails {
+    font-family: var(--font-roboto);
+}

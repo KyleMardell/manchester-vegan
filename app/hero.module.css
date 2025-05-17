@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 768px) {
     .HeroImage {
-        border-radius: 50%;
+        border-radius: 10%;
     }
 
     .HeroLink {

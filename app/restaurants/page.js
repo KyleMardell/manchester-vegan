@@ -15,12 +15,10 @@ export default function Restaurants() {
     return (
         <Container>
             <Row>
-                <Col>
+                <Col xs={12} className="text-center my-5">
                     <h1>Vegan and Vegetarian Restaurants in Manchester</h1>
                 </Col>
-            </Row>
-            <Row>
-                <Col>
+                <Col xs={12} className="mb-5">
                     <p>
                         Welcome to the ultimate Manchester vegan food guide—your
                         go-to directory for the best vegan and vegetarian
@@ -44,6 +42,10 @@ export default function Restaurants() {
                         <RestaurantCard
                             name={restaurant.name}
                             slug={restaurant.slug}
+                            restType={restaurant.type}
+                            location={restaurant.location}
+                            mapembed={restaurant.mapembed}
+                            cuisine={restaurant.cuisine}
                         />
                     </Col>
                 ))}

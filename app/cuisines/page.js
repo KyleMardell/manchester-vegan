@@ -25,10 +25,10 @@ export default function Cuisines() {
     return (
         <Container>
             <Row>
-                <Col xs={12} className="text-center">
+                <Col xs={12} className="text-center my-5">
                     <h1>All Vegetarian and Vegan Cuisines</h1>
                 </Col>
-                <Col xs={12}>
+                <Col xs={12} className="mb-5">
                     <p>
                         Explore the full variety of vegan and vegetarian
                         cuisines available across Manchester. <br />
