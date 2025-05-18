@@ -32,7 +32,7 @@ export default function VeganOnlyPage() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} className="mb-5">
+                <Col xs={12} className="my-5">
                     <p>
                         Discover the best 100% vegan restaurants in Manchester,
                         where every dish is completely plant-based and

@@ -1,7 +1,9 @@
 import data from "@/data/restaurants.json";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "next/image";
 import CuisineCard from "@/components/CuisineCard";
+import styles from "./CuisinesPage.module.css";
 
 export const metadata = {
     title: "Vegan and Vegetarian Cuisines in Manchester | Manchester Vegan Guide",
@@ -24,11 +26,22 @@ export default function Cuisines() {
 
     return (
         <Container>
-            <Row>
-                <Col xs={12} className="text-center my-5">
-                    <h1>All Vegetarian and Vegan Cuisines</h1>
+            <Row className="mb-3">
+                <Col xs={12} className={styles.HeroMainImage}>
+                    <Image
+                        src="/images/pages/cuisines.webp"
+                        alt="An empty restaurant, set and ready for service."
+                        fill
+                        priority
+                        className={styles.HeroImage}
+                    />
+                    <h1 className={styles.HeroText}>
+                        All Vegetarian and Vegan Cuisines
+                    </h1>
                 </Col>
-                <Col xs={12} className="mb-5">
+            </Row>
+            <Row>
+                <Col xs={12} className="my-5">
                     <p>
                         Explore the full variety of vegan and vegetarian
                         cuisines available across Manchester. <br />

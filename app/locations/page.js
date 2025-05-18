@@ -2,6 +2,8 @@ import data from "@/data/restaurants.json";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import { slugify } from "@/utils/slugify";
+import Image from "next/image";
+import styles from "./LocationsPage.module.css";
 
 export const metadata = {
     title: "Vegan and Vegetarian Restaurants by Location | Manchester Vegan Guide",
@@ -30,11 +32,23 @@ export default function Locations() {
 
     return (
         <Container>
-            <Row>
-                <Col xs={12} className="text-center my-5">
-                    <h1>
+            <Row className="mb-3">
+                <Col xs={12} className={styles.HeroMainImage}>
+                    <Image
+                        src="/images/pages/locations.webp"
+                        alt="An empty restaurant, set and ready for service."
+                        fill
+                        priority
+                        className={styles.HeroImage}
+                    />
+                    <h1 className={styles.HeroText}>
                         Vegan and Vegetarian Restaurant Manchester Locations
                     </h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col xs={12} className="text-center">
+                    <h1></h1>
                 </Col>
             </Row>
             <Row className="mb-4">
@@ -65,22 +79,22 @@ export default function Locations() {
             </Row>
             <Row>
                 <Col xs={12} className="text-center my-5">
-                <h2>Greater Manchester</h2>
+                    <h2>Greater Manchester</h2>
                 </Col>
                 <Col xs={12} className="mb-5">
-                <p>
-                    Looking for vegan and vegetarian restaurants beyond the city
-                    centre? Our Greater Manchester directory highlights top
-                    plant-based dining spots in areas like Chorlton, Ashton,
-                    Withington, and Cheadle. Whether you're after a cosy vegan
-                    brunch in Urmston or vegetarian comfort food in Glossop,
-                    these suburbs are home to a wide variety of delicious and
-                    accessible meat-free restaurants. Explore the Greater
-                    Manchester plant-based scene and find your next favourite
-                    local vegan or vegetarian eatery.
-                </p>
+                    <p>
+                        Looking for vegan and vegetarian restaurants beyond the
+                        city centre? Our Greater Manchester directory highlights
+                        top plant-based dining spots in areas like Chorlton,
+                        Ashton, Withington, and Cheadle. Whether you're after a
+                        cosy vegan brunch in Urmston or vegetarian comfort food
+                        in Glossop, these suburbs are home to a wide variety of
+                        delicious and accessible meat-free restaurants. Explore
+                        the Greater Manchester plant-based scene and find your
+                        next favourite local vegan or vegetarian eatery.
+                    </p>
                 </Col>
-                
+
                 {greaterManchesterLocations.map((location) => (
                     <Col xs={12} key={location}>
                         <Link href={`/locations/${slugify(location)}`}>
