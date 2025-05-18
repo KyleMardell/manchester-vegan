@@ -55,8 +55,8 @@ export default function Home() {
                 </Col>
                 <Col xs={12} md={4} className="my-2">
                     <Image
-                        src="/images/vegan-food1.webp"
-                        alt="Manchester Vegan Guide text over a portrait showing a table of fruit with a view of farmers fields in the background."
+                        src="/images/MVG-logo.webp"
+                        alt="Two books, one above the other, both with the Manchester Vegan Guide logo on the front."
                         width={980}
                         height={1472}
                         className={heroStyles.HeroImage}
@@ -74,7 +74,7 @@ export default function Home() {
                 <Col xs={12} md={4} className="my-2">
                     <Image
                         src="/images/manchester-bee.webp"
-                        alt="A sculpture of a manchester bee sat on top of an egg shaped globe with bees drawn on the globe."
+                        alt="A sculpture of a Manchester bee sat on top of an egg shaped globe with bees drawn on the globe."
                         width={920}
                         height={1227}
                         className={heroStyles.HeroImage}
