@@ -1,7 +1,8 @@
 import RestaurantCard from "@/components/RestaurantCard";
 import data from "@/data/restaurants.json";
-import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "next/image";
+import styles from "./RestaurantsPage.module.css";
 
 export const metadata = {
     title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
@@ -13,12 +14,23 @@ export const metadata = {
 
 export default function Restaurants() {
     return (
-        <Container>
-            <Row>
-                <Col xs={12} className="text-center my-5">
-                    <h1>Vegan and Vegetarian Restaurants in Manchester</h1>
+        <Container fluid="lg">
+            <Row className="mb-3">
+                <Col xs={12} className={styles.HeroMainImage}>
+                    <Image
+                        src="/images/pages/restaurants.webp"
+                        alt="An empty restaurant, set and ready for service."
+                        fill
+                        priority
+                        className={styles.HeroImage}
+                    />
+                    <h1 className={styles.HeroText}>
+                        Vegan and Vegetarian Restaurants in Manchester
+                    </h1>
                 </Col>
-                <Col xs={12} className="mb-5">
+            </Row>
+            <Row>
+                <Col xs={12} className="my-5">
                     <p>
                         Welcome to the ultimate Manchester vegan food guide—your
                         go-to directory for the best vegan and vegetarian

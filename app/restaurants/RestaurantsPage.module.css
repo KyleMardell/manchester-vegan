@@ -1,0 +1,24 @@
+.HeroMainImage {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeroImage {
+    z-index: 0;
+    filter: brightness(0.6);
+    object-fit: cover;
+}
+
+.HeroText {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}

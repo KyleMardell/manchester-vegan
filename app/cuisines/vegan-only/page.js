@@ -1,7 +1,8 @@
 import RestaurantCard from "@/components/RestaurantCard";
 import data from "@/data/restaurants.json";
-import Link from "next/link";
+import styles from "./VeganOnlyPage.module.css";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "next/image";
 
 export const metadata = {
     title: "100% Vegan Restaurants in Manchester | Manchester Vegan Guide",
@@ -16,10 +17,21 @@ export default function VeganOnlyPage() {
 
     return (
         <Container>
-            <Row>
-                <Col xs={12} className="text-center my-5">
-                    <h1>100% Vegan Restaurants in Manchester</h1>
+            <Row className="mb-3">
+                <Col xs={12} className={styles.HeroMainImage}>
+                    <Image
+                        src="/images/pages/vegan-only.webp"
+                        alt="An empty restaurant, set and ready for service."
+                        fill
+                        priority
+                        className={styles.HeroImage}
+                    />
+                    <h1 className={styles.HeroText}>
+                        100% Vegan Restaurants in Manchester
+                    </h1>
                 </Col>
+            </Row>
+            <Row>
                 <Col xs={12} className="mb-5">
                     <p>
                         Discover the best 100% vegan restaurants in Manchester,
