@@ -3,6 +3,8 @@ import data from "@/data/restaurants.json";
 import { slugify } from "@/utils/slugify";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "next/image";
+import styles from "./cuisine.module.css";
 
 export async function generateMetadata({ params }) {
     const awaitedParams = await params;
@@ -54,26 +56,39 @@ export default async function CuisinePage({ params }) {
 
     return (
         <Container>
-            <Row>
-                <Col xs={12} className="text-center my-5">
-                <h1>Vegetarian and Vegan Restaurants serving {readableCuisine}</h1>
-                </Col>
-                <Col xs={12} className="mb-5">
-                <p>
-                Looking for delicious vegan {readableCuisine} in Manchester?
-                This short list highlights the top meat-free restaurants in the
-                city serving flavour-packed {readableCuisine} dishes—all 100%
-                vegetarian or vegan-friendly. Whether you're after a casual
-                bite, a spicy street food experience, or a full sit-down meal,
-                these Manchester restaurants deliver the best plant-based{" "}
-                {readableCuisine} options around. From well-known favourites to
-                hidden gems, explore where to enjoy vegan and vegetarian{" "}
-                {readableCuisine} plates in Manchester today.
-            </p>
+            <Row className="mb-3">
+                <Col xs={12} className={styles.HeroMainImage}>
+                    <Image
+                        src={`/images/cuisines/${cuisineSlug}.webp`}
+                        alt="An empty restaurant, set and ready for service."
+                        fill
+                        priority
+                        className={styles.HeroImage}
+                    />
+                    <h1 className={styles.HeroText}>
+                        Vegetarian and Vegan Restaurants serving{" "}
+                        {readableCuisine}
+                    </h1>
                 </Col>
             </Row>
-            
-            
+            <Row>
+                <Col xs={12} className="my-5">
+                    <p>
+                        Looking for delicious vegan {readableCuisine} in
+                        Manchester? This short list highlights the top meat-free
+                        restaurants in the city serving flavour-packed{" "}
+                        {readableCuisine} dishes—all 100% vegetarian or
+                        vegan-friendly. Whether you're after a casual bite, a
+                        spicy street food experience, or a full sit-down meal,
+                        these Manchester restaurants deliver the best
+                        plant-based {readableCuisine} options around. From
+                        well-known favourites to hidden gems, explore where to
+                        enjoy vegan and vegetarian {readableCuisine} plates in
+                        Manchester today.
+                    </p>
+                </Col>
+            </Row>
+
             <Row>
                 {[...filteredRestaurants]
                     .sort((a, b) => a.name.localeCompare(b.name))
@@ -92,9 +107,8 @@ export default async function CuisinePage({ params }) {
             </Row>
             <Row>
                 <Col className="my-5 text-center">
-                <Link href="/cuisines">Back to Cuisines</Link>
+                    <Link href="/cuisines">Back to Cuisines</Link>
                 </Col>
-                
             </Row>
         </Container>
     );

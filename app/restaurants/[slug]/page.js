@@ -70,7 +70,7 @@ export default async function RestaurantPage({ params }) {
                             aspectRatio: "16/9",
                         }}>
                         <Image
-                            src="/images/manchester-vegan-guide-placeholder.webp"
+                            src="/images/MVG-logo.webp"
                             alt="Manchester Vegan Guide text over a portrait showing a table of fruit with a view of farmers fields in the background."
                             fill
                             sizes="(max-width: 768px) 100vw, 768px"
