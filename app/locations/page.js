@@ -50,17 +50,18 @@ export default function Locations() {
                 <Col xs={12} className="text-center my-5">
                     <h2>Manchester City Centre</h2>
                 </Col>
-                <Col xs={12}>
+                <Col xs={12} className="text-center">
                     <p>
                         Discover the heart of the city's plant-based dining
                         scene with our curated list of vegan and vegetarian
-                        restaurants in Manchester City Centre. From the Northern
-                        Quarter to Deansgate, this area is packed with vibrant
-                        vegan cafés, vegetarian street food stalls, and trendy
-                        plant-based eateries. Whether you're exploring Oxford
-                        Road, enjoying the buzz of Spinningfields, or grabbing
-                        lunch near Piccadilly, Manchester City Centre offers
-                        some of the best meat-free dining options in the UK.
+                        restaurants in Manchester City Centre. <br />
+                        From the Northern Quarter to Deansgate, this area is
+                        packed with vibrant vegan cafés, vegetarian street food
+                        stalls, and trendy plant-based eateries. <br />
+                        Whether you're exploring Oxford Road, enjoying the buzz
+                        of Spinningfields, or grabbing lunch near Piccadilly,
+                        Manchester City Centre offers some of the best meat-free
+                        dining options in the UK.
                     </p>
                 </Col>
             </Row>
@@ -93,17 +94,20 @@ export default function Locations() {
                 <Col xs={12} className="text-center my-5">
                     <h2>Greater Manchester</h2>
                 </Col>
-                <Col xs={12} className="mb-5">
+                <Col xs={12} className="mb-5 text-center">
                     <p>
                         Looking for vegan and vegetarian restaurants beyond the
-                        city centre? Our Greater Manchester directory highlights
-                        top plant-based dining spots in areas like Chorlton,
-                        Ashton, Withington, and Cheadle. Whether you're after a
-                        cosy vegan brunch in Urmston or vegetarian comfort food
-                        in Glossop, these suburbs are home to a wide variety of
-                        delicious and accessible meat-free restaurants. Explore
-                        the Greater Manchester plant-based scene and find your
-                        next favourite local vegan or vegetarian eatery.
+                        city centre? <br />
+                        Our Greater Manchester directory highlights top
+                        plant-based dining spots in areas like Chorlton, Ashton,
+                        Withington, and Cheadle. <br />
+                        Whether you're after a cosy vegan brunch in Urmston or
+                        vegetarian comfort food in Glossop, these suburbs are
+                        home to a wide variety of delicious and accessible
+                        meat-free restaurants. <br />
+                        Explore the Greater Manchester plant-based scene and
+                        find your next favourite local vegan or vegetarian
+                        eatery.
                     </p>
                 </Col>
             </Row>

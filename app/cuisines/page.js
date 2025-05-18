@@ -41,7 +41,7 @@ export default function Cuisines() {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} className="my-5">
+                <Col xs={12} className="my-5 text-center">
                     <p>
                         Explore the full variety of vegan and vegetarian
                         cuisines available across Manchester. <br />

@@ -72,19 +72,22 @@ export default async function CuisinePage({ params }) {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} className="my-5">
+                <Col xs={12} className="my-5 text-center">
                     <p>
                         Looking for delicious vegan {readableCuisine} in
-                        Manchester? This short list highlights the top meat-free
-                        restaurants in the city serving flavour-packed{" "}
-                        {readableCuisine} dishes—all 100% vegetarian or
-                        vegan-friendly. Whether you're after a casual bite, a
-                        spicy street food experience, or a full sit-down meal,
-                        these Manchester restaurants deliver the best
-                        plant-based {readableCuisine} options around. From
-                        well-known favourites to hidden gems, explore where to
-                        enjoy vegan and vegetarian {readableCuisine} plates in
-                        Manchester today.
+                        Manchester? <br />
+                        This short list highlights the top meat-free restaurants
+                        in the city serving flavour-packed {
+                            readableCuisine
+                        }{" "}
+                        dishes—all 100% vegetarian or vegan-friendly. <br />
+                        Whether you're after a casual bite, a spicy street food
+                        experience, or a full sit-down meal, these Manchester
+                        restaurants deliver the best plant-based{" "}
+                        {readableCuisine} options around. <br />
+                        From well-known favourites to hidden gems, explore where
+                        to enjoy vegan and vegetarian {readableCuisine} plates
+                        in Manchester today.
                     </p>
                 </Col>
             </Row>

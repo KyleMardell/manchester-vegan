@@ -53,19 +53,21 @@ export default async function LocationPage({ params }) {
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} className="my-5">
+                <Col xs={12} className="my-5 text-center">
                     <p>
                         Searching for the best vegan and vegetarian restaurants
-                        in {readableLocation}? This guide highlights the top
-                        plant-based and vegetarian-friendly spots in{" "}
-                        {readableLocation}, Manchester, where you can enjoy
-                        everything from quick vegan lunches to flavourful
-                        meat-free dinners. Whether you live nearby or you're
-                        just visiting, explore delicious plant-based options in{" "}
-                        {readableLocation}, from vibrant cafés to creative
-                        vegetarian eateries. Discover where to eat vegan and
-                        vegetarian in {readableLocation}, Manchester, and find your next
-                        go-to meat-free meal.
+                        in {readableLocation}? <br />
+                        This guide highlights the top plant-based and
+                        vegetarian-friendly spots in {readableLocation},
+                        Manchester, where you can enjoy everything from quick
+                        vegan lunches to flavourful meat-free dinners. <br />
+                        Whether you live nearby or you're just visiting, explore
+                        delicious plant-based options in {readableLocation},
+                        from vibrant cafés to creative vegetarian eateries.{" "}
+                        <br />
+                        Discover where to eat vegan and vegetarian in{" "}
+                        {readableLocation}, Manchester, and find your next go-to
+                        meat-free meal.
                     </p>
                 </Col>
             </Row>
