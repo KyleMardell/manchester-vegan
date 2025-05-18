@@ -1,10 +1,12 @@
 .RestCard {
     box-shadow: 0 2px 4px var(--color-dark);
+    transition: transform 0.3s ease;
 }
 
 .RestCard:hover {
     color: var(--color-green);
     box-shadow: 0 2px 4px var(--color-green);
+    transform: scale(1.05);
 }
 
 .RestName {

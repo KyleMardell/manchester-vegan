@@ -22,3 +22,37 @@
     font-weight: bold;
     padding: 1rem;
 }
+
+.LocationMainImage {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.LocationMainImage:hover {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+}
+
+.LocationImage {
+    z-index: 0;
+    filter: brightness(0.8);
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.LocationText {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-shadow: 1px 1px 3px var(--color-green);
+}

@@ -32,7 +32,7 @@ export default function Locations() {
 
     return (
         <Container>
-            <Row className="mb-3">
+            <Row className="mb-2">
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image
                         src="/images/pages/locations.webp"
@@ -46,16 +46,11 @@ export default function Locations() {
                     </h1>
                 </Col>
             </Row>
-            <Row>
-                <Col xs={12} className="text-center">
-                    <h1></h1>
-                </Col>
-            </Row>
             <Row className="mb-4">
                 <Col xs={12} className="text-center my-5">
                     <h2>Manchester City Centre</h2>
                 </Col>
-                <Col xs={12} className="mb-5">
+                <Col xs={12}>
                     <p>
                         Discover the heart of the city's plant-based dining
                         scene with our curated list of vegan and vegetarian
@@ -68,11 +63,28 @@ export default function Locations() {
                         some of the best meat-free dining options in the UK.
                     </p>
                 </Col>
-
+            </Row>
+            <Row>
                 {cityCentreLocations.map((location) => (
-                    <Col xs={12} key={location}>
+                    <Col
+                        xs={12}
+                        md={6}
+                        xl={4}
+                        className={styles.LocationMainImage}
+                        key={location}>
                         <Link href={`/locations/${slugify(location)}`}>
-                            Vegetarian and Vegan Restaurants in {location}
+                            <Image
+                                src={`/images/locations/${slugify(
+                                    location
+                                )}.webp`}
+                                alt="An empty restaurant, set and ready for service."
+                                fill
+                                className={styles.LocationImage}
+                            />
+                            <h3 className={styles.LocationText}>
+                                Vegetarian and Vegan <br /> Restaurants in{" "}
+                                <br /> {location}
+                            </h3>
                         </Link>
                     </Col>
                 ))}
@@ -94,11 +106,28 @@ export default function Locations() {
                         next favourite local vegan or vegetarian eatery.
                     </p>
                 </Col>
-
+            </Row>
+            <Row>
                 {greaterManchesterLocations.map((location) => (
-                    <Col xs={12} key={location}>
+                    <Col
+                        xs={12}
+                        md={6}
+                        xl={4}
+                        className={styles.LocationMainImage}
+                        key={location}>
                         <Link href={`/locations/${slugify(location)}`}>
-                            Vegetarian and Vegan Restaurants in {location}
+                            <Image
+                                src={`/images/locations/${slugify(
+                                    location
+                                )}.webp`}
+                                alt="An empty restaurant, set and ready for service."
+                                fill
+                                className={styles.LocationImage}
+                            />
+                            <h3 className={styles.LocationText}>
+                                Vegetarian and Vegan <br /> Restaurants in{" "}
+                                <br /> {location}
+                            </h3>
                         </Link>
                     </Col>
                 ))}
