@@ -83,8 +83,8 @@ export default function Locations() {
                                 className={styles.LocationImage}
                             />
                             <h3 className={styles.LocationText}>
-                                Vegetarian and Vegan <br /> Restaurants in{" "}
-                                <br /> {location}
+                                Restaurants in<br />
+                                <span>{location}</span>
                             </h3>
                         </Link>
                     </Col>
@@ -129,8 +129,8 @@ export default function Locations() {
                                 className={styles.LocationImage}
                             />
                             <h3 className={styles.LocationText}>
-                                Vegetarian and Vegan <br /> Restaurants in{" "}
-                                <br /> {location}
+                                Restaurants in<br />
+                                <span>{location}</span>
                             </h3>
                         </Link>
                     </Col>
