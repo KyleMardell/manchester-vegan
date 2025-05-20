@@ -57,7 +57,7 @@ export default function Home() {
                 <Col xs={12} md={4} className="my-2">
                     <Image
                         src="/images/MVG-logo.webp"
-                        alt="Two books, one above the other, both with the Manchester Vegan Guide logo on the front."
+                        alt="Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front."
                         width={980}
                         height={1472}
                         className={heroStyles.HeroImage}

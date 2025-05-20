@@ -2,6 +2,7 @@ import data from "@/data/restaurants.json";
 import Link from "next/link";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
+import styles from "./RestaurantPage.module.css";
 
 export async function generateStaticParams() {
     return data.map((restaurant) => ({
@@ -57,7 +58,7 @@ export default async function RestaurantPage({ params }) {
         <Container>
             <Row>
                 <Col xs={12} className="text-center my-5">
-                    <h1>{restaurant.name}</h1>
+                    <h1 className={styles.RestTitle}>{restaurant.name}</h1>
                 </Col>
             </Row>
             <Row>
@@ -71,7 +72,7 @@ export default async function RestaurantPage({ params }) {
                         }}>
                         <Image
                             src="/images/MVG-logo.webp"
-                            alt="Manchester Vegan Guide text over a portrait showing a table of fruit with a view of farmers fields in the background."
+                            alt="Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front."
                             fill
                             sizes="(max-width: 768px) 100vw, 768px"
                             style={{ objectFit: "cover" }}
@@ -84,27 +85,34 @@ export default async function RestaurantPage({ params }) {
                     <Col className="text-center my-2">
                         <Link
                             href={restaurant.website}
+                            className={styles.RestLink}
                             target="_blank"
                             rel="noopener">
-                            Visit Restaurant Website <br /> {restaurant.website}
+                            <span>Visit Restaurant Website <br /> {restaurant.website}</span>
                         </Link>
                     </Col>
                 ) : (
                     <></>
                 )}
                 <Col className="text-center my-2">
-                    <Link href={restaurant.menu} target="_blank" rel="noopener">
-                        Restaurant Menu <br /> {restaurant.menu}
+                    <Link
+                        href={restaurant.menu}
+                        className={styles.RestLink}
+                        target="_blank"
+                        rel="noopener">
+                        Menu Link
                     </Link>
                 </Col>
             </Row>
             <Row>
                 <Col xs={12} className="text-center mb-5">
-                    <h2>
+                    <h2 className={styles.TypeTitle}>
                         {restaurant.type} Restaurant in {restaurant.location}.
                     </h2>
+                    <p>Serving {restaurant.cuisine}, vegan cuisines.</p>
                 </Col>
                 <Col xs={12} className="text-center mb-2">
+                    <h2 className={styles.TypeTitle}>Restaurant Overview</h2>
                     <p>{restaurant.summary}</p>
                 </Col>
                 <Col xs={12} className="text-center mb-5">
@@ -116,24 +124,24 @@ export default async function RestaurantPage({ params }) {
             </Row>
             <Row>
                 <Col className="mb-4">
-                    <h3>Address</h3>
+                    <h3 className={styles.TypeTitle}>Address</h3>
                     <p className="m-0">{restaurant.address}</p>
-                    <Link href={restaurant.maps} target="_blank" rel="noopener">
+                    <Link href={restaurant.maps} className={styles.RestLink} target="_blank" rel="noopener">
                         Google Maps Link
                     </Link>
                 </Col>
                 <Col className="mb-4">
-                    <h3>Phone</h3>
+                    <h3 className={styles.TypeTitle}>Phone</h3>
                     <p>{restaurant.phone}</p>
                 </Col>
                 <Col className="mb-4">
-                    <h3>Opening Times</h3>
+                    <h3 className={styles.TypeTitle}>Opening Times</h3>
                     <p>{restaurant.times}</p>
                 </Col>
             </Row>
             <Row>
                 <Col xs={12} className="text-center mb-4">
-                    <h3>Social Media Links</h3>
+                    <h3 className={styles.TypeTitle}>Social Media Links</h3>
                 </Col>
 
                 {restaurant.facebook != "N/A" ? (
@@ -176,11 +184,6 @@ export default async function RestaurantPage({ params }) {
                 )}
             </Row>
             <Row>
-                <Col xs={12}>
-                    <Link href={restaurant.maps} target="_blank" rel="noopener">
-                        Google Maps Link
-                    </Link>
-                </Col>
                 <Col>
                     <div className="ratio ratio-16x9">
                         <iframe
@@ -201,7 +204,7 @@ export default async function RestaurantPage({ params }) {
                     <></>
                 )}
                 <Col xs={12} className="text-center my-5">
-                    <Link href="/locations">
+                    <Link href="/locations" className={styles.CTALink}>
                         View more vegetarian and vegan restaurants in
                         Manchester.
                     </Link>

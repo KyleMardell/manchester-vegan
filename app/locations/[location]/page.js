@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import RestaurantCard from "@/components/RestaurantCard";
 import Image from "next/image";
 import styles from "./LocationPage.module.css";
+import BackButton from "@/components/BackButton";
 
 export async function generateMetadata({ params }) {
     const { location } = await params;
@@ -56,15 +57,18 @@ export default async function LocationPage({ params }) {
                 <Col xs={12} className="my-5 text-center">
                     <p>
                         Searching for the best vegan and vegetarian restaurants
-                        in {readableLocation}? <br /><br />
+                        in {readableLocation}? <br />
+                        <br />
                         This guide highlights the top plant-based and
                         vegetarian-friendly spots in {readableLocation},
                         Manchester, where you can enjoy everything from quick
-                        vegan lunches to flavourful meat-free dinners. <br /><br />
+                        vegan lunches to flavourful meat-free dinners. <br />
+                        <br />
                         Whether you live nearby or you're just visiting, explore
                         delicious plant-based options in {readableLocation},
                         from vibrant cafés to creative vegetarian eateries.{" "}
-                        <br /><br />
+                        <br />
+                        <br />
                         Discover where to eat vegan and vegetarian in{" "}
                         {readableLocation}, Manchester, and find your next go-to
                         meat-free meal.
@@ -90,7 +94,10 @@ export default async function LocationPage({ params }) {
             </Row>
             <Row>
                 <Col xs={12} className="my-5 text-center">
-                    <Link href="/locations">Back to Locations</Link>
+                    <BackButton
+                        url="/locations"
+                        buttonText="Back to Locations"
+                    />
                 </Col>
             </Row>
         </Container>

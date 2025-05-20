@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import styles from "./cuisine.module.css";
+import BackButton from "@/components/BackButton";
 
 export async function generateMetadata({ params }) {
     const awaitedParams = await params;
@@ -110,7 +111,7 @@ export default async function CuisinePage({ params }) {
             </Row>
             <Row>
                 <Col className="my-5 text-center">
-                    <Link href="/cuisines">Back to Cuisines</Link>
+                    <BackButton url="/cuisines" buttonText="Back to Cuisines" />
                 </Col>
             </Row>
         </Container>

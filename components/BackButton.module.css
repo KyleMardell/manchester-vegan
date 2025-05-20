@@ -1,0 +1,20 @@
+.BackButton {
+    background-color: var(--color-light);
+    color: var(--color-green);
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--font-roboto), sans-serif;
+    border: 2px solid var(--color-green);
+}
+
+.BackButton:hover {
+    color: var(--color-light);
+    background-color: var(--color-green);
+    border: 2px solid var(--color-green);
+}
+
+@media screen and (min-width: 768px) {
+    .BackButton {
+        font-size: 1.5rem;
+    }
+}
