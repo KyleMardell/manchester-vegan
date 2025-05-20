@@ -13,6 +13,7 @@ export default function Home() {
                     alt="Manchester skyline"
                     fill
                     priority
+                    sizes="(min-width: 1200px) 1140px, 100vw"
                     style={{
                         objectFit: "cover",
                         zIndex: 0,

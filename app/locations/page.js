@@ -39,6 +39,7 @@ export default function Locations() {
                         alt="An empty restaurant, set and ready for service."
                         fill
                         priority
+                        sizes="(min-width: 1200px) 1140px, 100vw"
                         className={styles.HeroImage}
                     />
                     <h1 className={styles.HeroText}>
@@ -54,10 +55,12 @@ export default function Locations() {
                     <p>
                         Discover the heart of the city's plant-based dining
                         scene with our curated list of vegan and vegetarian
-                        restaurants in Manchester City Centre. <br /><br />
+                        restaurants in Manchester City Centre. <br />
+                        <br />
                         From the Northern Quarter to Deansgate, this area is
                         packed with vibrant vegan cafés, vegetarian street food
-                        stalls, and trendy plant-based eateries. <br /><br />
+                        stalls, and trendy plant-based eateries. <br />
+                        <br />
                         Whether you're exploring Oxford Road, enjoying the buzz
                         of Spinningfields, or grabbing lunch near Piccadilly,
                         Manchester City Centre offers some of the best meat-free
@@ -73,17 +76,21 @@ export default function Locations() {
                         xl={4}
                         className={styles.LocationMainImage}
                         key={location}>
-                        <Link href={`/locations/${slugify(location)}`}>
+                        <Link
+                            href={`/locations/${slugify(location)}`}
+                            className={styles.LocationLink}>
                             <Image
                                 src={`/images/locations/${slugify(
                                     location
                                 )}.webp`}
                                 alt="An empty restaurant, set and ready for service."
                                 fill
+                                sizes="(min-width: 1200px) 1140px, 100vw"
                                 className={styles.LocationImage}
                             />
                             <h3 className={styles.LocationText}>
-                                Restaurants in<br />
+                                Restaurants in
+                                <br />
                                 <span>{location}</span>
                             </h3>
                         </Link>
@@ -97,14 +104,17 @@ export default function Locations() {
                 <Col xs={12} className="mb-5 text-center">
                     <p>
                         Looking for vegan and vegetarian restaurants beyond the
-                        city centre? <br /><br />
+                        city centre? <br />
+                        <br />
                         Our Greater Manchester directory highlights top
                         plant-based dining spots in areas like Chorlton, Ashton,
-                        Withington, and Cheadle. <br /><br />
+                        Withington, and Cheadle. <br />
+                        <br />
                         Whether you're after a cosy vegan brunch in Urmston or
                         vegetarian comfort food in Glossop, these suburbs are
                         home to a wide variety of delicious and accessible
-                        meat-free restaurants. <br /><br />
+                        meat-free restaurants. <br />
+                        <br />
                         Explore the Greater Manchester plant-based scene and
                         find your next favourite local vegan or vegetarian
                         eatery.
@@ -119,17 +129,21 @@ export default function Locations() {
                         xl={4}
                         className={styles.LocationMainImage}
                         key={location}>
-                        <Link href={`/locations/${slugify(location)}`}>
+                        <Link
+                            href={`/locations/${slugify(location)}`}
+                            className={styles.LocationLink}>
                             <Image
                                 src={`/images/locations/${slugify(
                                     location
                                 )}.webp`}
                                 alt="An empty restaurant, set and ready for service."
                                 fill
+                                sizes="(min-width: 1200px) 1140px, 100vw"
                                 className={styles.LocationImage}
                             />
                             <h3 className={styles.LocationText}>
-                                Restaurants in<br />
+                                Restaurants in
+                                <br />
                                 <span>{location}</span>
                             </h3>
                         </Link>

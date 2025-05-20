@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import { Dancing_Script, Roboto } from "next/font/google";
 import SiteNavbar from "@/components/SiteNavbar";
+import SiteFooter from "@/components/SiteFooter";
 
 const dancingScript = Dancing_Script({
     variable: "--font-dancing-script",
@@ -55,6 +56,7 @@ export default function RootLayout({ children }) {
             <body className={`${roboto.variable} ${dancingScript.variable}`}>
                 <SiteNavbar />
                 {children}
+                <SiteFooter />
             </body>
         </html>
     );

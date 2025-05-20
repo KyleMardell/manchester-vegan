@@ -46,6 +46,7 @@ export default async function LocationPage({ params }) {
                         alt={`A map of ${readableLocation}, Manchester`}
                         fill
                         priority
+                        sizes="(min-width: 1200px) 1140px, 100vw"
                         className={styles.HeroImage}
                     />
                     <h1 className={styles.HeroText}>

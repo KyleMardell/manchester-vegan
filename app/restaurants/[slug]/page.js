@@ -74,6 +74,7 @@ export default async function RestaurantPage({ params }) {
                             src="/images/MVG-logo.webp"
                             alt="Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front."
                             fill
+                            priority
                             sizes="(max-width: 768px) 100vw, 768px"
                             style={{ objectFit: "cover" }}
                         />
@@ -100,7 +101,7 @@ export default async function RestaurantPage({ params }) {
                         className={styles.RestLink}
                         target="_blank"
                         rel="noopener">
-                        Menu <i class="bi bi-fork-knife"></i>
+                        Menu <i className="bi bi-fork-knife"></i>
                     </Link>
                 </Col>
             </Row>
@@ -124,18 +125,18 @@ export default async function RestaurantPage({ params }) {
             </Row>
             <Row>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Address <i class="bi bi-geo-alt"></i></h3>
+                    <h3 className={styles.TypeTitle}>Address <i className="bi bi-geo-alt"></i></h3>
                     <p className="m-0">{restaurant.address}</p>
                     <Link href={restaurant.maps} className={styles.RestLink} target="_blank" rel="noopener">
-                        Google Maps Link <i class="bi bi-map"></i>
+                        Google Maps Link <i className="bi bi-map"></i>
                     </Link>
                 </Col>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Phone <i class="bi bi-telephone"></i></h3>
+                    <h3 className={styles.TypeTitle}>Phone <i className="bi bi-telephone"></i></h3>
                     <p>{restaurant.phone}</p>
                 </Col>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Opening Times <i class="bi bi-clock"></i></h3>
+                    <h3 className={styles.TypeTitle}>Opening Times <i className="bi bi-clock"></i></h3>
                     <p>{restaurant.times}</p>
                 </Col>
             </Row>
@@ -151,7 +152,7 @@ export default async function RestaurantPage({ params }) {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noopener">
-                            <i class="bi bi-facebook"></i>
+                            <i className="bi bi-facebook"></i>
                         </Link>
                     </Col>
                 ) : (
@@ -165,7 +166,7 @@ export default async function RestaurantPage({ params }) {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noopener">
-                            <i class="bi bi-twitter-x"></i>
+                            <i className="bi bi-twitter-x"></i>
                         </Link>
                     </Col>
                 ) : (
@@ -179,7 +180,7 @@ export default async function RestaurantPage({ params }) {
                             className={styles.SocialIcon}
                             target="_blank"
                             rel="noopener">
-                            <i class="bi bi-instagram"></i>
+                            <i className="bi bi-instagram"></i>
                         </Link>
                     </Col>
                 ) : (

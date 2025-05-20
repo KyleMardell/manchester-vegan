@@ -24,6 +24,7 @@ export default function VeganOnlyPage() {
                         alt="An empty restaurant, set and ready for service."
                         fill
                         priority
+                        sizes="(min-width: 1200px) 1140px, 100vw"
                         className={styles.HeroImage}
                     />
                     <h1 className={styles.HeroText}>
