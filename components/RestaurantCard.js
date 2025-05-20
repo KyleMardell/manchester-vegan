@@ -15,7 +15,7 @@ const RestaurantCard = ({ name, slug, restType, location, mapembed, cuisine }) =
                 <CardBody className={`text-center`}>
                     <p className={`m-0 ${styles.RestDetails}`}>{restType} restaurant in {location}</p>
                     <p className={`m-0`}>Serving {cuisine} cuisines</p>
-                    <p className={`m-0 ${styles.CTA}`}>Click for more info</p>
+                    <p className={`m-0 ${styles.CTA}`}>Click for more info <i class="bi bi-hand-index-thumb"></i></p>
                 </CardBody>
                 <CardFooter className="text-center p-0">
                     <iframe

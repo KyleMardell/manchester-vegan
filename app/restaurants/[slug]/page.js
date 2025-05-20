@@ -100,7 +100,7 @@ export default async function RestaurantPage({ params }) {
                         className={styles.RestLink}
                         target="_blank"
                         rel="noopener">
-                        Menu Link
+                        Menu <i class="bi bi-fork-knife"></i>
                     </Link>
                 </Col>
             </Row>
@@ -124,18 +124,18 @@ export default async function RestaurantPage({ params }) {
             </Row>
             <Row>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Address</h3>
+                    <h3 className={styles.TypeTitle}>Address <i class="bi bi-geo-alt"></i></h3>
                     <p className="m-0">{restaurant.address}</p>
                     <Link href={restaurant.maps} className={styles.RestLink} target="_blank" rel="noopener">
-                        Google Maps Link
+                        Google Maps Link <i class="bi bi-map"></i>
                     </Link>
                 </Col>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Phone</h3>
+                    <h3 className={styles.TypeTitle}>Phone <i class="bi bi-telephone"></i></h3>
                     <p>{restaurant.phone}</p>
                 </Col>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Opening Times</h3>
+                    <h3 className={styles.TypeTitle}>Opening Times <i class="bi bi-clock"></i></h3>
                     <p>{restaurant.times}</p>
                 </Col>
             </Row>
@@ -148,9 +148,10 @@ export default async function RestaurantPage({ params }) {
                     <Col className="text-center mb-4">
                         <Link
                             href={restaurant.facebook}
+                            className={styles.SocialIcon}
                             target="_blank"
                             rel="noopener">
-                            Facebook Link
+                            <i class="bi bi-facebook"></i>
                         </Link>
                     </Col>
                 ) : (
@@ -161,9 +162,10 @@ export default async function RestaurantPage({ params }) {
                     <Col className="text-center mb-4">
                         <Link
                             href={restaurant.twitter}
+                            className={styles.SocialIcon}
                             target="_blank"
                             rel="noopener">
-                            X / Twitter Link
+                            <i class="bi bi-twitter-x"></i>
                         </Link>
                     </Col>
                 ) : (
@@ -174,9 +176,10 @@ export default async function RestaurantPage({ params }) {
                     <Col className="text-center mb-4">
                         <Link
                             href={restaurant.instagram}
+                            className={styles.SocialIcon}
                             target="_blank"
                             rel="noopener">
-                            Instagram Link
+                            <i class="bi bi-instagram"></i>
                         </Link>
                     </Col>
                 ) : (
