@@ -8,7 +8,7 @@ export default function Home() {
         <Container fluid="lg">
             <Row className={`${heroStyles.HeroMainImage} p-0 mb-3`}>
                 <Image
-                className="p-0"
+                    className="p-0"
                     src="/images/manchester-skyline.webp"
                     alt="Manchester skyline"
                     fill
@@ -40,17 +40,18 @@ export default function Home() {
                         hearty Italian vegan pizzas to flavour-packed Pan-Asian
                         vegetarian cuisine, discover all of Manchester's top
                         vegan and vegetarian-friendly restaurants in one place.
-                    </p>
-                    <p>
+                        <br />
+                        <br />
                         With a diverse selection of meat-free meals created by
                         passionate plant-based food lovers, you'll find the best
                         vegan and vegetarian food Manchester has to offer—and
-                        maybe even your next favourite spot. Whether you're a
-                        long-time vegan, vegetarian, or just exploring
-                        plant-based dining in Manchester, this guide makes it
-                        easy to discover great spots to eat. From casual cafés
-                        to upscale vegetarian restaurants, we've got
-                        Manchester's meat-free scene covered.
+                        maybe even your next favourite spot. <br />
+                        <br />
+                        Whether you're a long-time vegan, vegetarian, or just
+                        exploring plant-based dining in Manchester, this guide
+                        makes it easy to discover great spots to eat. From
+                        casual cafés to upscale vegetarian restaurants, we've
+                        got Manchester's meat-free scene covered.
                     </p>
                 </Col>
                 <Col xs={12} md={4} className="my-2">

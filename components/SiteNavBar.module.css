@@ -8,6 +8,10 @@
     .LogoText {
         font-size: 2rem;
     }
+    
+    .NavText {
+        font-size: 1.2rem !important;
+    }
 }
 
 .NavText {

@@ -75,16 +75,16 @@ export default async function CuisinePage({ params }) {
                 <Col xs={12} className="my-5 text-center">
                     <p>
                         Looking for delicious vegan {readableCuisine} in
-                        Manchester? <br />
+                        Manchester? <br /><br />
                         This short list highlights the top meat-free restaurants
                         in the city serving flavour-packed {
                             readableCuisine
                         }{" "}
-                        dishes—all 100% vegetarian or vegan-friendly. <br />
+                        dishes—all 100% vegetarian or vegan-friendly. <br /><br />
                         Whether you're after a casual bite, a spicy street food
                         experience, or a full sit-down meal, these Manchester
                         restaurants deliver the best plant-based{" "}
-                        {readableCuisine} options around. <br />
+                        {readableCuisine} options around. <br /><br />
                         From well-known favourites to hidden gems, explore where
                         to enjoy vegan and vegetarian {readableCuisine} plates
                         in Manchester today.

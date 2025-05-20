@@ -10,6 +10,7 @@
 }
 
 .RestName {
+    font-family: var(--font-roboto);
     font-weight: bold;
 }
 
