@@ -30,7 +30,7 @@ export default function Cuisines() {
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image
                         src="/images/pages/cuisines.webp"
-                        alt="An empty restaurant, set and ready for service."
+                        alt="A table of vegan foods, salads and fruits from a top down perspective"
                         fill
                         priority
                         sizes="(min-width: 1200px) 1140px, 100vw"

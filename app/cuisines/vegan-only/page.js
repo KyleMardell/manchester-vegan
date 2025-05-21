@@ -21,7 +21,7 @@ export default function VeganOnlyPage() {
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image
                         src="/images/pages/vegan-only.webp"
-                        alt="An empty restaurant, set and ready for service."
+                        alt="A neon sign with the words, 100% Vegan"
                         fill
                         priority
                         sizes="(min-width: 1200px) 1140px, 100vw"

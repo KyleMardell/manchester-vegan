@@ -36,7 +36,7 @@ export default function Locations() {
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image
                         src="/images/pages/locations.webp"
-                        alt="An empty restaurant, set and ready for service."
+                        alt="A yellow Manchester tram at a tram stop"
                         fill
                         priority
                         sizes="(min-width: 1200px) 1140px, 100vw"
@@ -83,7 +83,7 @@ export default function Locations() {
                                 src={`/images/locations/${slugify(
                                     location
                                 )}.webp`}
-                                alt="An empty restaurant, set and ready for service."
+                                alt={`A map of ${location}, Manchester`}
                                 fill
                                 sizes="(min-width: 1200px) 1140px, 100vw"
                                 className={styles.LocationImage}

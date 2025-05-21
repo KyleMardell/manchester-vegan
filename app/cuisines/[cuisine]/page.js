@@ -61,7 +61,7 @@ export default async function CuisinePage({ params }) {
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image
                         src={`/images/cuisines/${cuisineSlug}.webp`}
-                        alt="An empty restaurant, set and ready for service."
+                        alt={`${readableCuisine} foods`}
                         fill
                         priority
                         sizes="(min-width: 1200px) 1140px, 100vw"
