@@ -10,6 +10,33 @@ export const metadata = {
         "Discover the top vegan and vegetarian restaurants in Manchester with Manchester Vegan Guide. Explore 100% vegan spots, vegetarian cafés, street food, and plant-based dining across the city centre and Greater Manchester. Your go-to guide for the best meat-free food in Manchester.",
     keywords:
         "vegan restaurants Manchester, vegetarian restaurants Manchester, best vegan food Manchester, plant-based restaurants Manchester, meat-free dining Manchester, vegan cafes Manchester, vegetarian food Manchester, Manchester vegan guide, vegan Chinese food Manchester, vegan street food Manchester, vegan pubs Manchester, vegan bistro Manchester, vegan brunch Manchester, healthy vegan food Manchester, Greater Manchester vegan restaurants",
+
+    openGraph: {
+        title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
+        description:
+            "Explore Manchester's top vegan and vegetarian dining spots. Find cafés, pubs, bistros, and plant-based restaurants with our curated guide.",
+        url: "https://www.manchesterveganguide.com/restaurants",
+        siteName: "Manchester Vegan Guide",
+        images: [
+            {
+                url: "/images/MVG-logo.webp",
+                width: 1200,
+                height: 630,
+                alt: "Vegan and vegetarian restaurant in Manchester set and ready for guests",
+            },
+        ],
+        type: "website",
+        locale: "en_GB",
+    },
+
+    twitter: {
+        card: "summary_large_image",
+        title: "Best Vegan and Vegetarian Restaurants in Manchester",
+        description:
+            "Find the best vegan and vegetarian food in Manchester. Your complete guide to meat-free dining across the city.",
+        images: ["/images/MVG-logo.webp"],
+        site: "@MancVeganGuide",
+    },
 };
 
 export default function Restaurants() {
@@ -35,17 +62,23 @@ export default function Restaurants() {
                     <p>
                         Welcome to the ultimate Manchester vegan food guide—your
                         go-to directory for the best vegan and vegetarian
-                        restaurants across the city. <br /><br />
-                        Whether you're craving a hearty vegan pub menu, vegetarian Chinese food packed
-                        with flavour, or a stylish plant-based bistro, you'll
-                        find it all here in one place. <br /><br />
-                        This complete list of the 25+ meat-free restaurants in Manchester showcases
-                        everything from hidden gems and street food stalls to
-                        well-known vegan hotspots. <br /><br />
-                        Browse all listings, discover new favourites, and explore the ever-growing world of
-                        plant-based dining in Manchester. <br /><br />
-                        Whether you're local or just visiting, this guide makes it easy to eat well
-                        and meat-free.
+                        restaurants across the city. <br />
+                        <br />
+                        Whether you're craving a hearty vegan pub menu,
+                        vegetarian Chinese food packed with flavour, or a
+                        stylish plant-based bistro, you'll find it all here in
+                        one place. <br />
+                        <br />
+                        This complete list of the 25+ meat-free restaurants in
+                        Manchester showcases everything from hidden gems and
+                        street food stalls to well-known vegan hotspots. <br />
+                        <br />
+                        Browse all listings, discover new favourites, and
+                        explore the ever-growing world of plant-based dining in
+                        Manchester. <br />
+                        <br />
+                        Whether you're local or just visiting, this guide makes
+                        it easy to eat well and meat-free.
                     </p>
                 </Col>
             </Row>

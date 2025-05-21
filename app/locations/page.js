@@ -11,6 +11,32 @@ export const metadata = {
         "Browse the best vegan and vegetarian restaurants in Manchester by area. Explore plant-based dining in the City Centre and Greater Manchester suburbs like Chorlton, Withington, and more.",
     keywords:
         "vegan restaurants Manchester locations, vegetarian restaurants Manchester locations, vegan restaurants by area Manchester, vegetarian cafes Manchester City Centre, vegan food Chorlton, plant-based Withington, vegan dining Greater Manchester, meat-free restaurants Manchester suburbs, vegan restaurants near me Manchester",
+    openGraph: {
+        title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
+        description:
+            "Explore Manchester's top vegan and vegetarian dining spots. Find cafés, pubs, bistros, and plant-based restaurants with our curated guide.",
+        url: "https://www.manchesterveganguide.com/locations",
+        siteName: "Manchester Vegan Guide",
+        images: [
+            {
+                url: "/images/MVG-logo.webp",
+                width: 1200,
+                height: 630,
+                alt: "Vegan and vegetarian restaurant in Manchester set and ready for guests",
+            },
+        ],
+        type: "website",
+        locale: "en_GB",
+    },
+
+    twitter: {
+        card: "summary_large_image",
+        title: "Best Vegan and Vegetarian Restaurants in Manchester",
+        description:
+            "Find the best vegan and vegetarian food in Manchester. Your complete guide to meat-free dining across the city.",
+        images: ["/images/MVG-logo.webp"],
+        site: "@MancVeganGuide",
+    },
 };
 
 export default function Locations() {

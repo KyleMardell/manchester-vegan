@@ -11,6 +11,33 @@ export const metadata = {
         "Explore a wide range of vegan and vegetarian cuisines in Manchester. From Indian curries and falafel wraps to vegan pizza, dumplings, and desserts, discover the best plant-based food by cuisine.",
     keywords:
         "vegan cuisines Manchester, vegetarian cuisines Manchester, plant-based food Manchester, vegan food by cuisine, vegetarian restaurants by cuisine, Manchester vegan guide, vegan Indian Manchester, vegan Chinese Manchester, vegan pizza Manchester, vegetarian food Manchester",
+
+    openGraph: {
+        title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
+        description:
+            "Explore Manchester's top vegan and vegetarian dining spots. Find cafés, pubs, bistros, and plant-based restaurants with our curated guide.",
+        url: "https://www.manchesterveganguide.com/cuisines",
+        siteName: "Manchester Vegan Guide",
+        images: [
+            {
+                url: "/images/MVG-logo.webp",
+                width: 1200,
+                height: 630,
+                alt: "Vegan and vegetarian restaurant in Manchester set and ready for guests",
+            },
+        ],
+        type: "website",
+        locale: "en_GB",
+    },
+
+    twitter: {
+        card: "summary_large_image",
+        title: "Best Vegan and Vegetarian Restaurants in Manchester",
+        description:
+            "Find the best vegan and vegetarian food in Manchester. Your complete guide to meat-free dining across the city.",
+        images: ["/images/MVG-logo.webp"],
+        site: "@MancVeganGuide",
+    },
 };
 
 export default function Cuisines() {
@@ -45,16 +72,19 @@ export default function Cuisines() {
                 <Col xs={12} className="my-5 text-center">
                     <p>
                         Explore the full variety of vegan and vegetarian
-                        cuisines available across Manchester. <br /><br />
+                        cuisines available across Manchester. <br />
+                        <br />
                         From flavourful Indian curries and plant-based Chinese
                         classics to street food, falafel wraps, and vegan pizza,
                         the city's meat-free food scene has something for every
-                        taste. <br /><br />
+                        taste. <br />
+                        <br />
                         Whether you're craving Lebanese mezze, Sicilian pasta,
                         Pan-Asian dumplings, or American-style vegan burgers and
                         fries, here you will find the best vegetarian and vegan
                         restaurants in Manchester by cuisine.
-                        <br /><br />
+                        <br />
+                        <br />
                         Browse all categories below to discover Manchester's
                         best vegan cuisines.
                     </p>

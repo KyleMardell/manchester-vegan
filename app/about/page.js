@@ -4,6 +4,41 @@ import Image from "next/image";
 import styles from "./about.module.css";
 import Link from "next/link";
 
+export const metadata = {
+    title: "About Manchester Vegan Guide | Manchester Vegan Guide",
+    description:
+        "Learn more about the Manchester Vegan Guide – a simple, independent project built to help people find great vegan and vegetarian food around the city. Find out how it's made, where the info comes from, and how to get in touch.",
+    keywords:
+        "about Manchester Vegan Guide, vegan Manchester site info, vegetarian restaurant listings Manchester, vegan food blog Manchester, plant-based directory Manchester, Manchester vegan resources, vegan restaurant updates Manchester",
+
+    openGraph: {
+        title: "About Manchester Vegan Guide | Manchester Vegan Guide",
+        description:
+            "Discover the story behind Manchester Vegan Guide. Built to help you find the best vegan and vegetarian food in Manchester – no fuss, no ratings, just helpful info.",
+        url: "https://www.manchesterveganguide.com/about",
+        siteName: "Manchester Vegan Guide",
+        images: [
+            {
+                url: "/images/MVG-logo.webp",
+                width: 1200,
+                height: 630,
+                alt: "Manchester Vegan Guide logo with plant-based food theme",
+            },
+        ],
+        type: "website",
+        locale: "en_GB",
+    },
+
+    twitter: {
+        card: "summary_large_image",
+        title: "About Manchester Vegan Guide",
+        description:
+            "A straightforward, solo-built guide to help you find vegan and vegetarian food in Manchester. Learn more about how and why it was made.",
+        images: ["/images/MVG-logo.webp"],
+        site: "@MancVeganGuide",
+    },
+};
+
 export default function About() {
     return (
         <Container fluid="lg">
@@ -97,7 +132,10 @@ export default function About() {
                             Pexels
                         </Link>{" "}
                         and{" "}
-                        <Link target="_blank" rel="noopener" href="https://unsplash.com/">
+                        <Link
+                            target="_blank"
+                            rel="noopener"
+                            href="https://unsplash.com/">
                             Unsplash
                         </Link>
                         — both offer free, royalty-free photos under open

@@ -24,27 +24,27 @@ export async function generateMetadata({ params }) {
         title,
         description,
         keywords,
-        // openGraph: {
-        //     title,
-        //     description,
-        //     url: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
-        //     type: "website",
-        //     images: [
-        //         {
-        //             url: `/images/og-image-${restaurant.slug}.jpg`, // Ensure you have a custom image for each restaurant if possible
-        //             width: 1200,
-        //             height: 630,
-        //             alt: `${restaurant.name} - Vegan and Vegetarian Restaurant in Manchester`,
-        //         },
-        //     ],
-        // },
-        // twitter: {
-        //     card: "summary_large_image",
-        //     title,
-        //     description,
-        //     image: `/images/og-image-${restaurant.slug}.jpg`, // Same for Twitter
-        // },
-        // canonical: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
+        openGraph: {
+            title,
+            description,
+            url: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
+            type: "website",
+            images: [
+                {
+                    url: "/images/MVG-logo.webp",
+                    width: 1200,
+                    height: 630,
+                    alt: `${restaurant.name} - Vegan and Vegetarian Restaurant in Manchester`,
+                },
+            ],
+        },
+        twitter: {
+            card: "summary_large_image",
+            title,
+            description,
+            image: "/images/MVG-logo.webp",
+        },
+        canonical: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
     };
 }
 
@@ -208,7 +208,7 @@ export default async function RestaurantPage({ params }) {
                     <></>
                 )}
                 <Col xs={12} className="text-center my-5">
-                    <Link href="/locations" className={styles.CTALink}>
+                    <Link href="/restaurants" className={styles.CTALink}>
                         View more vegetarian and vegan restaurants in
                         Manchester.
                     </Link>
