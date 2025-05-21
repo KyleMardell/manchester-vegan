@@ -1,12 +1,125 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Image from "next/image";
+import styles from "./about.module.css";
+import Link from "next/link";
 
 export default function About() {
     return (
         <Container fluid="lg">
+            <Row className={`${styles.HeroMainImage} p-0 mb-3`}>
+                <Image
+                    className="p-0"
+                    src="/images/manchester-skyline.webp"
+                    alt="The Manchester skyline"
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1140px"
+                    style={{
+                        objectFit: "cover",
+                        zIndex: 0,
+                        filter: "brightness(0.6)",
+                    }}
+                />
+                <Col style={{ zIndex: 1 }} className="p-0">
+                    <h1 className={styles.HeroText}>
+                        Manchester Vegan Guide - About
+                    </h1>
+                </Col>
+            </Row>
             <Row>
-                <Col className="text-center">
-                    <h1>Manchetser Vegan Guide - About</h1>
+                <Col xs={12} className="text-center">
+                    <h2 className="my-3">About This Site</h2>
+                    <p>
+                        Hey — thanks for visiting Manchester Vegan Guide.
+                        <br />
+                        <br />
+                        This started as a side project to collect and organise
+                        all the great vegan and vegetarian places around
+                        Manchester.
+                        <br />
+                        It's not meant to be anything flashy — just a simple way
+                        to find somewhere decent to eat, whether you're fully
+                        plant-based, trying it out, or tagging along with a
+                        veggie friend who knows all the good spots.
+                        <br />
+                        <br />
+                        There's a lot going on in Manchester's food scene, but
+                        it can be a pain scrolling through maps, social posts,
+                        and blogs to find somewhere new — especially if you're
+                        trying to avoid meat or just want more choice. This site
+                        is my attempt to make that easier.
+                    </p>
+                </Col>
+                <Col xs={12} className="text-center">
+                    <h2 className="my-3">Where the Info Comes From</h2>
+                    <p>
+                        All the info listed here — addresses, links, opening
+                        hours, and so on — was pulled together from publicly
+                        available sources. That includes things like restaurant
+                        websites, socials, Google listings, and a bit of digging
+                        around where needed. I've done my best to keep things
+                        accurate and up to date.
+                        <br />
+                        <br />
+                        Of course, places change. Menus shift, kitchens move, or
+                        they quietly close without saying much. I try to check
+                        and update the site around once a month, but it's a solo
+                        project, so a few things might slip through the cracks
+                        now and then.
+                        <br />
+                        <br />
+                        If something's wrong, outdated, or missing, feel free to
+                        get in touch. I appreciate it — just ask that you only
+                        drop a message if it's something that genuinely needs
+                        fixing.
+                    </p>
+                </Col>
+                <Col xs={12} className="text-center">
+                    <h2 className="my-3">For Restaurants</h2>
+                    <p>
+                        If your business is listed here and you'd like your
+                        details changed or removed, no problem — just send a
+                        quick message to manchesterveganguide@gmail.com and I'll
+                        get it sorted. I want the info here to be fair and
+                        helpful, so happy to update anything that's out of date
+                        or not quite right.
+                    </p>
+                </Col>
+                <Col xs={12} className="text-center">
+                    <h2 className="my-3">Images</h2>
+                    <p>
+                        All the images on the site come from{" "}
+                        <Link
+                            target="_blank"
+                            rel="noopener"
+                            href="https://www.pexels.com/">
+                            Pexels
+                        </Link>{" "}
+                        and{" "}
+                        <Link target="_blank" rel="noopener" href="https://unsplash.com/">
+                            Unsplash
+                        </Link>
+                        — both offer free, royalty-free photos under open
+                        licenses. They've been a great resource for adding some
+                        colour to the site without having to take photos myself.
+                        <br />
+                        <br />
+                        If you see an image that doesn't look right or you think
+                        shouldn't be used, just let me know and I'll remove it.
+                    </p>
+                </Col>
+                <Col xs={12} className="text-center">
+                    <h2 className="my-3">Final Note</h2>
+                    <p>
+                        This guide was built just to help people find good food.{" "}
+                        <br />
+                        That's it — no reviews, no ratings, no drama. Just a
+                        straightforward way to see what's out there.
+                        <br />
+                        Thanks for checking it out — hope it helps you find
+                        somewhere new to eat soon.
+                    </p>
                 </Col>
             </Row>
         </Container>
