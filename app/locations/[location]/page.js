@@ -38,7 +38,7 @@ export default async function LocationPage({ params }) {
     const readableLocation = restaurants[0]?.location || params.location;
 
     return (
-        <Container>
+        <Container fluid="lg">
             <Row className="mb-3">
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image

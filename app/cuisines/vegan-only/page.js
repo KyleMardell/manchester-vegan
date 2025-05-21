@@ -16,7 +16,7 @@ export default function VeganOnlyPage() {
     const veganOnlyRestaurants = data.filter((rest) => rest.type === "Vegan");
 
     return (
-        <Container>
+        <Container fluid="lg">
             <Row className="mb-3">
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image

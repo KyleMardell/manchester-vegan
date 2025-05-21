@@ -10,7 +10,7 @@ export default function Home() {
                 <Image
                     className="p-0"
                     src="/images/manchester-skyline.webp"
-                    alt="Manchester skyline"
+                    alt="The Manchester skyline"
                     fill
                     priority
                     sizes="(min-width: 1200px) 1140px, 100vw"

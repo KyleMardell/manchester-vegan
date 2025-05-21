@@ -55,7 +55,7 @@ export default async function RestaurantPage({ params }) {
     if (!restaurant) return <p>Restaurant not found</p>;
 
     return (
-        <Container>
+        <Container fluid="lg">
             <Row>
                 <Col xs={12} className="text-center my-5">
                     <h1 className={styles.RestTitle}>{restaurant.name}</h1>

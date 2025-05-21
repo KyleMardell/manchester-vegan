@@ -25,7 +25,7 @@ export default function Cuisines() {
     const allCuisines = Array.from(cuisinesSet);
 
     return (
-        <Container>
+        <Container fluid="lg">
             <Row className="mb-3">
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image

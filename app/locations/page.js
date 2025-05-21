@@ -31,7 +31,7 @@ export default function Locations() {
     ];
 
     return (
-        <Container>
+        <Container fluid="lg">
             <Row className="mb-2">
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image

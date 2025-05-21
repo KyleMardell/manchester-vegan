@@ -1,13 +1,14 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
-export default function About()  {
+export default function About() {
     return (
-        <Row>
-            <Col className="text-center">
-                <h1>Manchetser Vegan Guide - About</h1>
-            </Col>
-        </Row>
+        <Container fluid="lg">
+            <Row>
+                <Col className="text-center">
+                    <h1>Manchetser Vegan Guide - About</h1>
+                </Col>
+            </Row>
+        </Container>
     );
-};
-
+}

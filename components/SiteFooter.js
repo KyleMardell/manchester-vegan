@@ -6,7 +6,7 @@ import styles from "./SiteFooter.module.css";
 const SiteFooter = () => {
     return (
         <Container fluid="lg">
-            <Row className={`py-5 my-3 ${styles.PageFooter}`}>
+            <Row className={`py-5 mt-4 mb-3 ${styles.PageFooter}`}>
                 <Col
                     className={`text-center d-flex justify-content-center align-items-center py-5`}>
                     <Link href="/" className={`${styles.FooterLink}`}>
