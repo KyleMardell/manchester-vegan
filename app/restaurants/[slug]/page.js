@@ -86,10 +86,10 @@ export default async function RestaurantPage({ params }) {
                     <Col className="text-center my-2">
                         <Link
                             href={restaurant.website}
-                            className={styles.RestLink}
+                            className={`${styles.RestLink}`}
                             target="_blank"
                             rel="noopener">
-                            <span>Visit Restaurant Website <br /> {restaurant.website}</span>
+                            <span>Visit Restaurant Website</span>
                         </Link>
                     </Col>
                 ) : (

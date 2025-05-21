@@ -1,0 +1,27 @@
+.FooterLink {
+    color: var(--color-green);
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.FooterLink:hover {
+    transform: scale(1.1);
+}
+
+.SocialLink {
+    color: var(--color-green);
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.SocialLink:hover {
+    transform: scale(1.2);
+}
+
+.PageFooter {
+    border-top: 1px solid var(--color-green);
+}
