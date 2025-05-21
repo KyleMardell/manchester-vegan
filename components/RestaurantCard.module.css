@@ -12,6 +12,7 @@
 .RestName {
     font-family: var(--font-roboto);
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .RestDetails {
@@ -19,6 +20,7 @@
 }
 
 .CTA {
+    font-size: 1.4rem;
     color: var(--color-green);
     font-weight: bold;
 }

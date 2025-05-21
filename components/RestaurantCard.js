@@ -11,7 +11,7 @@ const RestaurantCard = ({ name, slug, restType, location, mapembed, cuisine }) =
     return (
         <Link href={`/restaurants/${slug}`}>
             <Card className={`my-3 ${styles.RestCard}`}>
-                <CardHeader className={`text-center`}><h3 className={`m-0 ${styles.RestName}`}>{name}</h3></CardHeader>
+                <CardHeader className={`text-center`}><p className={`m-0 ${styles.RestName}`}>{name}</p></CardHeader>
                 <CardBody className={`text-center`}>
                     <p className={`m-0 ${styles.RestDetails}`}>{restType} restaurant in {location}</p>
                     <p className={`m-0`}>Serving {cuisine} cuisines</p>
@@ -19,6 +19,7 @@ const RestaurantCard = ({ name, slug, restType, location, mapembed, cuisine }) =
                 </CardBody>
                 <CardFooter className="text-center p-0">
                     <iframe
+                        title={`Map showing the location of ${name}, in ${location}, Manchester`}
                         width="100%"
                         height="auto"
                         loading="lazy"

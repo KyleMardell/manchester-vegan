@@ -13,7 +13,7 @@ export default function Home() {
                     alt="The Manchester skyline"
                     fill
                     priority
-                    sizes="(min-width: 1200px) 1140px, 100vw"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1140px"
                     style={{
                         objectFit: "cover",
                         zIndex: 0,

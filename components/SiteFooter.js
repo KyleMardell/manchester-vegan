@@ -21,7 +21,9 @@ const SiteFooter = () => {
                                 href="https://x.com/MancVeganGuide"
                                 target="_blank"
                                 rel="noopener"
-                                className={`${styles.SocialLink}`}>
+                                className={`${styles.SocialLink}`}
+                                aria-label="Visit Manchester Vegan Guide on X (formerly Twitter)"
+                                >
                                 <i className="bi bi-twitter-x"></i>
                             </Link>
                         </Col>
@@ -31,7 +33,9 @@ const SiteFooter = () => {
                                 href="https://www.instagram.com/manc.veganguide/"
                                 target="_blank"
                                 rel="noopener"
-                                className={`${styles.SocialLink}`}>
+                                className={`${styles.SocialLink}`}
+                                aria-label="Visit Manchester Vegan Guide on instagram"
+                                >
                                 <i className="bi bi-instagram"></i>
                             </Link>
                         </Col>
