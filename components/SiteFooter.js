@@ -39,7 +39,7 @@ const SiteFooter = () => {
                 </Col>
                 <Col
                     className={`text-center d-flex justify-content-center align-items-center py-5`}>
-                    <Link href="/" className={`${styles.FooterLink}`}>
+                    <Link href="/about" className={`${styles.FooterLink}`}>
                         About
                     </Link>
                 </Col>
