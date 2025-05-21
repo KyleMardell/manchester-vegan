@@ -24,3 +24,7 @@
     color: var(--color-green);
     font-weight: bold;
 }
+
+.IframeNoClick {
+    pointer-events: none;
+}
