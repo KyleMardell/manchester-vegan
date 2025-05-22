@@ -46,7 +46,7 @@ export default function VeganOnlyPage() {
             <Row className="mb-3">
                 <Col xs={12} className={styles.HeroMainImage}>
                     <Image
-                        src="/images/pages/vegan-only.webp"
+                        src="/images/vegan-only.webp"
                         alt="A neon sign with the words, 100% Vegan"
                         fill
                         priority
