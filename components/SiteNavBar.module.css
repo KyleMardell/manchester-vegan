@@ -1,13 +1,13 @@
 .LogoText {
     font-family: var(--font-dancing-script);
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 1.9rem !important;
     padding: 0;
 }
 
 @media screen and (min-width: 768px) {
     .LogoText {
-        font-size: 2.4rem;
+        font-size: 2.4rem !important;
     }
     
     .NavText {
