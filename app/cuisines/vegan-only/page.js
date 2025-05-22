@@ -74,13 +74,13 @@ export default function VeganOnlyPage() {
                         these Manchester vegan restaurants are dedicated to
                         creative, meat-free dining. <br />
                         <br />
-                        Whether you're looking for a quick bite, a healthy
+                        Whether you&apos;re looking for a quick bite, a healthy
                         lunch, or a full sit-down dinner, these plant-based
                         restaurants in Manchester offer something for every
                         craving. <br />
                         <br />
                         Explore the top-rated vegan-only spots in Manchester and
-                        enjoy food that's ethical, sustainable, and seriously
+                        enjoy food that&apos;s ethical, sustainable, and seriously
                         tasty.
                     </p>
                 </Col>

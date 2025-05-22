@@ -79,7 +79,7 @@ export default function Locations() {
                 </Col>
                 <Col xs={12} className="text-center">
                     <p>
-                        Discover the heart of the city's plant-based dining
+                        Discover the heart of the city&apos;s plant-based dining
                         scene with our curated list of vegan and vegetarian
                         restaurants in Manchester City Centre. <br />
                         <br />
@@ -87,7 +87,7 @@ export default function Locations() {
                         packed with vibrant vegan cafés, vegetarian street food
                         stalls, and trendy plant-based eateries. <br />
                         <br />
-                        Whether you're exploring Oxford Road, enjoying the buzz
+                        Whether you&apos;re exploring Oxford Road, enjoying the buzz
                         of Spinningfields, or grabbing lunch near Piccadilly,
                         Manchester City Centre offers some of the best meat-free
                         dining options in the UK.
@@ -136,7 +136,7 @@ export default function Locations() {
                         plant-based dining spots in areas like Chorlton, Ashton,
                         Withington, and Cheadle. <br />
                         <br />
-                        Whether you're after a cosy vegan brunch in Urmston or
+                        Whether you&apos;re after a cosy vegan brunch in Urmston or
                         vegetarian comfort food in Glossop, these suburbs are
                         home to a wide variety of delicious and accessible
                         meat-free restaurants. <br />

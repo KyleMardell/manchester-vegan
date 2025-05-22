@@ -24,6 +24,7 @@ export async function generateMetadata({ params }) {
         title,
         description,
         keywords,
+        metadataBase: new URL('https://www.manchesterveganguide.com'),
         openGraph: {
             title,
             description,

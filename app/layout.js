@@ -23,6 +23,7 @@ export const metadata = {
     robots: "index, follow",
     language: "en",
     // Open Graph metadata
+    metadataBase: new URL('https://www.manchesterveganguide.com'),
     openGraph: {
         title: "Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
         description:
