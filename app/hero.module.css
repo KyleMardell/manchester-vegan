@@ -23,7 +23,7 @@
 
 .HeroDescription {
     font-family: var(--font-roboto), sans-serif !important;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
@@ -45,6 +45,10 @@
     }
 
     .HeroLink {
+        font-size: 1.6rem;
+    }
+
+    .HeroDescription {
         font-size: 1.6rem;
     }
 }

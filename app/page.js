@@ -25,7 +25,7 @@ export default function Home() {
                         Manchester Vegan Guide
                     </p>
                     <h1 className={heroStyles.HeroDescription}>
-                        Vegan & Vegetarian Restaurants in Manchester
+                        Find Vegan & Vegetarian Restaurants in Manchester
                     </h1>
                 </Col>
             </Row>

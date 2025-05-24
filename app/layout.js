@@ -16,7 +16,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-    title: "Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
+    title: "Find Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
     description:
         "Find the best vegan and vegetarian restaurants in Manchester. Explore meat-free dining options including vegan cafes, vegetarian bistros, and plant-based eateries across the city centre and Greater Manchester.",
     keywords:
