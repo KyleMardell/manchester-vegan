@@ -66,10 +66,10 @@ export default function SiteNavbar() {
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
-                            href="/"
+                            href="/articles"
                             onClick={() => setExpanded(false)}
-                            className={`${styles.NavText} ${pathname === "/" ? styles.ActiveNavLink : ""}`}>
-                            Blog
+                            className={`${styles.NavText} ${pathname === "/articles" ? styles.ActiveNavLink : ""}`}>
+                            Articles
                         </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

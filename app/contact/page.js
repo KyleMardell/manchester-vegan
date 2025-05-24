@@ -4,17 +4,17 @@ import Image from "next/image";
 import styles from "./Contact.module.css";
 
 export const metadata = {
-    title: "Contact Manchester Vegan Guide | Manchester Vegan Guide",
+    title: "Contact Us | Manchester Vegan Guide",
     description:
-        "Contact the Manchester Vegan Guide - a simple, independent project built to help people find great vegan and vegetarian food around the city. Find out how it's made, where the info comes from, and how to get in touch.",
+        "Get in touch with Manchester Vegan Guide. Suggest a restaurant, share an update, or ask a question. This independent site is here to help you find the best vegan and vegetarian spots in Manchester.",
     keywords:
-        "Contact Manchester Vegan Guide, vegan Manchester site info, vegetarian restaurant listings Manchester, vegan food blog Manchester, plant-based directory Manchester, Manchester vegan resources, vegan restaurant updates Manchester",
+        "contact Manchester Vegan Guide, suggest vegan restaurant Manchester, vegan listings contact, plant-based directory contact, Manchester vegan food tips, contact vegan blog, get in touch vegan guide Manchester",
 
     openGraph: {
-        title: "Contact Manchester Vegan Guide | Manchester Vegan Guide",
+        title: "Contact Manchester Vegan Guide | Get in Touch",
         description:
-            "Contact Manchester Vegan Guide. Built to help you find the best vegan and vegetarian food in Manchester - no fuss, no ratings, just helpful info.",
-        url: "https://www.manchesterveganguide.com/about",
+            "Want to suggest a vegan restaurant or share a tip? Reach out to Manchester Vegan Guide – your go-to resource for plant-based food in Manchester.",
+        url: "https://www.manchesterveganguide.com/contact",
         siteName: "Manchester Vegan Guide",
         images: [
             {
@@ -32,11 +32,12 @@ export const metadata = {
         card: "summary_large_image",
         title: "Contact Manchester Vegan Guide",
         description:
-            "A straightforward, solo-built guide to help you find vegan and vegetarian food in Manchester. Learn more about how and why it was made.",
+            "Got a suggestion or spotted an error? Drop a message to Manchester Vegan Guide – helping you find the best vegan and vegetarian food in the city.",
         images: ["/images/MVG-logo.webp"],
         site: "@MancVeganGuide",
     },
 };
+
 
 export default function Contact() {
     return (
