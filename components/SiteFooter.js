@@ -51,6 +51,13 @@ const SiteFooter = () => {
                         </Col>
                         <Col xs={12}>
                             <Link
+                                href="/contact"
+                                className={`${styles.FooterLink}`}>
+                                Contact
+                            </Link>
+                        </Col>
+                        <Col xs={12}>
+                            <Link
                                 href="/cookie-policy"
                                 className={`${styles.FooterLink}`}>
                                 Cookie Policy
