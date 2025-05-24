@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://manchesterveganguide.com
+
+# Sitemaps
+Sitemap: https://manchesterveganguide.com/sitemap.xml

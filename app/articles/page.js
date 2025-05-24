@@ -62,7 +62,7 @@ export default function Articles() {
             <Row>
                 <Col xs={12} className="text-center">
                     <p>
-                        A bit of extra reading if you're into that sort of
+                        A bit of extra reading if you&apos;re into that sort of
                         thing. <br />
                         This section includes articles about vegan and
                         vegetarian food in Manchester — restaurant roundups,

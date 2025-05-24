@@ -74,10 +74,11 @@ export default function RootLayout({ children }) {
                     }}
                 />
                 {/* CookieYes */}
-                <script
+                <Script
                     id="cookieyes"
-                    type="text/javascript"
-                    src="https://cdn-cookieyes.com/client_data/d902f4716b82fc369a508f04/script.js"></script>
+                    strategy="afterInteractive"
+                    src="https://cdn-cookieyes.com/client_data/d902f4716b82fc369a508f04/script.js"
+                />
             </head>
             <body className={`${roboto.variable} ${dancingScript.variable}`}>
                 <SiteNavbar />
