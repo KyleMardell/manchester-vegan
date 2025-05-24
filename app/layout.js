@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
-               {/* Google Analytics Script */}
+                {/* Google Analytics Script */}
                 <Script
                     strategy="afterInteractive"
                     src="https://www.googletagmanager.com/gtag/js?id=G-QY3SPPS6BJ"
@@ -73,6 +73,11 @@ export default function RootLayout({ children }) {
                         `,
                     }}
                 />
+                {/* CookieYes */}
+                <script
+                    id="cookieyes"
+                    type="text/javascript"
+                    src="https://cdn-cookieyes.com/client_data/d902f4716b82fc369a508f04/script.js"></script>
             </head>
             <body className={`${roboto.variable} ${dancingScript.variable}`}>
                 <SiteNavbar />
