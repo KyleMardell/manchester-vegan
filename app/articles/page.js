@@ -46,8 +46,8 @@ export default function Articles() {
             <Row className={`${styles.HeroMainImage} p-0 mb-3`}>
                 <Image
                     className="p-0"
-                    src="/images/manchester-skyline.webp"
-                    alt="The Manchester skyline"
+                    src="/images/pages/articles.webp"
+                    alt="A stack of newspapers."
                     fill
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1140px"
@@ -83,8 +83,8 @@ export default function Articles() {
                         <Link
                             href={`/articles/${article.slug}`}
                             className={styles.ArticleCard}>
-                            <div className="p-3 border rounded shadow-sm h-100">
-                                <h3 className="h5">{article.title}</h3>
+                            <div className="p-3 border rounded shadow-sm h-100 text-center">
+                                <h3 className="h5"><i className="bi bi-book"></i> {article.title}</h3>
                             </div>
                         </Link>
                     </Col>

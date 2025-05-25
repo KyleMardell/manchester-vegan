@@ -66,6 +66,13 @@ export default function SiteNavbar() {
                         </Nav.Link>
                         <Nav.Link
                             as={Link}
+                            href="/cookbooks"
+                            onClick={() => setExpanded(false)}
+                            className={`${styles.NavText} ${pathname === "/cookbooks" ? styles.ActiveNavLink : ""}`}>
+                            Cookbooks
+                        </Nav.Link>
+                        <Nav.Link
+                            as={Link}
                             href="/articles"
                             onClick={() => setExpanded(false)}
                             className={`${styles.NavText} ${pathname === "/articles" ? styles.ActiveNavLink : ""}`}>
