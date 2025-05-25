@@ -39,8 +39,7 @@ const RestaurantCard = ({
                         height="auto"
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                        data-cookieyes="cookieyes-functional"
-                        data-src={mapembed} />
+                        src={mapembed} />
                 </CardFooter>
             </Card>
         </Link>
