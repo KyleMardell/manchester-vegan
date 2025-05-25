@@ -173,6 +173,13 @@ export default function Home() {
                     />
                 </Col>
             </Row>
+            <Row>
+                <Col xs={12} className="text-center p-3 my-4">
+                    <Link href="/cookbooks" className={heroStyles.HeroLink}>
+                        Get Our FREE Vegan Meal Prep Cookbook
+                    </Link>
+                </Col>
+            </Row>
         </Container>
     );
 }
