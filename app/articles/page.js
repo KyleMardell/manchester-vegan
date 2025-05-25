@@ -2,6 +2,8 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import styles from "./articles.module.css";
+import articles from "@/data/articles.json";
+import Link from "next/link";
 
 export const metadata = {
     title: "Vegan News & Articles | Manchester Vegan Guide",
@@ -74,6 +76,19 @@ export default function Articles() {
                         latest posts.
                     </p>
                 </Col>
+            </Row>
+            <Row className="mt-4">
+                {articles.map((article, index) => (
+                    <Col key={index} xs={12} md={6} lg={4} className="mb-4">
+                        <Link
+                            href={`/articles/${article.slug}`}
+                            className={styles.ArticleCard}>
+                            <div className="p-3 border rounded shadow-sm h-100">
+                                <h3 className="h5">{article.title}</h3>
+                            </div>
+                        </Link>
+                    </Col>
+                ))}
             </Row>
         </Container>
     );
