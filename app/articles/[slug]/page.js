@@ -69,7 +69,7 @@ export default async function ArticlePage({ params }) {
                         {new Date(article.published).toLocaleDateString()}
                     </p>
                     {article.image && (
-                        <img
+                        <Image
                             src={article.image}
                             alt={article.alt}
                             width={800}

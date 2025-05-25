@@ -79,7 +79,7 @@ export default function Articles() {
             </Row>
             <Row className="mt-4">
                 {articles.map((article, index) => (
-                    <Col key={index} xs={12} md={6} lg={4} className="mb-4">
+                    <Col key={index} xs={12}className="mb-4">
                         <Link
                             href={`/articles/${article.slug}`}
                             className={styles.ArticleCard}>
