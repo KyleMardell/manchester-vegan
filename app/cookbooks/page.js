@@ -93,7 +93,7 @@ export default function Cookbooks() {
                         href="https://manchesterveganguide.gumroad.com/l/cokaw"
                         target="_blank"
                         rel="noopener"
-                        className="btn btn-success my-5">
+                        className={`btn my-5 ${styles.CookbookButton}`}>
                         Grab the Free Cookbook
                     </Link>
                 </Col>

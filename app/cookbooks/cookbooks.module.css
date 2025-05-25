@@ -16,3 +16,24 @@
     font-weight: bold;
     line-height: 1.1;
 }
+
+.CookbookButton {
+    background-color: var(--color-light);
+    color: var(--color-green);
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: var(--font-roboto), sans-serif;
+    border: 2px solid var(--color-green);
+}
+
+.CookbookButton:hover {
+    color: var(--color-light);
+    background-color: var(--color-green);
+    border: 2px solid var(--color-green);
+}
+
+@media screen and (min-width: 768px) {
+    .CookbookButton {
+        font-size: 1.6rem;
+    }
+}

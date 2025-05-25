@@ -61,30 +61,47 @@ export default function Articles() {
                     <h1 className={styles.HeroText}>News / Articles</h1>
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-5">
                 <Col xs={12} className="text-center">
                     <p>
                         A bit of extra reading if you&apos;re into that sort of
                         thing. <br />
+                        <br />
                         This section includes articles about vegan and
                         vegetarian food in Manchester — restaurant roundups,
                         plant-based eating tips, updates from the local scene,
                         and anything else that might help you find decent places
                         to eat. Everything&apos;s written to be useful,
                         down-to-earth, and focused on making it easier to enjoy
-                        good food around the city. Scroll down to check out the
-                        latest posts.
+                        good food around the city. <br />
+                        <br />
+                        Scroll down to check out the latest posts.
                     </p>
                 </Col>
             </Row>
             <Row className="mt-4">
                 {articles.map((article, index) => (
-                    <Col key={index} xs={12}className="mb-4">
+                    <Col key={index} xs={12} className="mb-4">
                         <Link
                             href={`/articles/${article.slug}`}
                             className={styles.ArticleCard}>
                             <div className="p-3 border rounded shadow-sm h-100 text-center">
-                                <h3 className="h5"><i className="bi bi-book"></i> {article.title}</h3>
+                                <h2 className={`${styles.ArticleCardText}`}>
+                                    {article.title}
+                                </h2>
+
+                                <p className="text-muted m-0">
+                                    {new Date(
+                                        article.published
+                                    ).toLocaleDateString()}
+                                </p>
+
+                                <p className="text-muted">
+                                    {article.introduction}
+                                </p>
+                                <p className="text-muted">
+                                    <i className="bi bi-book"></i> Read More
+                                </p>
                             </div>
                         </Link>
                     </Col>
