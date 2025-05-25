@@ -24,12 +24,15 @@
     font-weight: bold;
     font-family: var(--font-roboto), sans-serif;
     border: 2px solid var(--color-green);
+    display: inline-block;
+    transition: transform 0.3s ease;
 }
 
 .CookbookButton:hover {
     color: var(--color-light);
     background-color: var(--color-green);
     border: 2px solid var(--color-green);
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 768px) {
