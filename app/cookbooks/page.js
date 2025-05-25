@@ -64,7 +64,7 @@ export default function Cookbooks() {
             </Row>
             <Row className="my-5">
                 <Col>
-                    <p className="lead text-center px-3 mb-4">
+                    <p className="text-center px-3 mb-4">
                         Whether you're just getting into plant-based cooking or
                         looking for new go-to meals, this is the spot for easy
                         vegan and vegetarian recipe inspiration. I&apos;ve put
