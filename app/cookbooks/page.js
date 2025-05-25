@@ -77,7 +77,7 @@ export default function Cookbooks() {
                 </Col>
             </Row>
             <Row className="my-5">
-                <Col xs={8} className="text-center">
+                <Col xs={12} md={8} className="text-center">
                     <h2 className="my-4 text-center">
                         Download the Free Vegan Cookbook
                     </h2>
@@ -98,7 +98,7 @@ export default function Cookbooks() {
                     </Link>
                 </Col>
                 <Col
-                    xs={4}
+                    xs={12} md={4}
                     className="d-flex align-items-center justify-content-center">
                     <div style={{ width: "100%" }}>
                         <Image
