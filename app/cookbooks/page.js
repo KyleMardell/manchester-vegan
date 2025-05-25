@@ -62,7 +62,7 @@ export default function Cookbooks() {
                     </h1>
                 </Col>
             </Row>
-            <Row>
+            <Row className="my-5">
                 <Col>
                     <p className="lead text-center px-3 mb-4">
                         Whether you're just getting into plant-based cooking or
@@ -70,14 +70,14 @@ export default function Cookbooks() {
                         vegan and vegetarian recipe inspiration. I&apos;ve put
                         together a growing collection of recipes that are simple
                         to make, easy to batch cook, and taste great — even if
-                        you&apos;re short on time or new to the kitchen. Start with
-                        the free mini cookbook below, and keep an eye out for
-                        the full version coming soon.
+                        you&apos;re short on time or new to the kitchen. Start
+                        with the free mini cookbook below, and keep an eye out
+                        for the full version coming soon.
                     </p>
                 </Col>
             </Row>
-            <Row>
-                <Col xs={12} className="text-center">
+            <Row className="my-5">
+                <Col xs={8} className="text-center">
                     <h2 className="my-4 text-center">
                         Download the Free Vegan Cookbook
                     </h2>
@@ -86,21 +86,33 @@ export default function Cookbooks() {
                         no-fuss recipes I regularly make myself — perfect if
                         you're into prepping meals ahead of time or just want a
                         bit of inspiration without scrolling for ages.
-                        Everything&apos;s plant-based, beginner-friendly, and uses
-                        ingredients that are easy to find in the UK.
+                        Everything&apos;s plant-based, beginner-friendly, and
+                        uses ingredients that are easy to find in the UK.
                     </p>
-                </Col>
-            </Row>
-            <Row>
-                <Col className="text-center">
                     <Link
                         href="https://manchesterveganguide.gumroad.com/l/cokaw"
                         target="_blank"
                         rel="noopener"
-                        className="btn btn-success"
-                        >
+                        className="btn btn-success my-5">
                         Grab the Free Cookbook
                     </Link>
+                </Col>
+                <Col
+                    xs={4}
+                    className="d-flex align-items-center justify-content-center">
+                    <div style={{ width: "100%" }}>
+                        <Image
+                            src="/images/admedia/free-cookbook.webp"
+                            alt="Pages from the Manchester Vegan Guide free vegan meal prep cookbook."
+                            width={400}
+                            height={500}
+                            style={{
+                                width: "100%",
+                                height: "auto",
+                                borderRadius: "8px",
+                            }}
+                        />
+                    </div>
                 </Col>
             </Row>
         </Container>
