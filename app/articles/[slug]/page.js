@@ -3,15 +3,14 @@ import { notFound } from "next/navigation";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import Head from "next/head";
+import styles from "./article.module.css";
 
-// ✅ Generate paths for all slugs
 export async function generateStaticParams() {
     return articles.map((article) => ({
         slug: article.slug,
     }));
 }
 
-// ✅ Dynamic metadata for SEO
 export async function generateMetadata({ params }) {
     const { slug } = await params;
     const article = articles.find((a) => a.slug === slug);
@@ -43,7 +42,6 @@ export async function generateMetadata({ params }) {
     };
 }
 
-// ✅ The actual article page
 export default async function ArticlePage({ params }) {
     const { slug } = await params;
     const article = articles.find((a) => a.slug === slug);
@@ -69,13 +67,16 @@ export default async function ArticlePage({ params }) {
                         {new Date(article.published).toLocaleDateString()}
                     </p>
                     {article.image && (
-                        <Image
-                            src={article.image}
-                            alt={article.alt}
-                            width={800}
-                            height={450}
-                            className="img-fluid mb-4"
-                        />
+                        <div className={`${styles.imageWrapper} my-5`}>
+                            <Image
+                                src={article.image}
+                                alt={article.alt}
+                                width={800}
+                                height={450}
+                                className={styles.responsiveImage}
+                                priority
+                            />
+                        </div>
                     )}
                     <p className="lead">{article.introduction}</p>
                     <hr />
@@ -83,9 +84,9 @@ export default async function ArticlePage({ params }) {
             </Row>
 
             {article.sections.map((section, index) => (
-                <Row key={index} className="mb-4">
+                <Row key={index} className="my-4">
                     <Col>
-                        <h2>{section.heading}</h2>
+                        <h2 className="fw-bold">{section.heading}</h2>
                         <div
                             dangerouslySetInnerHTML={{ __html: section.html }}
                         />
@@ -103,7 +104,9 @@ export default async function ArticlePage({ params }) {
                                     <a
                                         href={source.url}
                                         target="_blank"
-                                        rel="noopener noreferrer">
+                                        rel="noopener noreferrer"
+                                        className={styles.SourcesLink}
+                                        >
                                         {source.title}
                                     </a>
                                 </li>
