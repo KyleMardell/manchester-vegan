@@ -85,10 +85,9 @@ export default function RootLayout({ children }) {
                     src="https://cdn-cookieyes.com/client_data/d902f4716b82fc369a508f04/script.js"
                 />
                 {/* Adsense */}
-                <Script
-                    async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8700924222341723"
-                    crossOrigin="anonymous"
+                <meta
+                    name="google-adsense-account"
+                    content="ca-pub-8700924222341723"
                 />
                 {/* Favicon */}
                 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
