@@ -84,6 +84,13 @@ export default function RootLayout({ children }) {
                     strategy="afterInteractive"
                     src="https://cdn-cookieyes.com/client_data/d902f4716b82fc369a508f04/script.js"
                 />
+                {/* Adsense */}
+                <Script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8700924222341723"
+                    crossOrigin="anonymous"
+                />
+                {/* Favicon */}
                 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
             </head>
             <body className={`${roboto.variable} ${dancingScript.variable}`}>
