@@ -89,6 +89,11 @@ export default function RootLayout({ children }) {
                     name="google-adsense-account"
                     content="ca-pub-8700924222341723"
                 />
+                <script
+                    async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8700924222341723"
+                    crossorigin="anonymous"
+                />
                 {/* Favicon */}
                 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
             </head>
