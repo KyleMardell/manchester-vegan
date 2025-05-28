@@ -54,7 +54,7 @@ export default function VeganOnlyPage() {
                         className={styles.HeroImage}
                     />
                     <h1 className={styles.HeroText}>
-                        100% Vegan Restaurants in Manchester
+                        Vegan Restaurants in Manchester
                     </h1>
                 </Col>
             </Row>
