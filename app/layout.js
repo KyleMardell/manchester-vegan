@@ -20,7 +20,7 @@ export const metadata = {
     description:
         "Find the best vegan and vegetarian restaurants in Manchester. Explore meat-free dining options including vegan cafes, vegetarian bistros, and plant-based eateries across the city centre and Greater Manchester.",
     keywords:
-        "vegan restaurants Manchester, vegetarian restaurants Manchester, vegan restaurants in Manchester, vegetarian restaurants in Manchester, plant-based food Manchester, vegan cafes Manchester, vegetarian cafes Manchester, meat-free restaurants Manchester, vegan food guide Manchester, vegan dining Manchester, plant-based cafes Manchester, Manchester vegan restaurants, best vegan Manchester, healthy vegan restaurants Manchester, vegan bistro Manchester",
+        "vegan restaurants Manchester, vegan restaurants in Manchester, vegetarian restaurants Manchester, vegetarian restaurants in Manchester, best vegan food Manchester, plant-based restaurants Manchester, meat-free dining Manchester, vegan cafes Manchester, vegetarian food Manchester, Manchester vegan guide, vegan Chinese food Manchester, vegan street food Manchester, vegan pubs Manchester, vegan bistro Manchester, vegan brunch Manchester, healthy vegan food Manchester, Greater Manchester vegan restaurants",
     robots: "index, follow",
     language: "en",
     icons: {
@@ -32,11 +32,13 @@ export const metadata = {
         title: "Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
         description:
             "Discover the best vegetarian and vegan restaurants in Manchester. Your complete guide to meat-free dining in Manchester, from plant-based cafes to vegetarian bistros.",
-        url: "https://www.manchesterveganguide.com", // Update with your site URL
+        url: "https://www.manchesterveganguide.com",
+        siteName: "Manchester Vegan Guide",
         type: "website",
+        locale: "en_GB",
         images: [
             {
-                url: "/images/MVG-logo.webp", // Ensure this path is correct or use a URL for an image
+                url: "/images/MVG-logo.webp",
                 width: 1200,
                 height: 630,
                 alt: "Vegan and Vegetarian Restaurants in Manchester",
@@ -45,14 +47,14 @@ export const metadata = {
     },
     // Twitter card metadata
     twitter: {
-        card: "summary_large_image", // Type of Twitter card
+        card: "summary_large_image",
         title: "Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
         description:
             "Discover the best vegetarian and vegan restaurants in Manchester. Your complete guide to meat-free dining in Manchester, from plant-based cafes to vegetarian bistros.",
-        image: "/images/MVG-logo.webp", // Update with your image URL
+        image: "/images/MVG-logo.webp",
     },
     // Canonical URL (important for avoiding duplicate content issues)
-    canonical: "https://www.manchesterveganguide.com", // Ensure this URL points to your homepage
+    canonical: "https://www.manchesterveganguide.com",
 };
 
 export default function RootLayout({ children }) {
