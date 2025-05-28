@@ -5,11 +5,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 
 export const metadata = {
-    title: "100% Vegan Restaurants in Manchester | Manchester Vegan Guide",
+    title: "Vegan Restaurants in Manchester | Manchester Vegan Guide",
     description:
         "Explore fully vegan restaurants in Manchester serving 100% plant-based, cruelty-free food. From vegan pizzas and Asian cuisine to healthy lunches and sit-down dinners, discover top-rated vegan-only spots in the city.",
     keywords:
-        "100% vegan restaurants Manchester, fully vegan Manchester, vegan-only restaurants Manchester, plant-based food Manchester, vegan dining Manchester, cruelty-free restaurants Manchester, vegan pizza Manchester, vegan Asian food Manchester, Manchester vegan guide",
+        "vegan restaurants in Manchester, vegan restaurants Manchester, fully vegan Manchester, vegan-only restaurants Manchester, plant-based food Manchester, vegan dining Manchester, cruelty-free restaurants Manchester, vegan pizza Manchester, vegan Asian food Manchester, Manchester vegan guide",
     openGraph: {
         title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
         description:
