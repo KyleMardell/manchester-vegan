@@ -23,6 +23,9 @@ export const metadata = {
         "vegan restaurants Manchester, vegetarian restaurants Manchester, vegan restaurants in Manchester, vegetarian restaurants in Manchester, plant-based food Manchester, vegan cafes Manchester, vegetarian cafes Manchester, meat-free restaurants Manchester, vegan food guide Manchester, vegan dining Manchester, plant-based cafes Manchester, Manchester vegan restaurants, best vegan Manchester, healthy vegan restaurants Manchester, vegan bistro Manchester",
     robots: "index, follow",
     language: "en",
+    icons: {
+        icon: "/favicon.ico",
+    },
     // Open Graph metadata
     metadataBase: new URL("https://www.manchesterveganguide.com"),
     openGraph: {
@@ -79,6 +82,7 @@ export default function RootLayout({ children }) {
                     strategy="afterInteractive"
                     src="https://cdn-cookieyes.com/client_data/d902f4716b82fc369a508f04/script.js"
                 />
+                <link rel="icon" href="/favicon.ico" type="image/x-icon" />
             </head>
             <body className={`${roboto.variable} ${dancingScript.variable}`}>
                 <SiteNavbar />
