@@ -29,7 +29,7 @@
 
 .ArticleCard:hover {
     color: var(--color-green);
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 @media screen and (min-width: 768px) {

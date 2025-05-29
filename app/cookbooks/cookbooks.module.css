@@ -32,7 +32,7 @@
     color: var(--color-light);
     background-color: var(--color-green);
     border: 2px solid var(--color-green);
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 @media screen and (min-width: 768px) {

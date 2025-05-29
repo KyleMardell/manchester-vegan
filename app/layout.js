@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
                 <script
                     async
                     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8360130577730496"
-                    crossorigin="anonymous"
+                    crossOrigin="anonymous"
                 />
                 {/* Favicon */}
                 <link rel="icon" href="/favicon.ico" type="image/x-icon" />

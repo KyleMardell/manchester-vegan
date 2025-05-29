@@ -29,10 +29,11 @@
     font-weight: bold;
     transition: transform 0.3s ease;
     display: inline-block;
+    text-decoration: underline;
 }
 
 .HeroLink:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .LocationMainImage {
@@ -92,6 +93,6 @@
     }
 
     .HeroLink {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 }
