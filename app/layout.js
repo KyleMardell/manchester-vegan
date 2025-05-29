@@ -87,11 +87,11 @@ export default function RootLayout({ children }) {
                 {/* Adsense */}
                 <meta
                     name="google-adsense-account"
-                    content="ca-pub-8700924222341723"
+                    content="ca-pub-8360130577730496"
                 />
                 <script
                     async
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8700924222341723"
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8360130577730496"
                     crossorigin="anonymous"
                 />
                 {/* Favicon */}
