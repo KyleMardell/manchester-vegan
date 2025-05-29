@@ -79,5 +79,94 @@
                 "url": "https://www.bbc.com/news/magazine-20666581"
             }
         ]
+    },
+    {
+        "title": "Why More People in Manchester Are Going Vegan",
+        "slug": "why-more-people-in-manchester-are-going-vegan",
+        "published": "2025-05-29",
+        "introduction": "Veganism is no longer a fringe lifestyle in Manchester. It’s becoming part of everyday life — from cafés and supermarkets to festivals and family dinners. More people are cutting out animal products not just for health, but for the planet, for animals, and for a better future.",
+        "summary": "This article looks at why veganism is on the rise in Manchester. It covers health, environmental concerns, social shifts, student culture, and how the city’s food scene is changing. With local data and national trends, it shows how plant-based living is becoming the new normal across Greater Manchester.",
+        "image": "https://res.cloudinary.com/dmmjoywj6/image/upload/v1748555589/concert-people_op5c4n.jpg",
+        "alt": "Vegan food on a table in Manchester café",
+        "author": "Manchester Vegan guide",
+        "sections": [
+            {
+                "heading": "Manchester’s Rise as a Vegan Hub",
+                "html": "<p>Manchester has firmly established itself as one of the UK's most vegan-friendly cities. Between 2021 and 2023, online searches for vegan eateries in the city surged by 84%, reflecting a growing demand for plant-based options. This momentum has positioned Manchester just behind Brighton in terms of vegan-friendliness, with a score of 64.9 out of 100.</p><p>The city's vibrant vegan scene is evident in its bustling markets and diverse dining options. Events like the annual vegan Christmas market in Trafford draw significant crowds, showcasing the community's enthusiasm for plant-based living.</p>"
+            },
+            {
+                "heading": "Health and Environmental Awareness Driving Change",
+                "html": "<p>A significant factor contributing to the rise in veganism is increased awareness of health and environmental issues. Studies have shown that adopting a plant-based diet can lead to improved health outcomes and a reduced carbon footprint.</p><p>In Manchester, this awareness is translating into tangible changes. For instance, Manchester Airport reported a 20% increase in vegan food sales, indicating a shift in consumer preferences even in traditionally meat-heavy environments.</p>"
+            },
+            {
+                "heading": "Youth Leading the Plant-Based Movement",
+                "html": "<p>Younger generations are at the forefront of the vegan movement. Nationally, 50% of Generation Z and 36% of millennials plan to follow a meat-free diet in 2025. In Manchester, this trend is mirrored by the student population, with many expressing a desire for more accessible and affordable plant-based options.</p><p>The city's universities and colleges are responding by offering more vegan choices in their cafeterias and hosting events that promote plant-based living.</p>"
+            },
+            {
+                "heading": "Economic Opportunities in the Vegan Sector",
+                "html": "<p>The growing demand for vegan products is creating economic opportunities in Manchester. Local entrepreneurs are launching vegan-friendly businesses, from food stalls to full-fledged restaurants. This entrepreneurial spirit is not only catering to local demand but also attracting visitors interested in exploring Manchester's vegan offerings.</p><p>Supermarkets and retailers are also expanding their plant-based ranges, making it easier for consumers to access vegan products. This increased availability is further encouraging people to adopt plant-based diets.</p>"
+            },
+            {
+                "heading": "Challenges and the Road Ahead",
+                "html": "<p>Despite the positive trends, challenges remain. Some vegan establishments face difficulties due to rising costs and changing consumer behaviors. However, the overall trajectory suggests that veganism in Manchester is more than a passing trend. With continued support from the community and businesses, the city is poised to remain a leader in the plant-based movement.</p>"
+            },
+            {
+                "heading": "Summary",
+                "html": "<p>Manchester's embrace of veganism is driven by a combination of health consciousness, environmental concerns, and a proactive community. The city's dynamic food scene, coupled with a supportive infrastructure, makes it an attractive place for those pursuing a plant-based lifestyle. As awareness grows and more people recognize the benefits of veganism, Manchester is set to continue its journey as a beacon for sustainable and compassionate living.</p>"
+            }
+        ],
+        "metadata": {
+            "title": "Why More People in Manchester Are Going Vegan | Manchester Vegan Guide",
+            "description": "Explore why veganism is growing fast in Manchester — from health and climate concerns to local food trends and student culture. See what’s driving the city’s shift to plant-based living.",
+            "keywords": "veganism Manchester, plant-based Manchester, vegan food trends, sustainable living Manchester, why go vegan, vegan restaurants Manchester, vegan lifestyle UK, Manchester vegan culture",
+            "metadataBase": "https://www.manchesterveganguide.com",
+            "openGraph": {
+                "title": "Why More People in Manchester Are Going Vegan | Manchester Vegan Guide",
+                "description": "Explore why veganism is growing fast in Manchester — from health and climate concerns to local food trends and student culture. See what’s driving the city’s shift to plant-based living.",
+                "url": "https://www.manchesterveganguide.com/blog/why-more-people-in-manchester-are-going-vegan",
+                "type": "website",
+                "images": [
+                    {
+                        "url": "/images/MVG-logo.webp",
+                        "width": 1200,
+                        "height": 630,
+                        "alt": "Manchester Vegan Guide Logo"
+                    }
+                ]
+            },
+            "twitter": {
+                "card": "summary_large_image",
+                "title": "Why More People in Manchester Are Going Vegan | Manchester Vegan Guide",
+                "description": "Explore why veganism is growing fast in Manchester — from health and climate concerns to local food trends and student culture. See what’s driving the city’s shift to plant-based living.",
+                "image": "/images/MVG-logo.webp"
+            },
+            "canonical": "https://www.manchesterveganguide.com/blog/why-more-people-in-manchester-are-going-vegan"
+        },
+        "sources": [
+            {
+                "title": "Mancunian Matters: Manchester ranks second best city in the UK for vegans",
+                "url": "https://www.mancunianmatters.co.uk/food-drink/31012024-manchester-ranks-second-best-city-in-the-uk-for-vegans/?utm_source=chatgpt.com"
+            },
+            {
+                "title": "Finder: How many vegetarians and vegans are in the UK in 2025?",
+                "url": "https://www.finder.com/uk/stats-facts/uk-diet-trends?utm_source=chatgpt.com"
+            },
+            {
+                "title": "Mancunian Matters: Why Manchester is at the forefront of the vegan movement",
+                "url": "https://www.mancunianmatters.co.uk/food-drink/26052023-why-manchester-is-at-the-forefront-of-the-vegan-movement/?utm_source=chatgpt.com"
+            },
+            {
+                "title": "The Guardian: Smoothies and vegan food are the new pre-flight pint for UK holidaymakers",
+                "url": "https://www.theguardian.com/business/article/2024/aug/10/uk-travellers-airport-pints-smoothies-vegan-food?utm_source=chatgpt.com"
+            },
+            {
+                "title": "Plant Based News: 7 Out Of 10 Students In Manchester Want To Eat More Plant-Based",
+                "url": "https://plantbasednews.org/culture/ethics/students-plant-based-food-manchester/?utm_source=chatgpt.com"
+            },
+            {
+                "title": "The Times: Veganism will never die, but the restaurants might",
+                "url": "https://www.thetimes.co.uk/article/gabriella-bennett-column-veganism-will-never-die-but-the-restaurants-might-2ncfnf9rp?utm_source=chatgpt.com"
+            }
+        ]
     }
 ]
