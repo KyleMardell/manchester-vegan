@@ -176,6 +176,14 @@ export default function Locations() {
                     </Col>
                 ))}
             </Row>
+            <Row>
+                <Col xs={12} className="text-center p-3 my-5">
+                    <Link href="/restaurants" className={styles.HeroLink}>
+                        Find All the Vegan & Vegetarian Restaurants in
+                        Manchester
+                    </Link>
+                </Col>
+            </Row>
         </Container>
     );
 }

@@ -3,6 +3,7 @@ import data from "@/data/restaurants.json";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import styles from "./RestaurantsPage.module.css";
+import Link from "next/link";
 
 export const metadata = {
     title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
@@ -60,25 +61,26 @@ export default function Restaurants() {
             <Row>
                 <Col xs={12} className="my-5 text-center">
                     <p>
-                        Welcome to the ultimate Manchester vegan food guide—your
-                        go-to directory for the best vegan and vegetarian
-                        restaurants across the city. <br />
+                        Welcome to the ultimate Manchester vegan food guide.
+                        This is your go-to directory for the best vegan and
+                        vegetarian restaurants in Manchester, covering top spots
+                        across the city. <br />
                         <br />
-                        Whether you&apos;re craving a hearty vegan pub menu,
-                        vegetarian Chinese food packed with flavour, or a
-                        stylish plant-based bistro, you&apos;ll find it all here in
-                        one place. <br />
+                        From proper vegan pub grub to flavour-packed vegetarian
+                        Chinese dishes and stylish plant-based bistros, this
+                        guide brings together a wide range of options, all in
+                        one place. The full list features over 25 vegan and
+                        vegetarian restaurants in Manchester, including hidden
+                        gems, popular street food vendors, and long-standing
+                        favourites known for doing meat-free food well.
                         <br />
-                        This complete list of the 25+ meat-free restaurants in
-                        Manchester showcases everything from hidden gems and
-                        street food stalls to well-known vegan hotspots. <br />
                         <br />
-                        Browse all listings, discover new favourites, and
-                        explore the ever-growing world of plant-based dining in
-                        Manchester. <br />
+                        Browse all the listings, try something new, and see what
+                        the city&apos;s plant-based dining scene has to offer.
                         <br />
-                        Whether you&apos;re local or just visiting, this guide makes
-                        it easy to eat well and meat-free.
+                        Whether based in Manchester or just here for a visit,
+                        this guide makes it straightforward to find good vegan
+                        and vegetarian food across the city.
                     </p>
                 </Col>
             </Row>
@@ -97,6 +99,15 @@ export default function Restaurants() {
                             />
                         </Col>
                     ))}
+            </Row>
+            <Row>
+                <Col xs={12} className="text-center p-3 my-5">
+                    <Link
+                        href="/cuisines/vegan-only"
+                        className={styles.HeroLink}>
+                        Find All the 100% Vegan Restaurants in Manchester
+                    </Link>
+                </Col>
             </Row>
         </Container>
     );
