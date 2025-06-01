@@ -19,7 +19,7 @@ export async function generateMetadata({ params }) {
         title: `Vegan and Vegetarian Restaurants in ${readableLocation} | Manchester Vegan Guide`,
         description: `Discover the best vegan and vegetarian restaurants in ${readableLocation}, Manchester. Enjoy top plant-based cafés, vegetarian-friendly eateries, and meat-free dining options in ${readableLocation}.`,
         keywords: `vegan restaurants ${readableLocation}, vegetarian restaurants ${readableLocation}, plant-based food ${readableLocation}, vegan cafes ${readableLocation}, vegetarian dining ${readableLocation}, Manchester vegan guide, vegan food ${readableLocation}, vegetarian food ${readableLocation}`,
-        metadataBase: new URL('https://www.manchesterveganguide.com'),
+        metadataBase: new URL("https://www.manchesterveganguide.com"),
         openGraph: {
             title: `Vegan and Vegetarian Restaurants in ${readableLocation} | Manchester Vegan Guide`,
             description: `Discover the best vegan and vegetarian restaurants in ${readableLocation}, Manchester. Enjoy top plant-based cafés, vegetarian-friendly eateries, and meat-free dining options in ${readableLocation}.`,
@@ -85,12 +85,11 @@ export default async function LocationPage({ params }) {
                         Searching for the best vegan and vegetarian restaurants
                         in {readableLocation}? <br />
                         <br />
-                        This guide highlights the top plant-based and
+                        Find the top plant-based and
                         vegetarian-friendly spots in {readableLocation},
                         Manchester, where you can enjoy everything from quick
-                        vegan lunches to flavourful meat-free dinners. <br />
-                        <br />
-                        Whether you live nearby or you&apos;re just visiting, explore
+                        vegan lunches to flavourful meat-free dinners. Whether
+                        you live nearby or you&apos;re just visiting, explore
                         delicious plant-based options in {readableLocation},
                         from vibrant cafés to creative vegetarian eateries.{" "}
                         <br />

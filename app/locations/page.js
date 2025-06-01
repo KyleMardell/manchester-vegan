@@ -80,12 +80,12 @@ export default function Locations() {
                 <Col xs={12} className="text-center">
                     <p>
                         Discover the heart of the city&apos;s plant-based dining
-                        scene with our curated list of vegan and vegetarian
+                        scene with our list of vegan and vegetarian
                         restaurants in Manchester City Centre. <br />
                         <br />
                         From the Northern Quarter to Deansgate, this area is
                         packed with vibrant vegan cafés, vegetarian street food
-                        stalls, and trendy plant-based eateries. <br />
+                        stalls, and plant-based eateries. <br />
                         <br />
                         Whether you&apos;re exploring Oxford Road, enjoying the buzz
                         of Spinningfields, or grabbing lunch near Piccadilly,
