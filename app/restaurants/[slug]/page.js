@@ -69,7 +69,7 @@ export default async function RestaurantPage({ params }) {
                             position: "relative",
                             width: "100%",
                             height: "auto",
-                            aspectRatio: "16/9",
+                            aspectRatio: "4/3",
                         }}>
                         <Image
                             src={restaurant.image}
