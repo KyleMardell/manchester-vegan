@@ -72,8 +72,8 @@ export default async function RestaurantPage({ params }) {
                             aspectRatio: "16/9",
                         }}>
                         <Image
-                            src="/images/MVG-logo.webp"
-                            alt="Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front."
+                            src={restaurant.image}
+                            alt={restaurant.alt}
                             fill
                             priority
                             sizes="(max-width: 768px) 100vw, 768px"
