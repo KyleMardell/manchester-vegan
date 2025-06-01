@@ -15,31 +15,34 @@ const RestaurantCard = ({
     mapembed,
     cuisine,
 }) => {
+    const cuisineArray = cuisine.split(",").map((c) => c.trim());
+
     return (
         <Link href={`/restaurants/${slug}`}>
             <Card className={`my-3 ${styles.RestCard}`}>
-                <CardHeader className={`text-center`}>
-                    <p className={`m-0 ${styles.RestName}`}>{name}</p>
+                <CardHeader className={`text-center px-1`}>
+                    <p className={`m-0 p-0 ${styles.RestName}`}>{name}</p>
                 </CardHeader>
-                <CardBody className={`text-center`}>
+                <CardBody className={``}>
                     <p className={`m-0 ${styles.RestDetails}`}>
                         {restType} restaurant in {location}
                     </p>
-                    <p className={`m-0`}>Serving {cuisine} cuisines</p>
-                    <p className={`m-0 ${styles.CTA}`}>
-                        Click for more info{" "}
-                        <i className="bi bi-hand-index-thumb"></i>
+                    <p className={`m-0 ${styles.RestDetails}`}>
+                        Serving:
+                    </p>
+                    <p className={`m-0 ${styles.CuisineWrapper}`}>
+                        {cuisineArray.map((c, index) => (
+                            <span key={index} className={styles.CuisineTag}>
+                                {c}{" "}
+                            </span>
+                        ))}
                     </p>
                 </CardBody>
                 <CardFooter className="text-center p-0">
-                    <iframe
-                        className={styles.IframeNoClick}
-                        title={`Map showing the location of ${name}, in ${location}, Manchester`}
-                        width="100%"
-                        height="auto"
-                        loading="lazy"
-                        referrerPolicy="no-referrer-when-downgrade"
-                        src={mapembed} />
+                    <p className={`my-1 ${styles.CTA}`}>
+                        Read More{" "}
+                        <i className="bi bi-hand-index-thumb"></i>
+                    </p>
                 </CardFooter>
             </Card>
         </Link>
