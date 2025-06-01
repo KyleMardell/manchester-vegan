@@ -20,7 +20,7 @@ export const metadata = {
     description:
         "Find the best vegan and vegetarian restaurants in Manchester. Explore meat-free dining options including vegan cafes, vegetarian bistros, and plant-based eateries across the city centre and Greater Manchester.",
     keywords:
-        "vegan restaurants Manchester, vegan restaurants in Manchester, vegetarian restaurants Manchester, vegetarian restaurants in Manchester, best vegan food Manchester, plant-based restaurants Manchester, meat-free dining Manchester, vegan cafes Manchester, vegetarian food Manchester, Manchester vegan guide, vegan Chinese food Manchester, vegan street food Manchester, vegan pubs Manchester, vegan bistro Manchester, vegan brunch Manchester, healthy vegan food Manchester, Greater Manchester vegan restaurants",
+        "vegan restaurants in Manchester, vegetarian restaurants in Manchester, best vegan food Manchester, best vegetarian food Manchester plant-based restaurants Manchester, vegetarian food Manchester",
     robots: "index, follow",
     language: "en",
     icons: {
@@ -39,8 +39,8 @@ export const metadata = {
         images: [
             {
                 url: "/images/MVG-logo.webp",
-                width: 1200,
-                height: 630,
+                width: 1024,
+                height: 1024,
                 alt: "Vegan and Vegetarian Restaurants in Manchester",
             },
         ],

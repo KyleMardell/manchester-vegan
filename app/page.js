@@ -71,8 +71,8 @@ export default function Home() {
                     <Image
                         src="/images/MVG-logo.webp"
                         alt="Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front."
-                        width={980}
-                        height={1472}
+                        width={1024}
+                        height={1024}
                         className={heroStyles.HeroImage}
                         style={{ width: "100%", height: "auto" }}
                     />
