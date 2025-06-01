@@ -4,10 +4,11 @@
     font-weight: bold;
     transition: transform 0.3s ease;
     display: inline-block;
+    text-decoration: underline;
 }
 
 .CTALink:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 .RestTitle {
@@ -21,10 +22,11 @@
     font-weight: bold;
     transition: transform 0.3s ease;
     display: inline-block;
+    text-decoration: underline;
 }
 
 .RestLink:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
     }
 
 .SocialIcon {
