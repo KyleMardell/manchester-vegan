@@ -54,7 +54,7 @@ export default function Restaurants() {
                         className={styles.HeroImage}
                     />
                     <h1 className={styles.HeroText}>
-                        Vegan and Vegetarian Restaurants in Manchester
+                        All Vegan and Vegetarian Restaurants in Manchester
                     </h1>
                 </Col>
             </Row>

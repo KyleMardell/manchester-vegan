@@ -65,7 +65,7 @@ export default function Cuisines() {
                         className={styles.HeroImage}
                     />
                     <h1 className={styles.HeroText}>
-                        All Vegetarian and Vegan Cuisines
+                        All Vegetarian and Vegan Cuisines in Manchester
                     </h1>
                 </Col>
             </Row>

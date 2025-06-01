@@ -69,7 +69,7 @@ export default function Locations() {
                         className={styles.HeroImage}
                     />
                     <h1 className={styles.HeroText}>
-                        Vegan and Vegetarian Restaurant Manchester Locations
+                        Vegan and Vegetarian Restaurant Locations in Manchester
                     </h1>
                 </Col>
             </Row>

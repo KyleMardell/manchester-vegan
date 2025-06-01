@@ -22,11 +22,8 @@ export default function Home() {
                 />
                 <Col style={{ zIndex: 1 }} className="p-0">
                     <h1 className={heroStyles.HeroText}>
-                        Manchester Vegan Guide
+                        Find the best Vegan & Vegetarian Restaurants in Manchester
                     </h1>
-                    <h2 className={heroStyles.HeroDescription}>
-                        Vegan & Vegetarian Restaurants in Manchester
-                    </h2>
                 </Col>
             </Row>
             <Row>
