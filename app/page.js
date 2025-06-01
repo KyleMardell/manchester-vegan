@@ -32,7 +32,8 @@ export default function Home() {
             <Row>
                 <Col xs={12} className="text-center p-3 my-4">
                     <Link href="/restaurants" className={heroStyles.HeroLink}>
-                        Check Out All the Vegan & Vegetarian Restaurants in Manchester
+                        Check Out All the Vegan & Vegetarian Restaurants in
+                        Manchester
                     </Link>
                 </Col>
             </Row>
@@ -43,28 +44,27 @@ export default function Home() {
                         Manchester.
                     </h2>
                     <p>
-                        Searching for vegan and vegetarian restaurants in
-                        Manchester or keen to explore the growing plant-based
-                        food scene across the city? From proper Italian style
-                        vegan pizzas to bold, flavourful Pan-Asian vegetarian
-                        dishes, this guide brings together some of the best
-                        places to eat meat-free in Manchester.
+                        Looking for a decent vegan or vegetarian bite to eat in
+                        Manchester? This city&apos;s packed with spots serving
+                        up proper good plant-based food, from wood-fired vegan
+                        pizzas done the Italian way, to bold and colourful
+                        Pan-Asian veggie dishes bursting with flavour.
                         <br />
                         <br />
-                        With a wide range of options, these vegan and vegetarian
-                        restaurants in Manchester are run by people who care
-                        about good food and doing it right. Whether it&apos;s
-                        fully plant-based or just offering solid vegetarian
-                        choices, this is where to find some of the best vegan
-                        and vegetarian food Manchester has to offer. <br />
+                        There&apos;s no shortage of choice either. Loads of
+                        these places are run by people who genuinely care about
+                        what they&apos;re cooking, fresh ingredients, bold
+                        flavours, and food that actually fills you up. Whether
+                        it&apos;s a fully vegan joint or somewhere with strong
+                        veggie options, these are some of the best meat-free
+                        eats around Manchester.
                         <br />
-                        For anyone choosing to eat less meat, sticking to a
-                        plant-based diet, or just after something different,
-                        this guide makes it easy to find quality vegan and
-                        vegetarian restaurants in Manchester. From laid-back
-                        cafés to more refined vegetarian dining, these spots are
-                        part of what makes Manchester a great place for
-                        meat-free meals.
+                        <br />
+                        Perfect for anyone cutting down on meat, living
+                        plant-based, or just fancying something a bit different.
+                        From chilled-out cafés to more upmarket places, these
+                        restaurants are a solid part of Manchester&apos;s
+                        buzzing food scene.
                     </p>
                 </Col>
                 <Col xs={12} md={4} className="my-2">
@@ -100,21 +100,25 @@ export default function Home() {
                         Top Vegan & Vegetarian Restaurants in Manchester
                     </h2>
                     <p>
-                        Explore some of the top vegan and vegetarian restaurants
-                        in Manchester. Whether it&apos;s creative vegan street
-                        food, rich and spicy vegan curries, or plant-based
-                        dishes with a fine dining touch, these standout spots
-                        reflect the city's strong and growing meat-free food
-                        scene.
+                        Time to explore some of Manchester&apos;s top vegan and
+                        vegetarian spots. Whether it&apos;s inventive street
+                        food packed with flavour, rich and spicy plant-based
+                        curries, or dishes with a bit of a fine dining twist,
+                        these places are a proper reflection of how strong the
+                        city&apos;s meat-free scene has become.
                     </p>
                     <p>
-                        Across areas like the Northern Quarter, Chorlton, and
-                        Withington, vegan and vegetarian restaurants in
-                        Manchester are serving well-made, flavourful meals that
-                        show how good plant-based food can be. These picks
-                        include some of the most talked-about vegan and
-                        vegetarian meals in Manchester. Browse the list below to
-                        find a new favourite.
+                        From the Northern Quarter to Chorlton and Withington,
+                        there are restaurants cooking up plates that are
+                        anything but boring — fresh, exciting, and made with
+                        care. These picks have been making waves for all the
+                        right reasons, serving up some of the most talked-about
+                        vegan and veggie meals in town.
+                        <br />
+                        <br />
+                        Have a scroll through and discover a new favourite —
+                        there&apos;s something here for every kind of
+                        plant-based craving.
                     </p>
                 </Col>
             </Row>
@@ -132,46 +136,46 @@ export default function Home() {
                         Why Manchester is a Great City for Plant-Based Dining
                     </h2>
                     <p>
-                        Manchester has become one of the top UK cities for vegan
-                        and vegetarian dining, with a strong mix of plant-based
-                        restaurants, cafés, and street food vendors. For anyone
-                        following a vegan or vegetarian diet—or just looking to
-                        eat less meat—there&apos;s a lot to explore. The city is
-                        home to many of the most popular vegan and vegetarian
-                        restaurants in Manchester, with options that suit all
-                        tastes and budgets.
+                        Manchester&apos;s quickly earned a reputation as one of
+                        the best places in the UK for vegan and vegetarian food.
+                        The city&apos;s packed with a proper mix of plant-based
+                        restaurants, cosy cafés, and street food stalls —
+                        perfect for anyone eating veggie, going fully vegan, or
+                        just cutting back on meat. There&apos;s something here
+                        for every taste and budget.
                     </p>
                     <p>
-                        From independent vegetarian spots in the Northern
-                        Quarter to vegan-friendly pubs in Glossop and
-                        plant-based Italian cafés in Urmston, the variety of
-                        meat-free food on offer is impressive. Manchester&apos;s
-                        diverse food culture has made room for everything from
-                        loaded vegan burgers and creative street food to raw
-                        vegan menus and globally inspired vegetarian dishes.
+                        In the Northern Quarter, you&apos;ll find indie veggie
+                        spots with loads of character, while over in places like
+                        Glossop and Urmston, there are pubs and cafés dishing
+                        out brilliant plant-based meals, from hearty Italian
+                        plates to full-on vegan roasts. Manchester&apos;s food
+                        scene is properly diverse, and that shines through in
+                        the menus — think stacked vegan burgers, creative street
+                        food, raw dishes, and globally inspired flavours all
+                        over the place.
                     </p>
                     <p>
-                        What sets Manchester apart for vegan and vegetarian food
-                        is the strong local focus on sustainability and
-                        conscious eating. Many restaurants and cafés source
-                        ingredients locally and create menus that cater to a
-                        wide range of dietary needs, including gluten-free,
-                        dairy-free, and fully plant-based options.
+                        What really makes Manchester stand out is how many of
+                        these places care about where their food comes from.
+                        Loads of them source ingredients locally, keep things
+                        sustainable, and offer menus that work for all kinds of
+                        diets — gluten-free, dairy-free, and fully plant-based
+                        included.
                     </p>
                     <p>
-                        The city also hosts regular vegan food festivals, street
-                        markets, and pop-up events that celebrate plant-based
-                        living. Whether in the city centre or further out,
-                        it&apos;s easy to find well-made vegan and vegetarian
-                        food throughout Manchester.
+                        There&apos;s also no shortage of events celebrating the
+                        plant-based lifestyle. Vegan food fests, buzzing street
+                        markets, and one-off pop-ups are regular features, and
+                        they&apos;re a great way to try something new or find a
+                        new go-to.
                     </p>
                     <p>
-                        With a strong food scene, creative chefs, and an obvious
-                        commitment to quality, Manchester stands out as one of
-                        the best places in the UK for vegan and vegetarian
-                        restaurants. Plant-based dining in Manchester is only
-                        growing, and it&apos;s clear why so many people are
-                        choosing to eat this way across the city.
+                        With passionate chefs, a community that supports
+                        conscious eating, and a proper buzz around the whole
+                        scene, it&apos;s easy to see why Manchester&apos;s
+                        become a top spot for vegan and veggie dining. And
+                        it&apos;s only getting better.
                     </p>
                 </Col>
                 <Col xs={12} md={4} className="my-2">
