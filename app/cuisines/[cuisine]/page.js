@@ -44,6 +44,9 @@ export async function generateMetadata({ params }) {
             images: ["/images/MVG-logo.webp"],
             site: "@MancVeganGuide",
         },
+        alternates: {
+            canonical: `https://www.manchesterveganguide.com/cuisines/${awaitedParams.cuisine}`,
+        },
     };
 }
 

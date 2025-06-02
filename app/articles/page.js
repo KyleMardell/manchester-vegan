@@ -38,6 +38,9 @@ export const metadata = {
         images: ["/images/MVG-logo.webp"],
         site: "@MancVeganGuide",
     },
+    alternates: {
+        canonical: "https://www.manchesterveganguide.com/articles",
+    },
 };
 
 export default function Articles() {

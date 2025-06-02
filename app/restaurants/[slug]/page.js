@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
         title,
         description,
         keywords,
-        metadataBase: new URL('https://www.manchesterveganguide.com'),
+        metadataBase: new URL("https://www.manchesterveganguide.com"),
         openGraph: {
             title,
             description,
@@ -45,7 +45,9 @@ export async function generateMetadata({ params }) {
             description,
             image: "/images/MVG-logo.webp",
         },
-        canonical: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
+        alternates: {
+            canonical: `/restaurants/${restaurant.slug}`,
+        },
     };
 }
 
@@ -126,18 +128,28 @@ export default async function RestaurantPage({ params }) {
             </Row>
             <Row>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Address <i className="bi bi-geo-alt"></i></h3>
+                    <h3 className={styles.TypeTitle}>
+                        Address <i className="bi bi-geo-alt"></i>
+                    </h3>
                     <p className="m-0">{restaurant.address}</p>
-                    <Link href={restaurant.maps} className={styles.RestLink} target="_blank" rel="noopener">
+                    <Link
+                        href={restaurant.maps}
+                        className={styles.RestLink}
+                        target="_blank"
+                        rel="noopener">
                         Google Maps Link <i className="bi bi-map"></i>
                     </Link>
                 </Col>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Phone <i className="bi bi-telephone"></i></h3>
+                    <h3 className={styles.TypeTitle}>
+                        Phone <i className="bi bi-telephone"></i>
+                    </h3>
                     <p>{restaurant.phone}</p>
                 </Col>
                 <Col className="mb-4">
-                    <h3 className={styles.TypeTitle}>Opening Times <i className="bi bi-clock"></i></h3>
+                    <h3 className={styles.TypeTitle}>
+                        Opening Times <i className="bi bi-clock"></i>
+                    </h3>
                     <p>{restaurant.times}</p>
                 </Col>
             </Row>

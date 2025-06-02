@@ -39,6 +39,9 @@ export const metadata = {
         images: ["/images/MVG-logo.webp"],
         site: "@MancVeganGuide",
     },
+    alternates: {
+        canonical: "https://www.manchesterveganguide.com/cuisines",
+    },
 };
 
 export default function Cuisines() {
@@ -73,19 +76,20 @@ export default function Cuisines() {
                 <Col xs={12} className="my-5 text-center">
                     <p>
                         Explore the full range of vegan and vegetarian flavours
-                        across Manchester — the city&apos;s meat-free food scene is
-                        packed with variety and global inspiration. Whether it&apos;s
-                        rich, comforting Indian curries or fresh Chinese
-                        plant-based dishes, there&apos;s something to suit every
-                        taste.
+                        across Manchester — the city&apos;s meat-free food scene
+                        is packed with variety and global inspiration. Whether
+                        it&apos;s rich, comforting Indian curries or fresh
+                        Chinese plant-based dishes, there&apos;s something to
+                        suit every taste.
                         <br />
                         Craving quick street food? Think crispy falafel wraps,
                         loaded vegan burgers, or fluffy bao buns. After
-                        something a bit more relaxed? There&apos;s Sicilian-style
-                        pasta, Lebanese mezze, and even proper wood-fired vegan
-                        pizza. From Pan-Asian dumplings to American-style
-                        comfort food, the mix of cuisines here shows just how
-                        exciting plant-based eating in Manchester can be.
+                        something a bit more relaxed? There&apos;s
+                        Sicilian-style pasta, Lebanese mezze, and even proper
+                        wood-fired vegan pizza. From Pan-Asian dumplings to
+                        American-style comfort food, the mix of cuisines here
+                        shows just how exciting plant-based eating in Manchester
+                        can be.
                         <br />
                         <br />
                         Check out the categories below to dive into the

@@ -37,6 +37,9 @@ export const metadata = {
         images: ["/images/MVG-logo.webp"],
         site: "@MancVeganGuide",
     },
+    alternates: {
+        canonical: "https://www.manchesterveganguide.com/about",
+    },
 };
 
 export default function About() {
@@ -73,17 +76,18 @@ export default function About() {
                         all the great vegan and vegetarian places around
                         Manchester.
                         <br />
-                        It&apos;s not meant to be anything flashy — just a simple way
-                        to find somewhere decent to eat, whether you&apos;re fully
-                        plant-based, trying it out, or tagging along with a
-                        veggie friend who knows all the good spots.
+                        It&apos;s not meant to be anything flashy — just a
+                        simple way to find somewhere decent to eat, whether
+                        you&apos;re fully plant-based, trying it out, or tagging
+                        along with a veggie friend who knows all the good spots.
                         <br />
                         <br />
-                        There&apos;s a lot going on in Manchester&apos;s food scene, but
-                        it can be a pain scrolling through maps, social posts,
-                        and blogs to find somewhere new — especially if you&apos;re
-                        trying to avoid meat or just want more choice. This site
-                        is my attempt to make that easier.
+                        There&apos;s a lot going on in Manchester&apos;s food
+                        scene, but it can be a pain scrolling through maps,
+                        social posts, and blogs to find somewhere new —
+                        especially if you&apos;re trying to avoid meat or just
+                        want more choice. This site is my attempt to make that
+                        easier.
                     </p>
                 </Col>
                 <Col xs={12} className="text-center">
@@ -93,21 +97,21 @@ export default function About() {
                         hours, and so on — was pulled together from publicly
                         available sources. That includes things like restaurant
                         websites, socials, Google listings, and a bit of digging
-                        around where needed. I&apos;ve done my best to keep things
-                        accurate and up to date.
+                        around where needed. I&apos;ve done my best to keep
+                        things accurate and up to date.
                         <br />
                         <br />
                         Of course, places change. Menus shift, kitchens move, or
                         they quietly close without saying much. I try to check
-                        and update the site around once a month, but it&apos;s a solo
-                        project, so a few things might slip through the cracks
-                        now and then.
+                        and update the site around once a month, but it&apos;s a
+                        solo project, so a few things might slip through the
+                        cracks now and then.
                         <br />
                         <br />
-                        If something&apos;s wrong, outdated, or missing, feel free to
-                        get in touch. I appreciate it — just ask that you only
-                        drop a message if it&apos;s something that genuinely needs
-                        fixing.
+                        If something&apos;s wrong, outdated, or missing, feel
+                        free to get in touch. I appreciate it — just ask that
+                        you only drop a message if it&apos;s something that
+                        genuinely needs fixing.
                     </p>
                 </Col>
                 <Col xs={12} className="text-center">
@@ -115,10 +119,10 @@ export default function About() {
                     <p>
                         If your business is listed here and you&apos;d like your
                         details changed or removed, no problem — just send a
-                        quick message to manchesterveganguide@gmail.com and I&apos;ll
-                        get it sorted. I want the info here to be fair and
-                        helpful, so happy to update anything that&apos;s out of date
-                        or not quite right.
+                        quick message to manchesterveganguide@gmail.com and
+                        I&apos;ll get it sorted. I want the info here to be fair
+                        and helpful, so happy to update anything that&apos;s out
+                        of date or not quite right.
                     </p>
                 </Col>
                 <Col xs={12} className="text-center">
@@ -139,12 +143,14 @@ export default function About() {
                             Unsplash
                         </Link>
                         — both offer free, royalty-free photos under open
-                        licenses. They&apos;ve been a great resource for adding some
-                        colour to the site without having to take photos myself.
+                        licenses. They&apos;ve been a great resource for adding
+                        some colour to the site without having to take photos
+                        myself.
                         <br />
                         <br />
-                        If you see an image that doesn&apos;t look right or you think
-                        shouldn&apos;t be used, just let me know and I&apos;ll remove it.
+                        If you see an image that doesn&apos;t look right or you
+                        think shouldn&apos;t be used, just let me know and
+                        I&apos;ll remove it.
                     </p>
                 </Col>
                 <Col xs={12} className="text-center">
@@ -152,8 +158,8 @@ export default function About() {
                     <p>
                         This guide was built just to help people find good food.{" "}
                         <br />
-                        That&apos;s it — no reviews, no ratings, no drama. Just a
-                        straightforward way to see what&apos;s out there.
+                        That&apos;s it — no reviews, no ratings, no drama. Just
+                        a straightforward way to see what&apos;s out there.
                         <br />
                         Thanks for checking it out — hope it helps you find
                         somewhere new to eat soon.

@@ -37,6 +37,9 @@ export const metadata = {
         images: ["/images/MVG-logo.webp"],
         site: "@MancVeganGuide",
     },
+    alternates: {
+        canonical: "https://www.manchesterveganguide.com/cookbooks",
+    },
 };
 
 export default function Cookbooks() {
@@ -98,7 +101,8 @@ export default function Cookbooks() {
                     </Link>
                 </Col>
                 <Col
-                    xs={12} md={4}
+                    xs={12}
+                    md={4}
                     className="d-flex align-items-center justify-content-center">
                     <div style={{ width: "100%" }}>
                         <Image

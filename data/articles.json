@@ -123,7 +123,7 @@
             "openGraph": {
                 "title": "Why More People in Manchester Are Going Vegan | Manchester Vegan Guide",
                 "description": "Explore why veganism is growing fast in Manchester — from health and climate concerns to local food trends and student culture. See what’s driving the city’s shift to plant-based living.",
-                "url": "https://www.manchesterveganguide.com/blog/why-more-people-in-manchester-are-going-vegan",
+                "url": "https://www.manchesterveganguide.com/articles/why-more-people-in-manchester-are-going-vegan",
                 "type": "website",
                 "images": [
                     {
@@ -140,7 +140,7 @@
                 "description": "Explore why veganism is growing fast in Manchester — from health and climate concerns to local food trends and student culture. See what’s driving the city’s shift to plant-based living.",
                 "image": "/images/MVG-logo.webp"
             },
-            "canonical": "https://www.manchesterveganguide.com/blog/why-more-people-in-manchester-are-going-vegan"
+            "canonical": "https://www.manchesterveganguide.com/articles/why-more-people-in-manchester-are-going-vegan"
         },
         "sources": [
             {
