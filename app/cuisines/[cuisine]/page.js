@@ -1,7 +1,6 @@
 import RestaurantCard from "@/components/RestaurantCard";
 import data from "@/data/restaurants.json";
 import { slugify } from "@/utils/slugify";
-import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import styles from "./cuisine.module.css";

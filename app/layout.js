@@ -54,7 +54,9 @@ export const metadata = {
         image: "/images/MVG-logo.webp",
     },
     // Canonical URL (important for avoiding duplicate content issues)
-    canonical: "https://www.manchesterveganguide.com",
+    alternates: {
+        canonical: "https://www.manchesterveganguide.com",
+    }
 };
 
 export default function RootLayout({ children }) {

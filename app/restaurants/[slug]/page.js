@@ -46,7 +46,7 @@ export async function generateMetadata({ params }) {
             image: "/images/MVG-logo.webp",
         },
         alternates: {
-            canonical: `/restaurants/${restaurant.slug}`,
+            canonical: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
         },
     };
 }
