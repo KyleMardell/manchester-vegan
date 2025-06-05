@@ -15,7 +15,7 @@ export const metadata = {
         title: "About Manchester Vegan Guide | Manchester Vegan Guide",
         description:
             "Discover the story behind Manchester Vegan Guide. Built to help you find the best vegan and vegetarian food in Manchester - no fuss, no ratings, just helpful info.",
-        url: "https://www.manchesterveganguide.com/about",
+        url: "https://manchesterveganguide.com/about",
         siteName: "Manchester Vegan Guide",
         images: [
             {
@@ -38,7 +38,7 @@ export const metadata = {
         site: "@MancVeganGuide",
     },
     alternates: {
-        canonical: "https://www.manchesterveganguide.com/about",
+        canonical: "https://manchesterveganguide.com/about",
     },
 };
 

@@ -14,7 +14,7 @@ export const metadata = {
         title: "Privacy Policy | Manchester Vegan Guide",
         description:
             "Discover the story behind Manchester Vegan Guide. Built to help you find the best vegan and vegetarian food in Manchester - no fuss, no ratings, just helpful info.",
-        url: "https://www.manchesterveganguide.com/about",
+        url: "https://manchesterveganguide.com/about",
         siteName: "Manchester Vegan Guide",
         images: [
             {

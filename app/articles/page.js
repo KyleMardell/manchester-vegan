@@ -16,7 +16,7 @@ export const metadata = {
         title: "Vegan News & Articles | Manchester Vegan Guide",
         description:
             "Explore articles and updates from Manchester Vegan Guide. From new restaurant openings to plant-based lifestyle features, discover what’s happening in Manchester’s vegan scene.",
-        url: "https://www.manchesterveganguide.com/articles",
+        url: "https://manchesterveganguide.com/articles",
         siteName: "Manchester Vegan Guide",
         images: [
             {
@@ -39,7 +39,7 @@ export const metadata = {
         site: "@MancVeganGuide",
     },
     alternates: {
-        canonical: "https://www.manchesterveganguide.com/articles",
+        canonical: "https://manchesterveganguide.com/articles",
     },
 };
 

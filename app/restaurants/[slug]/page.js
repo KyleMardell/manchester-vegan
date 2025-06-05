@@ -24,11 +24,11 @@ export async function generateMetadata({ params }) {
         title,
         description,
         keywords,
-        metadataBase: new URL("https://www.manchesterveganguide.com"),
+        metadataBase: new URL("https://manchesterveganguide.com"),
         openGraph: {
             title,
             description,
-            url: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
+            url: `https://manchesterveganguide.com/restaurants/${restaurant.slug}`,
             type: "website",
             images: [
                 {
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }) {
             image: "/images/MVG-logo.webp",
         },
         alternates: {
-            canonical: `https://www.manchesterveganguide.com/restaurants/${restaurant.slug}`,
+            canonical: `https://manchesterveganguide.com/restaurants/${restaurant.slug}`,
         },
     };
 }

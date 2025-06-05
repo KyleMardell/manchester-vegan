@@ -14,7 +14,7 @@ export const metadata = {
         title: "Contact Manchester Vegan Guide | Get in Touch",
         description:
             "Want to suggest a vegan restaurant or share a tip? Reach out to Manchester Vegan Guide – your go-to resource for plant-based food in Manchester.",
-        url: "https://www.manchesterveganguide.com/contact",
+        url: "https://manchesterveganguide.com/contact",
         siteName: "Manchester Vegan Guide",
         images: [
             {

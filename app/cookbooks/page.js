@@ -15,7 +15,7 @@ export const metadata = {
         title: "Vegan Cookbooks | Manchester Vegan Guide",
         description:
             "Download the free Manchester Vegan Guide cookbook — a small collection of simple, plant-based meals you can batch and prep. More recipes and a full version coming soon.",
-        url: "https://www.manchesterveganguide.com/cookbooks",
+        url: "https://manchesterveganguide.com/cookbooks",
         siteName: "Manchester Vegan Guide",
         images: [
             {
@@ -38,7 +38,7 @@ export const metadata = {
         site: "@MancVeganGuide",
     },
     alternates: {
-        canonical: "https://www.manchesterveganguide.com/cookbooks",
+        canonical: "https://manchesterveganguide.com/cookbooks",
     },
 };
 

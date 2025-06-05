@@ -27,12 +27,12 @@ export const metadata = {
         icon: "/favicon.ico",
     },
     // Open Graph metadata
-    metadataBase: new URL("https://www.manchesterveganguide.com"),
+    metadataBase: new URL("https://manchesterveganguide.com"),
     openGraph: {
         title: "Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
         description:
             "Discover the best vegetarian and vegan restaurants in Manchester. Your complete guide to meat-free dining in Manchester, from plant-based cafes to vegetarian bistros.",
-        url: "https://www.manchesterveganguide.com",
+        url: "https://manchesterveganguide.com",
         siteName: "Manchester Vegan Guide",
         type: "website",
         locale: "en_GB",
@@ -55,7 +55,7 @@ export const metadata = {
     },
     // Canonical URL (important for avoiding duplicate content issues)
     alternates: {
-        canonical: "https://www.manchesterveganguide.com",
+        canonical: "https://manchesterveganguide.com",
     }
 };
 

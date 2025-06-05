@@ -17,7 +17,7 @@ export const metadata = {
         title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
         description:
             "Explore Manchester's top vegan and vegetarian dining spots. Find cafés, pubs, bistros, and plant-based restaurants with our curated guide.",
-        url: "https://www.manchesterveganguide.com/cuisines",
+        url: "https://manchesterveganguide.com/cuisines",
         siteName: "Manchester Vegan Guide",
         images: [
             {
@@ -40,7 +40,7 @@ export const metadata = {
         site: "@MancVeganGuide",
     },
     alternates: {
-        canonical: "https://www.manchesterveganguide.com/cuisines",
+        canonical: "https://manchesterveganguide.com/cuisines",
     },
 };
 

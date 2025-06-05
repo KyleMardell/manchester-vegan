@@ -18,11 +18,11 @@ export async function generateMetadata({ params }) {
         title: `Vegan and Vegetarian ${readableCuisine} food in Manchester | Manchester Vegan Guide`,
         description: `Find the best vegan and vegetarian ${readableCuisine} restaurants in Manchester. From spicy street food to authentic plant-based dishes, explore top spots serving ${readableCuisine} cuisine with meat-free menus.`,
         keywords: `vegan ${readableCuisine} Manchester, vegetarian ${readableCuisine} Manchester, plant-based ${readableCuisine} Manchester, ${readableCuisine} vegan food Manchester, ${readableCuisine} vegetarian restaurants, Manchester vegan guide, vegan ${readableCuisine} restaurants, meat-free ${readableCuisine} Manchester`,
-        metadataBase: new URL("https://www.manchesterveganguide.com"),
+        metadataBase: new URL("https://manchesterveganguide.com"),
         openGraph: {
             title: `Vegan and Vegetarian ${readableCuisine} Food in Manchester | Manchester Vegan Guide`,
             description: `Explore the top vegan and vegetarian ${readableCuisine} cuisine spots in Manchester. Discover plant-based restaurants and meat-free dining near you.`,
-            url: `https://www.manchesterveganguide.com/cuisines/${awaitedParams.cuisine}`,
+            url: `https://manchesterveganguide.com/cuisines/${awaitedParams.cuisine}`,
             siteName: "Manchester Vegan Guide",
             images: [
                 {
@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
             site: "@MancVeganGuide",
         },
         alternates: {
-            canonical: `https://www.manchesterveganguide.com/cuisines/${awaitedParams.cuisine}`,
+            canonical: `https://manchesterveganguide.com/cuisines/${awaitedParams.cuisine}`,
         },
     };
 }
