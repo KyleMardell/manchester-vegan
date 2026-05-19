@@ -68,7 +68,7 @@ export default function Cookbooks() {
             <Row className="my-5">
                 <Col>
                     <p className="text-center px-3 mb-4">
-                        Whether you're just getting into plant-based cooking or
+                        Whether you&apos;re just getting into plant-based cooking or
                         looking for new go-to meals, this is the spot for easy
                         vegan and vegetarian recipe inspiration. I&apos;ve put
                         together a growing collection of recipes that are simple
@@ -87,7 +87,7 @@ export default function Cookbooks() {
                     <p className="text-center px-3 mb-3">
                         This free mini cookbook includes a handful of solid,
                         no-fuss recipes I regularly make myself — perfect if
-                        you're into prepping meals ahead of time or just want a
+                        you&apos;re into prepping meals ahead of time or just want a
                         bit of inspiration without scrolling for ages.
                         Everything&apos;s plant-based, beginner-friendly, and
                         uses ingredients that are easy to find in the UK.
