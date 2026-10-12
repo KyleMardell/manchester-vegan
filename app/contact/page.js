@@ -4,6 +4,9 @@ import Image from "next/image";
 import styles from "./Contact.module.css";
 
 export const metadata = {
+    alternates: {
+        canonical: "https://manchesterveganguide.com/contact",
+    },
     title: "Contact Us | Manchester Vegan Guide",
     description:
         "Get in touch with Manchester Vegan Guide. Suggest a restaurant, share an update, or ask a question. This independent site is here to help you find the best vegan and vegetarian spots in Manchester.",

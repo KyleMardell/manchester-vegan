@@ -20,6 +20,9 @@ export async function generateMetadata({ params }) {
         description: `Discover the best vegan and vegetarian restaurants in ${readableLocation}, Manchester. Enjoy top plant-based cafés, vegetarian-friendly eateries, and meat-free dining options in ${readableLocation}.`,
         keywords: `vegan restaurants ${readableLocation}, vegetarian restaurants ${readableLocation}, plant-based food ${readableLocation}, vegan cafes ${readableLocation}, vegetarian dining ${readableLocation}, Manchester vegan guide, vegan food ${readableLocation}, vegetarian food ${readableLocation}`,
         metadataBase: new URL("https://manchesterveganguide.com"),
+        alternates: {
+            canonical: `https://manchesterveganguide.com/locations/${location}`,
+        },
         openGraph: {
             title: `Vegan and Vegetarian Restaurants in ${readableLocation} | Manchester Vegan Guide`,
             description: `Discover the best vegan and vegetarian restaurants in ${readableLocation}, Manchester. Enjoy top plant-based cafés, vegetarian-friendly eateries, and meat-free dining options in ${readableLocation}.`,

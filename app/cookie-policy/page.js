@@ -5,6 +5,9 @@ import styles from "./CookiePolicy.module.css";
 import Link from "next/link";
 
 export const metadata = {
+    alternates: {
+        canonical: "https://manchesterveganguide.com/cookie-policy",
+    },
     title: "Cookie Policy | Manchester Vegan Guide",
     description:
         "Learn more about the Manchester Vegan Guide - a simple, independent project built to help people find great vegan and vegetarian food around the city. Find out how it's made, where the info comes from, and how to get in touch.",

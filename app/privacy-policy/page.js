@@ -4,6 +4,9 @@ import Image from "next/image";
 import styles from "./PrivacyPolicy.module.css";
 
 export const metadata = {
+    alternates: {
+        canonical: "https://manchesterveganguide.com/privacy-policy",
+    },
     title: "Privacy Policy | Manchester Vegan Guide",
     description:
         "Learn more about the Manchester Vegan Guide - a simple, independent project built to help people find great vegan and vegetarian food around the city. Find out how it's made, where the info comes from, and how to get in touch.",

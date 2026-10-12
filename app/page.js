@@ -3,6 +3,14 @@ import heroStyles from "./hero.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+    // Preserve the homepage canonical's trailing slash in Next.js metadata.
+    metadataBase: null,
+    alternates: {
+        canonical: "https://manchesterveganguide.com/",
+    },
+};
+
 export default function Home() {
     return (
         <Container fluid="lg">
