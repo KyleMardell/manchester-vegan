@@ -1,6 +1,10 @@
 // Editorial food labels supported by the sources below. Legacy cuisine categories are not verification.
 // Sources were checked during the approved audits or this presentation rollout (12 October 2026).
 export const restaurantFood = {
+    "skvp-manchester": {
+        "description": "Indian street food, including vada pav and samosa pav",
+        "source": "https://skvp.co.uk/"
+    },
     "soots": {
         "description": "Pasta and small plates",
         "source": "https://www.sootsmcr.com/menu"

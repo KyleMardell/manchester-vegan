@@ -4395,5 +4395,196 @@
     "maps": "https://www.google.com/maps/search/?api=1&query=Fuel%20Caf%C3%A9%20Bar%20448%20Wilmslow%20Road%2C%20Withington%2C%20Manchester%2C%20M20%203BW",
     "mapembed": "https://maps.google.com/maps?q=448%20Wilmslow%20Road%2C%20Withington%2C%20Manchester%2C%20M20%203BW&output=embed",
     "summary": "Fuel Café Bar is a vegetarian café-bar in Withington with vegan options. Its recorded food offering includes breakfasts, mezze and falafel burgers."
+  },
+  {
+    "name": "SKVP Manchester Arndale",
+    "slug": "skvp-manchester",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Official chain information describes vegetarian food; Manchester ordering menu includes dairy. Not a fully vegan restaurant.",
+    "locationSlug": "central-manchester",
+    "isCityCentre": true,
+    "cuisines": [
+      "Indian"
+    ],
+    "introduction": "SKVP Manchester Arndale serves vegetarian Indian street food, including vada pav and samosa pav.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/ShreeKrishnaVadaPavUK/",
+      "instagram": "https://www.instagram.com/skvp.uk/",
+      "x": "https://x.com/shreekrishnavp"
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Reported Monday-Saturday 11:00-21:00 and Sunday 11:00-19:00 remain secondary information. Centre hours do not establish branch hours."
+    },
+    "googleRating": {
+      "score": null,
+      "reviewCount": null,
+      "legacyReviewCountText": null,
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "cuisine",
+            "cuisines",
+            "food"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://skvp.co.uk/",
+            "https://deliveroo.co.uk/menu/Manchester/manchester-central/skvp-shree-krishna-vada-pav-manchester-arndale"
+          ],
+          "note": "Official chain describes vegetarian food. Manchester-specific ordering menu lists dairy/vegetable dishes including vada pav and samosa pav; no meat/fish products identified in inspected menu. Third-party menu used as corroboration only, not a menu action."
+        },
+        {
+          "fields": [
+            "name",
+            "location",
+            "locationSlug",
+            "isCityCentre"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.happycow.net/reviews/shree-krishna-vada-pav-skvp-manchester-arndale-greater-manchester-525064",
+            "https://aboutmanchester.co.uk/vegetarian-indian-street-food-brand-signs-up-for-arndale/",
+            "https://uk.linkedin.com/company/skvpuk"
+          ],
+          "note": "Manchester Arndale branch corroborated by local reporting, branch listing and chain Manchester announcement. Central Manchester is the existing geographic category; city-centre flag is geographic."
+        },
+        {
+          "fields": [
+            "website"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://skvp.co.uk/"
+          ],
+          "note": "Official SKVP website returned 200 and matching business content; Manchester is not present in its inspected branch list."
+        },
+        {
+          "fields": [
+            "socials.instagram",
+            "socials.x"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://skvp.co.uk/",
+            "https://www.instagram.com/skvp.uk/",
+            "https://x.com/shreekrishnavp"
+          ],
+          "note": "Current official website links @skvp.uk and @shreekrishnavp; public HTTP metadata matches business. Supplied @skvpuk returned an Instagram error page. Chain-wide accounts; latest post activity not established."
+        },
+        {
+          "fields": [
+            "socials.facebook"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://skvp.co.uk/wp-content/uploads/2023/11/Print-Menu-DMU-Leicester-20231121A_Compress.pdf",
+            "https://www.facebook.com/ShreeKrishnaVadaPavUK/"
+          ],
+          "note": "Official SKVP-hosted branded menu prints chain Facebook identifier; public page returns matching Shree Krishna Vada Pav, UK metadata. This Leicester menu supports account ownership only, not Manchester menu applicability."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://www.happycow.net/reviews/shree-krishna-vada-pav-skvp-manchester-arndale-greater-manchester-525064",
+            "https://manchesterarndale.com/eat/"
+          ],
+          "note": "Unit R1, Halle Place, M4 3AB reported by secondary branch listings; supplied Lower Mall designation could not be independently confirmed. Exact unit/postcode withheld. Manchester Arndale general centre address M4 3AQ is not substituted as branch address."
+        },
+        {
+          "fields": [
+            "phone",
+            "openingHours.venue",
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.happycow.net/reviews/shree-krishna-vada-pav-skvp-manchester-arndale-greater-manchester-525064",
+            "https://manchesterarndale.com/visitor-info/opening-closing-times/"
+          ],
+          "note": "Reported 07459 956061 and branch schedule lack inspected branch-specific official confirmation. General centre times are not branch times. No phone or hours selected."
+        },
+        {
+          "fields": [
+            "menu"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://skvp.co.uk/",
+            "https://skvp.co.uk/wp-content/uploads/2026/02/MAIN-MENU-BAND-1.jpg-scaled.jpeg",
+            "https://skvp.co.uk/wp-content/uploads/2023/02/Reading-Vegan-Menu-_A3_I-copy.pdf"
+          ],
+          "note": "General download destination is MAIN-MENU-BAND-1; Manchester applicability not established. Vegan PDF is Reading-labelled and rejected for Manchester. No third-party menu substituted."
+        },
+        {
+          "fields": [
+            "status",
+            "facts.venueType",
+            "facts.dineIn",
+            "facts.takeaway",
+            "facts.delivery",
+            "facts.bookingRequired",
+            "facts.alcoholPolicy",
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://skvp.co.uk/",
+            "https://www.happycow.net/reviews/shree-krishna-vada-pav-skvp-manchester-arndale-greater-manchester-525064",
+            "https://deliveroo.co.uk/menu/Manchester/manchester-central/skvp-shree-krishna-vada-pav-manchester-arndale",
+            "https://uk.linkedin.com/company/skvpuk"
+          ],
+          "note": "Opening announcement and ordering listings support branch existence but do not establish current trading or separately confirmed current services. Chain-wide services not inferred. No Google figures collected. No Manchester-specific official social account established."
+        }
+      ]
+    },
+    "type": "Vegetarian",
+    "cuisine": "Indian",
+    "score": null,
+    "reviews": null,
+    "website": "https://skvp.co.uk/",
+    "address": null,
+    "location": "Central Manchester",
+    "centre": "yes",
+    "phone": null,
+    "menu": null,
+    "image": "/images/MVG-logo.webp",
+    "alt": "Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front.",
+    "times": null,
+    "facebook": "https://www.facebook.com/ShreeKrishnaVadaPavUK/",
+    "twitter": "https://x.com/shreekrishnavp",
+    "instagram": "https://www.instagram.com/skvp.uk/",
+    "maps": null,
+    "mapembed": null,
+    "summary": "SKVP Manchester Arndale serves vegetarian Indian street food, including vada pav and samosa pav."
   }
 ]
