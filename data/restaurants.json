@@ -4001,5 +4001,399 @@
     "maps": "https://www.google.com/maps/place/World+Peace+Cafe/data=!4m7!3m6!1s0x487bade93a136f35:0x9811b2b383e24923!8m2!3d53.440991!4d-2.2818778!16s%2Fg%2F11b5pjjy7n!19sChIJNW8TOumte0gRI0nig7OyEZg?authuser=0&hl=en&rclk=1",
     "mapembed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.53673639528!2d-2.2818777999999997!3d53.440991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bade93a136f35%3A0x9811b2b383e24923!2sWorld%20Peace%20Cafe!5e0!3m2!1sen!2suk!4v1745193537924!5m2!1sen!2suk",
     "summary": "World Peace Café Manchester is a vegetarian and vegan café located at the Kadampa Meditation Centre in Chorlton, Greater Manchester. The café offers a range of plant-based dishes including vegan burgers, soups, sandwiches, and cakes. Perfect for vegans and vegetarians in Manchester, World Peace Café serves wholesome, affordable meals made from fresh ingredients. With its peaceful atmosphere and focus on vegetarian and vegan dining, it's an ideal spot for anyone seeking healthy plant-based food in Manchester."
+  },
+  {
+    "name": "Soots",
+    "slug": "soots",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": null,
+    "locationSlug": "northern-quarter",
+    "isCityCentre": true,
+    "cuisines": [
+      "Italian"
+    ],
+    "introduction": "Soots serves pasta and small plates on Tib Street in the Northern Quarter. Its published sample menu is entirely plant based.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": null,
+      "instagram": "https://www.instagram.com/sootsmcr/",
+      "x": null,
+      "tiktok": "https://www.tiktok.com/@sootspasta"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": null,
+        "tuesday": [
+          {
+            "opens": "17:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "17:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "17:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "12:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "12:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "12:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Published venue hours; Monday is unverified. Last seating is 21:00. Separate kitchen hours are unknown. Secondary booking/directory schedules conflict with the official timetable."
+    },
+    "googleRating": {
+      "score": null,
+      "reviewCount": null,
+      "legacyReviewCountText": null,
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "cuisines",
+            "cuisine",
+            "food"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.sootsmcr.com/menu"
+          ],
+          "note": "Official sample menu explicitly says 100% plant based and publishes pasta and small plates; Italian food style corroborated by Dish Cult and local reporting."
+        },
+        {
+          "fields": [
+            "address",
+            "website",
+            "openingHours.venue",
+            "facts.venueType",
+            "facts.dineIn",
+            "reservations"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.sootsmcr.com/",
+            "https://www.sootsmcr.com/reservations"
+          ],
+          "note": "Official pages identify 108 Tib Street and publish the hours and table reservations. Reservations URL: https://www.sootsmcr.com/reservations. Last seating 21:00; card payments only. Does not establish current trading or mandatory booking."
+        },
+        {
+          "fields": [
+            "location",
+            "locationSlug",
+            "isCityCentre"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://themanc.com/eats/inside-soots-the-tiny-new-pasta-restaurant-in-the-northern-quarter/"
+          ],
+          "note": "Northern Quarter location corroborated; city-centre flag is a geographic assessment."
+        },
+        {
+          "fields": [
+            "socials.instagram",
+            "socials.tiktok"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.sootsmcr.com/",
+            "https://www.instagram.com/sootsmcr/",
+            "https://www.tiktok.com/@sootspasta"
+          ],
+          "note": "Official website links these accounts; direct requests returned matching profiles."
+        },
+        {
+          "fields": [
+            "phone"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://www.sootsmcr.com/",
+            "https://www.sootsmcr.com/reservations",
+            "https://www.dishcult.com/restaurant/soots"
+          ],
+          "note": "Live official pages showed 07446295738; cached reservations showed 07554662947 and booking listing another number. No phone selected."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.sootsmcr.com/",
+            "https://stats.happycow.net/reviews/soots-manchester-473621"
+          ],
+          "note": "Recent visitor reports support recent operation; current trading not independently confirmed."
+        },
+        {
+          "fields": [
+            "facts.takeaway",
+            "facts.delivery",
+            "facts.alcoholPolicy",
+            "facts.bookingRequired",
+            "openingHours.foodService",
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "No sufficiently reliable current evidence recorded. No Google figures collected."
+        },
+        {
+          "fields": [
+            "website",
+            "menu",
+            "socials.instagram",
+            "socials.tiktok"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.sootsmcr.com/",
+            "https://www.sootsmcr.com/menu",
+            "https://www.instagram.com/sootsmcr/",
+            "https://www.tiktok.com/@sootspasta"
+          ],
+          "note": "Direct HTTP checks returned 200. Official homepage and menu link @sootsmcr and @sootspasta. Instagram returns matching Soots profile; TikTok identifies 108 Tib Street. No additional official social account established."
+        }
+      ]
+    },
+    "type": "Vegan",
+    "cuisine": "Italian",
+    "score": null,
+    "reviews": null,
+    "website": "https://www.sootsmcr.com/",
+    "address": "108 Tib Street, Manchester, M4 1LR",
+    "location": "Northern Quarter",
+    "centre": "yes",
+    "phone": null,
+    "menu": "https://www.sootsmcr.com/menu",
+    "image": "/images/MVG-logo.webp",
+    "alt": "Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front.",
+    "times": null,
+    "facebook": "N/A",
+    "twitter": "N/A",
+    "instagram": "https://www.instagram.com/sootsmcr/",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Soots%20108%20Tib%20Street%2C%20Manchester%2C%20M4%201LR",
+    "mapembed": "https://maps.google.com/maps?q=108%20Tib%20Street%2C%20Manchester%2C%20M4%201LR&output=embed",
+    "summary": "Soots serves pasta and small plates on Tib Street in the Northern Quarter. Its published sample menu is entirely plant based."
+  },
+  {
+    "name": "Fuel Café Bar",
+    "slug": "fuel-cafe-bar",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": null,
+    "locationSlug": "withington",
+    "isCityCentre": false,
+    "cuisines": [
+      "World-Menu"
+    ],
+    "introduction": "Fuel Café Bar is a vegetarian café-bar in Withington with vegan options. Its recorded food offering includes breakfasts, mezze and falafel burgers.",
+    "facts": {
+      "venueType": "cafe",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": "licensed"
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/fuelcafebar/",
+      "instagram": "https://www.instagram.com/fuelcafebar/",
+      "x": null
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Conflicting secondary schedules; no current official timetable verified. Kitchen hours unknown."
+    },
+    "googleRating": {
+      "score": null,
+      "reviewCount": null,
+      "legacyReviewCountText": null,
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "address",
+            "location",
+            "locationSlug",
+            "isCityCentre",
+            "cuisines",
+            "cuisine",
+            "food",
+            "facts.venueType",
+            "facts.dineIn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://jpandbrimelow.co.uk/2026/09/meet-our-local-community-fuel-cafe-bar/",
+            "https://thatsup.co.uk/manchester/bar/fuel-cafe-bar",
+            "https://camra.org.uk/pubs/fuel-bar-withington-167403"
+          ],
+          "note": "Secondary/business-attributed September 2026 coverage supports vegetarian food with vegan options, halloumi/paneer, breakfasts, mezze and falafel burgers, and Withington address. World-Menu is the existing broad category; not a claim that all food is vegan. City-centre flag is a geographic assessment."
+        },
+        {
+          "fields": [
+            "phone"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://camra.org.uk/pubs/fuel-bar-withington-167403",
+            "https://www.theskinny.co.uk/whats-on/manchester/pubs-bars/fuel"
+          ],
+          "note": "Published number corroborated by independent secondary sources; no call made."
+        },
+        {
+          "fields": [
+            "facts.alcoholPolicy"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.myvegantown.org.uk/fuel-cafe-bar",
+            "https://jpandbrimelow.co.uk/2026/09/meet-our-local-community-fuel-cafe-bar/"
+          ],
+          "note": "Secondary evidence describes licensed alcohol sales; BYOB not verified."
+        },
+        {
+          "fields": [
+            "socials.instagram"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.instagram.com/fuelcafebar/",
+            "https://www.mastermanchester.co.uk/guide-to-withington-manchester/"
+          ],
+          "note": "Profile returned matching FUEL name; secondary coverage associates account with Withington business. Recent posts not fully inspected."
+        },
+        {
+          "fields": [
+            "website",
+            "menu",
+            "openingHours.venue",
+            "openingHours.foodService",
+            "facts.takeaway",
+            "facts.delivery",
+            "facts.bookingRequired",
+            "status",
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://jpandbrimelow.co.uk/2026/09/meet-our-local-community-fuel-cafe-bar/",
+            "https://www.myvegantown.org.uk/fuel-cafe-bar",
+            "https://thatsup.co.uk/manchester/bar/fuel-cafe-bar"
+          ],
+          "note": "Supplied fuelcafebar.com did not resolve; historical .co.uk returned 410. No reliable official menu or schedule. Recent coverage supports operation but current status remains unknown. Platform/takeaway listings not treated as confirmed services. No Google figures collected."
+        },
+        {
+          "fields": [
+            "socials.instagram",
+            "socials.facebook"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.instagram.com/fuelcafebar/",
+            "https://www.facebook.com/fuelcafebar/",
+            "https://www.mastermanchester.co.uk/best-vegan-cafes-in-manchester/",
+            "https://confidentialguides.com/food-drink/cafes/fuel-withington-cafe/"
+          ],
+          "note": "Direct public Instagram metadata describes Withington veggie cafe bar and fuelupstairs@gmail.com. Facebook returns Fuel Cafe Bar | Manchester and independent veggie cafe bar/music venue description. Local guides link these exact accounts for the Wilmslow Road business, corroborating identity. Ownership association established without a platform verification-badge claim; recent posts not fully inspected."
+        },
+        {
+          "fields": [
+            "website",
+            "menu"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.fuelcafebar.com/",
+            "https://fuelcafebar.co.uk/",
+            "https://www.just-eat.co.uk/restaurants-fuel-cafe-bar-manchester/menu?jet-source=content_page",
+            "https://www.mastermanchester.co.uk/best-vegan-cafes-in-manchester/"
+          ],
+          "note": "Standalone .com failed DNS; historical .co.uk returned 410. Just Eat direct check returned 403 and remains a third-party ordering menu, not an approved replacement. Local guide points to an Instagram menu post, but usable current restaurant-published menu content could not be inspected. Website/menu remain null and hidden. No additional official social account confirmed."
+        }
+      ]
+    },
+    "type": "Vegetarian",
+    "cuisine": "World-Menu",
+    "score": null,
+    "reviews": null,
+    "website": null,
+    "address": "448 Wilmslow Road, Withington, Manchester, M20 3BW",
+    "location": "Withington",
+    "centre": "no",
+    "phone": "01614489702",
+    "menu": null,
+    "image": "/images/MVG-logo.webp",
+    "alt": "Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front.",
+    "times": null,
+    "facebook": "https://www.facebook.com/fuelcafebar/",
+    "twitter": "N/A",
+    "instagram": "https://www.instagram.com/fuelcafebar/",
+    "maps": "https://www.google.com/maps/search/?api=1&query=Fuel%20Caf%C3%A9%20Bar%20448%20Wilmslow%20Road%2C%20Withington%2C%20Manchester%2C%20M20%203BW",
+    "mapembed": "https://maps.google.com/maps?q=448%20Wilmslow%20Road%2C%20Withington%2C%20Manchester%2C%20M20%203BW&output=embed",
+    "summary": "Fuel Café Bar is a vegetarian café-bar in Withington with vegan options. Its recorded food offering includes breakfasts, mezze and falafel burgers."
   }
 ]

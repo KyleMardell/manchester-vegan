@@ -1,6 +1,14 @@
 // Editorial food labels supported by the sources below. Legacy cuisine categories are not verification.
 // Sources were checked during the approved audits or this presentation rollout (12 October 2026).
 export const restaurantFood = {
+    "soots": {
+        "description": "Pasta and small plates",
+        "source": "https://www.sootsmcr.com/menu"
+    },
+    "fuel-cafe-bar": {
+        "description": "Breakfasts, mezze and falafel burgers",
+        "source": "https://jpandbrimelow.co.uk/2026/09/meet-our-local-community-fuel-cafe-bar/"
+    },
     "bundobust-manchester-piccadilly": {
         "description": "Indian street food",
         "source": "https://bundobust.com/menu/"

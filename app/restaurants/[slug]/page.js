@@ -34,7 +34,7 @@ export async function generateMetadata({ params }) {
         ? `${restaurant.name} in ${restaurant.location} is permanently closed. Read the closure information and historical restaurant overview.`
         : isTemporarilyClosed
           ? `${restaurant.name} is temporarily closed. Read the restaurant information on Manchester Vegan Guide.`
-          : `${restaurant.name}: ${category.toLowerCase()}. Read recorded restaurant details and historical Google ratings on Manchester Vegan Guide.`;
+          : `${restaurant.name}: ${category.toLowerCase()}. Read recorded restaurant details${Number.isFinite(restaurant.googleRating?.score) ? " and historical Google ratings" : ""} on Manchester Vegan Guide.`;
     const keywords = `${restaurant.name}, ${category.toLowerCase()}, ${isClosed ? "permanently closed restaurant, " : ""}Manchester Vegan Guide`;
 
     return {
@@ -90,6 +90,7 @@ export default async function RestaurantPage({ params }) {
 
     const isClosed = restaurant.status === "permanently_closed";
     const hasMenuUrl = typeof restaurant.menu === "string" && /^https?:\/\/\S+$/i.test(restaurant.menu);
+    const hasWebsiteUrl = typeof restaurant.website === "string" && /^https?:\/\/\S+$/i.test(restaurant.website);
     // An existing verification note records a postcode conflict for the former Withington venue.
     const hasVerifiedAddress = restaurant.slug !== "herbivorous-vegan-withington"
         && restaurant.address && restaurant.address !== "N/A" && isFieldVerified(restaurant, "address");
@@ -151,7 +152,7 @@ export default async function RestaurantPage({ params }) {
                 </Col>
             </Row>
             {!isClosed && <Row className="my-5">
-                {restaurant.website != "N/A" ? (
+                {hasWebsiteUrl ? (
                     <Col className="text-center my-2">
                         <Link
                             href={restaurant.website}
@@ -280,6 +281,18 @@ export default async function RestaurantPage({ params }) {
                     </Col>
                 ) : (
                     <></>
+                )}
+                {restaurant.socials?.tiktok && isFieldVerified(restaurant, "socials.tiktok") && (
+                    <Col className="text-center mb-4">
+                        <Link
+                            href={restaurant.socials.tiktok}
+                            aria-label={`${restaurant.name} on TikTok`}
+                            className={styles.SocialIcon}
+                            target="_blank"
+                            rel="noopener">
+                            <i className="bi bi-tiktok" aria-hidden="true"></i>
+                        </Link>
+                    </Col>
                 )}
             </Row>
             {hasVerifiedAddress && <Row>
