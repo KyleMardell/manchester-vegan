@@ -6,16 +6,21 @@ import CardBody from "react-bootstrap/CardBody";
 import CardFooter from "react-bootstrap/CardFooter";
 
 import styles from "./RestaurantCard.module.css";
+import { isFieldVerified } from "@/utils/restaurants";
 
 const RestaurantCard = ({
     name,
     slug,
-    restType,
+    dietary,
+    verification,
     location,
     mapembed,
     cuisine,
 }) => {
     const cuisineArray = cuisine.split(",").map((c) => c.trim());
+    const dietaryLabel = isFieldVerified({ verification }, "dietary")
+        ? { fully_vegan: "Vegan", vegetarian: "Vegetarian", vegan_options: "Vegan options" }[dietary]
+        : null;
 
     return (
         <Link href={`/restaurants/${slug}`}>
@@ -25,7 +30,7 @@ const RestaurantCard = ({
                 </CardHeader>
                 <CardBody className={``}>
                     <p className={`m-0 ${styles.RestDetails}`}>
-                        {restType} restaurant in {location}
+                        {dietaryLabel === "Vegan options" ? "Restaurant with vegan options" : dietaryLabel ? `${dietaryLabel} restaurant` : "Restaurant"} in {location}
                     </p>
                     <p className={`m-0 ${styles.RestDetails}`}>
                         Serving:

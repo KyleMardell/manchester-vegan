@@ -1,10 +1,13 @@
 import RestaurantCard from "@/components/RestaurantCard";
-import data from "@/data/restaurants.json";
+import rawData from "@/data/restaurants.json";
+import { getActiveRestaurants, normalizeRestaurants } from "@/utils/restaurants";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import styles from "./cuisine.module.css";
 import BackButton from "@/components/BackButton";
+
+const data = normalizeRestaurants(rawData);
 
 export async function generateMetadata({ params }) {
     const awaitedParams = await params;
@@ -70,7 +73,7 @@ export default async function CuisinePage({ params }) {
     const decodedCuisine = decodeURIComponent(awaitedParams.cuisine);
     const cuisineSlug = awaitedParams.cuisine.toLowerCase();
 
-    const filteredRestaurants = data.filter((restaurant) =>
+    const filteredRestaurants = getActiveRestaurants(data).filter((restaurant) =>
         restaurant.cuisine
             .split(",")
             .map((c) => slugify(c.trim().toLowerCase()))
@@ -123,6 +126,13 @@ export default async function CuisinePage({ params }) {
                 </Col>
             </Row>
 
+            {filteredRestaurants.length === 0 && (
+                <Row>
+                    <Col xs={12} className="text-center my-4">
+                        <p>No active restaurant listings are currently available for this category.</p>
+                    </Col>
+                </Row>
+            )}
             <Row>
                 {[...filteredRestaurants]
                     .sort((a, b) => a.name.localeCompare(b.name))
@@ -131,7 +141,8 @@ export default async function CuisinePage({ params }) {
                             <RestaurantCard
                                 name={restaurant.name}
                                 slug={restaurant.slug}
-                                restType={restaurant.type}
+                                dietary={restaurant.dietary}
+                                verification={restaurant.verification}
                                 location={restaurant.location}
                                 mapembed={restaurant.mapembed}
                                 cuisine={restaurant.cuisine}

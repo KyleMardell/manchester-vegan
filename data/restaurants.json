@@ -2,6 +2,206 @@
   {
     "name": "Bundobust - Manchester Piccadilly",
     "slug": "bundobust-manchester-piccadilly",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed; published website details alone are not proof of current trading.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Vegetarian menu with vegan options; includes dairy and eggs.",
+    "locationSlug": "picadilly",
+    "isCityCentre": true,
+    "cuisines": [
+      "Indian",
+      "Chinese",
+      "Curry",
+      "Street-Food"
+    ],
+    "introduction": "Bundobust Manchester Piccadilly has a vegetarian menu with vegan dishes and options. The restaurant is at 61 Piccadilly, with dine-in seating.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/bundobustmcr/?locale=en_GB",
+      "instagram": "https://www.instagram.com/explore/locations/1022596143/bundobust-manchester-piccadilly/",
+      "x": "https://x.com/bundobustmcr"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [
+          {
+            "opens": "12:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [
+          {
+            "opens": "12:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "12:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "12:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "12:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": {
+        "monday": [
+          {
+            "opens": "12:00",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [
+          {
+            "opens": "12:00",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "12:00",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "12:00",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "12:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "12:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "note": "Official venue hours; food service closes one hour before the bar. Kitchen closing times are derived from that explicit statement. Legacy hours are retained unchanged."
+    },
+    "googleRating": {
+      "score": 4.6,
+      "reviewCount": null,
+      "legacyReviewCountText": "3600+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://bundobust.com/menu/"
+          ],
+          "note": "Official menu lists vegetarian dishes, including paneer and eggs, alongside vegan dishes and vegan options."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "openingHours.venue",
+            "facts.venueType",
+            "facts.dineIn",
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://bundobust.com/locations/manchester/"
+          ],
+          "note": "Official source supports these published contact details, service setting and schedules. Official venue hours; food service closes one hour before the bar. Kitchen closing times are derived from that explicit statement. Legacy hours are retained unchanged."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://bundobust.com/locations/manchester/"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy social destinations copied without validating profile ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical score and approximate count preserved; live Google values have not been checked."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Indian, Chinese, Curry, Street-Food",
     "score": 4.6,
@@ -14,7 +214,7 @@
     "menu": "https://bundobust.com/food/",
     "times": "Monday 12-10:30 pm, Tuesday 12-10:30 pm, Wednesday 12-10:30 pm, Thursday 12-10:30 pm, Friday 12-11 pm, Saturday, 12-11 pm, Sunday 12-9 pm",
     "image": "https://res.cloudinary.com/dmmjoywj6/image/upload/v1748796183/bundobust-picadilly_drn2rc.jpg",
-    "alt": "The front door of Bundobust Vegan Restaurant in Picadilly in Manchester.",
+    "alt": "The entrance to Bundobust Manchester Piccadilly.",
     "facebook": "https://www.facebook.com/bundobustmcr/?locale=en_GB",
     "twitter": "https://x.com/bundobustmcr",
     "instagram": "https://www.instagram.com/explore/locations/1022596143/bundobust-manchester-piccadilly/",
@@ -25,6 +225,155 @@
   {
     "name": "Comptoir Libanais - Manchester",
     "slug": "comptoir-libanais-manchester",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed; published website details alone are not proof of current trading.",
+    "closedOn": null,
+    "dietary": "vegan_options",
+    "dietaryNote": "Serves meat and fish alongside vegan and vegetarian options.",
+    "locationSlug": "spinningfields",
+    "isCityCentre": true,
+    "cuisines": [
+      "Middle-Eastern",
+      "North-African",
+      "Lebanese",
+      "Mezze"
+    ],
+    "introduction": "Comptoir Libanais Manchester is at 18–19 The Avenue. Its menu includes vegan options alongside meat and fish dishes, with dine-in seating.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/lecomptoirlibanais/",
+      "instagram": "https://www.instagram.com/comptoirlibanais/",
+      "x": "https://x.com/comptoirlibanai?lang=en"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [
+          {
+            "opens": "11:30",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [
+          {
+            "opens": "11:30",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "11:30",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "11:30",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "11:30",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "11:30",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "11:30",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Official branch opening hours; separate kitchen and last-order times are unverified. Official Sunday closing is 22:30, while the unchanged legacy hours say 20:30."
+    },
+    "googleRating": {
+      "score": 4.4,
+      "reviewCount": null,
+      "legacyReviewCountText": "3200+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.comptoirlibanais.com/menus/"
+          ],
+          "note": "Official menu labels vegan dishes and also lists chicken, lamb and fish."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "openingHours.venue",
+            "facts.venueType",
+            "facts.dineIn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.comptoirlibanais.com/locations/manchester/"
+          ],
+          "note": "Official source supports these published contact details, service setting and schedules. Official branch opening hours; separate kitchen and last-order times are unverified. Official Sunday closing is 22:30, while the unchanged legacy hours say 20:30."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.comptoirlibanais.com/locations/manchester/"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy social destinations copied without validating profile ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical score and approximate count preserved; live Google values have not been checked."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Middle-Eastern, North-African, Lebanese, Mezze",
     "score": 4.4,
@@ -48,6 +397,112 @@
   {
     "name": "Purezza - Manchester",
     "slug": "purezza-manchester",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Fully vegan pizzeria supported by independent specialist coverage; official site could not be retrieved during this check.",
+    "locationSlug": "northern-quarter",
+    "isCityCentre": true,
+    "cuisines": [
+      "Italian",
+      "Pizza"
+    ],
+    "introduction": "Purezza Manchester is a fully vegan restaurant at 75–77 High Street. Dine-in seating is part of its recorded offering.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/purezza/",
+      "instagram": "https://www.instagram.com/purezza/",
+      "x": "https://x.com/purezza/"
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Official homepage and Manchester page returned 502 errors. Secondary coverage lists Fri-Sat closing at 23:00 and Sunday at 22:00, conflicting with unchanged legacy hours of 22:30 and 21:00. No schedule selected."
+    },
+    "googleRating": {
+      "score": 4.8,
+      "reviewCount": null,
+      "legacyReviewCountText": "2400+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.veganfoodandliving.com/vegan-lifestyle/best-vegan-restaurants-manchester/"
+          ],
+          "note": "Vegan Food & Living describes the Manchester pizzeria, cheeses, sauces and doughs as fully vegan and 100% plant-based. Evidence is secondary, not an official-site verification."
+        },
+        {
+          "fields": [
+            "address",
+            "facts.venueType",
+            "facts.dineIn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.veganfoodandliving.com/vegan-lifestyle/best-vegan-restaurants-manchester/"
+          ],
+          "note": "Address and dine-in pizzeria setting corroborated by specialist coverage; phone not independently checked."
+        },
+        {
+          "fields": [
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://www.veganfoodandliving.com/vegan-lifestyle/best-vegan-restaurants-manchester/"
+          ],
+          "note": "Official homepage and Manchester page returned 502 errors. Secondary coverage lists Fri-Sat closing at 23:00 and Sunday at 22:00, conflicting with unchanged legacy hours of 22:30 and 21:00. No schedule selected."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.veganfoodandliving.com/vegan-lifestyle/best-vegan-restaurants-manchester/"
+          ],
+          "note": "Current trading has not been independently established; published listings, menus and schedules do not themselves confirm operation."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy links copied without validating ownership or activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating retained; live Google score and count not checked."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "Italian, Pizza",
     "score": 4.8,
@@ -71,6 +526,141 @@
   {
     "name": "Lily's Indian Vegetarian Cuisine",
     "slug": "lilys-indian-vegetarian-cuisine",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed; published website details alone are not proof of current trading.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Vegetarian Indian restaurant with vegan options.",
+    "locationSlug": "ashton",
+    "isCityCentre": false,
+    "cuisines": [
+      "Indian",
+      "Curry"
+    ],
+    "introduction": "Lily’s Indian Vegetarian Cuisine is a vegetarian restaurant at 85 Oldham Road, Ashton-under-Lyne. Its recorded offering includes vegan food and dine-in seating.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/lilysvegi/",
+      "instagram": "https://www.instagram.com/lilysvegi/",
+      "x": "https://twitter.com/LilysVegi/status/1535968838147350528"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [],
+        "tuesday": [],
+        "wednesday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "12:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "12:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "12:00",
+            "closes": "18:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Restaurant hours, not deli hours. Official last orders are 90 minutes before restaurant closing; kitchen closing is not separately stated. Deli hours: Wed-Thu 11:00-20:00, Fri-Sat 11:00-21:00, Sun 11:00-17:00; Mon-Tue closed. Legacy restaurant hours differ and are retained unchanged."
+    },
+    "googleRating": {
+      "score": 4.6,
+      "reviewCount": null,
+      "legacyReviewCountText": "1800+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://lilysindianvegetarian.co.uk/"
+          ],
+          "note": "Official site identifies Lily's as an Indian vegetarian restaurant and describes vegetarian and vegan food."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "openingHours.venue",
+            "facts.venueType",
+            "facts.dineIn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://lilysindianvegetarian.co.uk/"
+          ],
+          "note": "Official source supports these published contact details, service setting and schedules. Restaurant hours, not deli hours. Official last orders are 90 minutes before restaurant closing; kitchen closing is not separately stated. Deli hours: Wed-Thu 11:00-20:00, Fri-Sat 11:00-21:00, Sun 11:00-17:00; Mon-Tue closed. Legacy restaurant hours differ and are retained unchanged."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://lilysindianvegetarian.co.uk/"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy social destinations copied without validating profile ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical score and approximate count preserved; live Google values have not been checked."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Indian, Curry",
     "score": 4.6,
@@ -94,6 +684,158 @@
   {
     "name": "Sanskruti Restaurant",
     "slug": "sanskruti-restaurant",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed; published website details alone are not proof of current trading.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Vegetarian Indian restaurant with vegan options.",
+    "locationSlug": "ladybarn",
+    "isCityCentre": false,
+    "cuisines": [
+      "Indian",
+      "Street-Food"
+    ],
+    "introduction": "Sanskruti is a vegetarian restaurant at 93–95 Mauldeth Road with vegan options. It has dine-in seating and is licensed to serve alcohol.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": "licensed"
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/SanskrutiManchesterUK?fref=nf#",
+      "instagram": "https://www.instagram.com/sanskrutirestaurant/",
+      "x": "https://x.com/Sanskruti95"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [],
+        "tuesday": [
+          {
+            "opens": "17:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "17:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "17:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "17:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "09:30",
+            "closes": "12:00",
+            "closesNextDay": false
+          },
+          {
+            "opens": "13:00",
+            "closes": "22:30",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "09:30",
+            "closes": "12:00",
+            "closesNextDay": false
+          },
+          {
+            "opens": "13:00",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Official business hours plus weekend breakfast advertised in the embedded official social feed. Last orders are stated as 30 minutes before closing; separate kitchen closing and breakfast last orders are unverified. Mondays closed including bank holidays. Legacy hours are retained unchanged."
+    },
+    "googleRating": {
+      "score": 4.6,
+      "reviewCount": null,
+      "legacyReviewCountText": "1600+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.sanskrutirestaurant.co.uk/manchester/"
+          ],
+          "note": "Official site identifies the restaurant as vegetarian and vegan, rather than fully vegan."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "openingHours.venue",
+            "facts.venueType",
+            "facts.dineIn",
+            "facts.alcoholPolicy"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.sanskrutirestaurant.co.uk/manchester/"
+          ],
+          "note": "Official source supports these published contact details, service setting and schedules. Official business hours plus weekend breakfast advertised in the embedded official social feed. Last orders are stated as 30 minutes before closing; separate kitchen closing and breakfast last orders are unverified. Mondays closed including bank holidays. Legacy hours are retained unchanged."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.sanskrutirestaurant.co.uk/manchester/"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy social destinations copied without validating profile ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical score and approximate count preserved; live Google values have not been checked."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Indian, Street-Food",
     "score": 4.6,
@@ -117,6 +859,111 @@
   {
     "name": "The Allotment Vegan & Vegetarian Eatery",
     "slug": "the-allotment-vegan-vegetarian-eatery",
+    "status": "permanently_closed",
+    "statusNote": "HappyCow reports closure in July 2026 and Thatsup independently marks this Cathedral Gates venue permanently closed. Exact final trading date unknown; unavailable website is not closure evidence.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Historical vegetarian offering with vegan options; the June 2026 official menu includes vegetarian cheese additions. Former vegan-only descriptions are outdated.",
+    "locationSlug": "shambles-square",
+    "isCityCentre": true,
+    "cuisines": [
+      "World-Menu"
+    ],
+    "introduction": "The Allotment was a vegetarian eatery with vegan options at 1–3 Cathedral Gates. The venue is permanently closed.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/allotmentvegan",
+      "instagram": "https://www.instagram.com/allotmentvegan/",
+      "x": "https://twitter.com/allotmentvegan/status/1275920145060421633"
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Permanently closed; legacy hours remain unchanged but are not represented as current structured hours."
+    },
+    "googleRating": {
+      "score": 4.1,
+      "reviewCount": null,
+      "legacyReviewCountText": "1000+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.happycow.net/reviews/the-allotment-manchester-79746?page=1",
+            "https://thatsup.co.uk/manchester/restaurant/the-allotment/"
+          ],
+          "note": "Two address-specific directories corroborate permanent closure. July 2026 is a reported month, not an exact closure date; closedOn remains null. No direct founder announcement obtained."
+        },
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://allotmentvegan.co.uk/wp-content/uploads/2026/06/sunday-brunch-june-2026.pdf",
+            "https://www.happycow.net/reviews/the-allotment-manchester-79746?page=1"
+          ],
+          "note": "Official June 2026 menu content available through search indexing includes vegetarian and vegan pizzas and vegetarian cheese additions; direct PDF fetch failed. HappyCow identifies the venue as vegetarian, with vegetarian items reported since April 2025. Classification describes historical offerings."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.happycow.net/reviews/the-allotment-manchester-79746?page=1",
+            "https://thatsup.co.uk/manchester/restaurant/the-allotment/"
+          ],
+          "note": "Both listings identify 1-3 Cathedral Gates, M3 1SW. Historical address corroboration only."
+        },
+        {
+          "fields": [
+            "openingHours.foodService",
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Permanently closed; legacy hours remain unchanged but are not represented as current structured hours."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without checking ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating and approximate review count retained without a current Google check."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "World-Menu",
     "score": 4.1,
@@ -140,6 +987,165 @@
   {
     "name": "Sicilian NQ - Restaurant and Bar",
     "slug": "sicilian-nq-restaurant-and-bar",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "vegan_options",
+    "dietaryNote": "Serves seafood alongside vegan and vegetarian dishes.",
+    "locationSlug": "northern-quarter",
+    "isCityCentre": true,
+    "cuisines": [
+      "Sicilian",
+      "Street-Food"
+    ],
+    "introduction": "Sicilian NQ is at 14 Turner Street, with dine-in seating and collection ordering. Its menu includes vegan options alongside dishes containing seafood.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": true,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/SicilianFoodNQ/",
+      "instagram": "https://www.instagram.com/sicilianfoodnq/#",
+      "x": "https://x.com/sicilianfoodnq"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Official venue hours are noon to 23:00 daily. Separate kitchen closing and last-order times are not verified. Website links a different menu from the unchanged legacy PDF."
+    },
+    "googleRating": {
+      "score": 4,
+      "reviewCount": null,
+      "legacyReviewCountText": "850+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.siciliannq.com/",
+            "https://www.siciliannq.com/_files/ugd/172954_644a18813d9d450b8958c4a95f226928.pdf"
+          ],
+          "note": "Official website offers vegan options; its linked menu labels vegan and vegetarian dishes and includes clams and mussels."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "facts.venueType",
+            "facts.dineIn",
+            "facts.takeaway"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.siciliannq.com/"
+          ],
+          "note": "Official website corroborates address and phone, restaurant seating and collection ordering."
+        },
+        {
+          "fields": [
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.siciliannq.com/"
+          ],
+          "note": "Official venue hours are noon to 23:00 daily. Separate kitchen closing and last-order times are not verified. Website links a different menu from the unchanged legacy PDF."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.siciliannq.com/"
+          ],
+          "note": "Current trading has not been independently established; published listings, menus and schedules do not themselves confirm operation."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy links copied without validating ownership or activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating retained; live Google score and count not checked."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian (Serves seafood)",
     "cuisine": "Sicilian, Street-Food",
     "score": 4,
@@ -152,7 +1158,7 @@
     "menu": "https://cdn.shopify.com/s/files/1/0511/8525/4585/files/Sicilian_Food_VEGAN_Menu_2025.pdf?v=1740646858",
     "times": "Monday 12-11 pm, Tuesday 12-11 pm, Wednesday 12-11 pm, Thursday 12-11 pm, Friday 12-11 pm, Saturday 12-11 pm, Sunday 12-11 pm",
     "image": "https://res.cloudinary.com/dmmjoywj6/image/upload/v1748797162/sicilian-nq_wu9qmk.jpg",
-    "alt": "The restaurant front of Sicilian Vegan Restaurant in Norther Quarter in Manchester.",
+    "alt": "The frontage of Sicilian NQ.",
     "facebook": "https://www.facebook.com/SicilianFoodNQ/",
     "twitter": "https://x.com/sicilianfoodnq",
     "instagram": "https://www.instagram.com/sicilianfoodnq/#",
@@ -163,6 +1169,125 @@
   {
     "name": "Bundobust Brewery",
     "slug": "bundobust-brewery",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Vegetarian menu with vegan options; includes dairy and eggs.",
+    "locationSlug": "oxford-road",
+    "isCityCentre": true,
+    "cuisines": [
+      "Indian",
+      "Chinese",
+      "Curry",
+      "Street-Food"
+    ],
+    "introduction": "Bundobust Brewery serves Indian street food, with dishes such as bhel puri, okra fries and tarka dhal with rice. The menu also includes paneer tikka and pav bhaji.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/bundobustmcr/?locale=en_GB",
+      "instagram": "https://www.instagram.com/explore/locations/1022596143/bundobust-manchester-piccadilly/",
+      "x": "https://x.com/bundobustmcr"
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Official timetable says Mon-Thu 12:00-21:30, Fri-Sat 12:00-22:00, Sun 12:00-20:00 under Opening Hours, then says the bar stays open at least one hour after the kitchen closes. Timetable scope is unclear; neither venue nor kitchen times have been inferred. Legacy hours differ and remain unchanged."
+    },
+    "googleRating": {
+      "score": 4.6,
+      "reviewCount": null,
+      "legacyReviewCountText": "800+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://bundobust.com/menu/"
+          ],
+          "note": "Official menu contains vegetarian paneer and egg dishes alongside vegan dishes and vegan options."
+        },
+        {
+          "fields": [
+            "phone",
+            "facts.venueType",
+            "facts.dineIn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://bundobust.com/locations/manchester-brewery/"
+          ],
+          "note": "Phone and taproom dining corroborated. Official address is St James Building, 61-69 Oxford Street, M1 6EQ; legacy address formatting remains unchanged."
+        },
+        {
+          "fields": [
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://bundobust.com/locations/manchester-brewery/"
+          ],
+          "note": "Official timetable says Mon-Thu 12:00-21:30, Fri-Sat 12:00-22:00, Sun 12:00-20:00 under Opening Hours, then says the bar stays open at least one hour after the kitchen closes. Timetable scope is unclear; neither venue nor kitchen times have been inferred. Legacy hours differ and remain unchanged."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://bundobust.com/locations/manchester-brewery/"
+          ],
+          "note": "Current trading has not been independently established; published listings, menus and schedules do not themselves confirm operation."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy links copied without validating ownership or activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating retained; live Google score and count not checked."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://bundobust.com/locations/manchester-brewery/"
+          ],
+          "note": "Phone and taproom dining corroborated. Official address is St James Building, 61-69 Oxford Street, M1 6EQ; legacy address formatting remains unchanged."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Indian, Chinese, Curry, Street-Food",
     "score": 4.6,
@@ -175,7 +1300,7 @@
     "menu": "https://bundobust.com/food/",
     "times": "Monday 12-10:30 pm, Tuesday 12-10:30 pm, Wednesday 12-10:30 pm, Thursday 12-10:30 pm, Friday 12-11 pm, Saturday 12-11 pm, Sunday 12-9 pm",
     "image": "https://res.cloudinary.com/dmmjoywj6/image/upload/v1748795814/bundobust-brewery_fcidcs.jpg",
-    "alt": "The front of Bundobust Brewery Vegan Restaurant on Oxford Road in Manchester.",
+    "alt": "The frontage of Bundobust Brewery on Oxford Street.",
     "facebook": "https://www.facebook.com/bundobustmcr/?locale=en_GB",
     "twitter": "https://x.com/bundobustmcr",
     "instagram": "https://www.instagram.com/explore/locations/1022596143/bundobust-manchester-piccadilly/",
@@ -186,6 +1311,149 @@
   {
     "name": "The Globe",
     "slug": "the-globe",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Food menu is 100% vegan; classification applies to food, not certification of all drinks.",
+    "locationSlug": "glossop",
+    "isCityCentre": false,
+    "cuisines": [
+      "World-Menu"
+    ],
+    "introduction": "The Globe is a pub at 144 High Street West, Glossop. Its published food menu is fully vegan.",
+    "facts": {
+      "venueType": "pub",
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/TheGlobeGlossop/?locale=en_GB",
+      "instagram": "https://www.instagram.com/theglobeglossop/?hl=en",
+      "x": null
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": {
+        "monday": [],
+        "tuesday": [],
+        "wednesday": [
+          {
+            "opens": "17:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "17:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "17:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "17:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "13:00",
+            "closes": "20:30",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "note": "Official food-service hours: Wed-Sat 17:00-21:00, Sun 13:00-20:30; no food Mondays or Tuesdays. No food on Christmas Eve, Christmas Day, New Year's Eve or New Year's Day. Venue closing times are unresolved; contact-page retrieval failed. Glossop is in Derbyshire; existing location classification remains unchanged."
+    },
+    "googleRating": {
+      "score": 4.6,
+      "reviewCount": null,
+      "legacyReviewCountText": "800+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.theglobeglossop.co.uk/p/menu.html"
+          ],
+          "note": "Official menu explicitly states Homemade, 100% vegan food."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "facts.venueType"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.theglobeglossop.co.uk/p/menu.html"
+          ],
+          "note": "Source corroborates only the listed published fields; current trading is not confirmed."
+        },
+        {
+          "fields": [
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.theglobeglossop.co.uk/p/menu.html"
+          ],
+          "note": "Official food-service hours: Wed-Sat 17:00-21:00, Sun 13:00-20:30; no food Mondays or Tuesdays. No food on Christmas Eve, Christmas Day, New Year's Eve or New Year's Day. Venue closing times are unresolved; contact-page retrieval failed. Glossop is in Derbyshire; existing location classification remains unchanged."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.theglobeglossop.co.uk/p/menu.html"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or current activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating preserved; live Google score and count not checked."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "World-Menu",
     "score": 4.6,
@@ -209,6 +1477,118 @@
   {
     "name": "Little Aladdin Vegan Cafe",
     "slug": "little-aladdin-vegan-cafe",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": null,
+    "dietaryNote": "Independent listings describe a vegan cafe, but current fully vegan status requires confirmation.",
+    "locationSlug": "northern-quarter",
+    "isCityCentre": true,
+    "cuisines": [
+      "Indian",
+      "Curry",
+      "Kebab",
+      "Burger"
+    ],
+    "introduction": "Little Aladdin is a café at 72 High Street, Manchester. Dine-in seating and takeaway are recorded services.",
+    "facts": {
+      "venueType": "cafe",
+      "dineIn": true,
+      "takeaway": true,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/veganali99/?locale=en_GB",
+      "instagram": "https://www.instagram.com/littlealaddinvegan/",
+      "x": null
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Manchester's Finest lists Mon-Sat 11:45-20:30 and Sunday closed; Thatsup lists Mon-Sat 11:30-21:00 and Sun 11:30-19:00. No schedule selected. Phone and official website remain unknown; secondary phone candidates have not replaced legacy values."
+    },
+    "googleRating": {
+      "score": 4.4,
+      "reviewCount": null,
+      "legacyReviewCountText": "600+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.manchestersfinest.com/places/little-aladdin/",
+            "https://thatsup.co.uk/manchester/restaurant/little-aladdin",
+            "https://www.happycow.net/reviews/little-aladdin-manchester-93477"
+          ],
+          "note": "Independent listings describe vegan food; HappyCow explicitly asks visitors to verify whether it is still vegan. No accessible official menu confirming the entire current offering was obtained."
+        },
+        {
+          "fields": [
+            "address",
+            "facts.venueType",
+            "facts.dineIn",
+            "facts.takeaway"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://thatsup.co.uk/manchester/restaurant/little-aladdin"
+          ],
+          "note": "Source corroborates only the listed published fields; current trading is not confirmed."
+        },
+        {
+          "fields": [
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://www.manchestersfinest.com/places/little-aladdin/",
+            "https://thatsup.co.uk/manchester/restaurant/little-aladdin"
+          ],
+          "note": "Manchester's Finest lists Mon-Sat 11:45-20:30 and Sunday closed; Thatsup lists Mon-Sat 11:30-21:00 and Sun 11:30-19:00. No schedule selected. Phone and official website remain unknown; secondary phone candidates have not replaced legacy values."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://thatsup.co.uk/manchester/restaurant/little-aladdin"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or current activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating preserved; live Google score and count not checked."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "Indian, Curry, Kebab, Burger",
     "score": 4.4,
@@ -221,7 +1601,7 @@
     "menu": "https://deliveroo.co.uk/menu/manchester/northern-quarter/little-aladdin-vegan-cafe?utm_medium=affiliate&utm_source=google_maps_link&fulfillment_type=COLLECTION",
     "times": "Monday 11:45 am-9 pm, Tuesday 11:45 am-9 pm, Wednesday 11:45 am-9 pm, Thursday 11:45 am-9 pm, Friday 11:45 am-9 pm, Saturday 11:45 am-9 pm, Sunday Closed",
     "image": "https://res.cloudinary.com/dmmjoywj6/image/upload/v1748796951/little-aladdin_scdmgg.jpg",
-    "alt": "The restaurant front of Little Aladdin Vegan Restaurant in Norther Quarter in Manchester.",
+    "alt": "The frontage of Little Aladdin.",
     "facebook": "https://www.facebook.com/veganali99/?locale=en_GB",
     "twitter": "N/A",
     "instagram": "https://www.instagram.com/littlealaddinvegan/",
@@ -232,6 +1612,191 @@
   {
     "name": "The Eighth Day Shop & Cafe",
     "slug": "the-eighth-day-shop-and-cafe",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed; published website details alone are not proof of current trading.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Classification covers the combined vegetarian shop and cafe record. The downstairs cafe menu is 100% vegan.",
+    "locationSlug": "oxford-road",
+    "isCityCentre": true,
+    "cuisines": [
+      "World-Menu"
+    ],
+    "introduction": "The Eighth Day is at 111 Oxford Road, with a vegetarian shop and a downstairs café. The café’s published menu is fully plant-based.",
+    "facts": {
+      "venueType": "cafe",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/eighthdayveg/#",
+      "instagram": "https://www.instagram.com/eighthdayveg/",
+      "x": "https://x.com/EighthDayVeg"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [
+          {
+            "opens": "09:30",
+            "closes": "17:30",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [
+          {
+            "opens": "09:30",
+            "closes": "17:30",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "09:30",
+            "closes": "17:30",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "09:30",
+            "closes": "17:30",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "09:30",
+            "closes": "17:30",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "09:30",
+            "closes": "17:30",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": []
+      },
+      "foodService": {
+        "monday": [
+          {
+            "opens": "11:00",
+            "closes": "15:00",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [
+          {
+            "opens": "11:00",
+            "closes": "15:00",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "11:00",
+            "closes": "15:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "11:00",
+            "closes": "15:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "11:00",
+            "closes": "15:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "11:00",
+            "closes": "15:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": []
+      },
+      "note": "Venue hours represent the shop; food-service hours represent the downstairs cafe. Both are closed Sundays. Separate kitchen last-order times are unverified. Legacy hours remain unchanged."
+    },
+    "googleRating": {
+      "score": 4.6,
+      "reviewCount": null,
+      "legacyReviewCountText": "600+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://8thday.coop/cafe/"
+          ],
+          "note": "Official cafe page states its menu is 100% plant-based and vegan, while describing the shop as vegetarian."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "openingHours.venue",
+            "facts.venueType",
+            "facts.dineIn",
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://8thday.coop/opening-times/"
+          ],
+          "note": "Official source supports these published contact details, service setting and schedules. Venue hours represent the shop; food-service hours represent the downstairs cafe. Both are closed Sundays. Separate kitchen last-order times are unverified. Legacy hours remain unchanged."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://8thday.coop/opening-times/"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy social destinations copied without validating profile ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical score and approximate count preserved; live Google values have not been checked."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "World-Menu",
     "score": 4.6,
@@ -244,7 +1809,7 @@
     "menu": "https://8thday.coop/cafe/cafe-menu/",
     "times": "Monday, 9:30 am-5:30 pm Tuesday, 9:30 am-5:30 pm Wednesday, 9:30 am-5:30 pm Thursday, 9:30 am-5:30 pm Friday, 9:30 am-5:30 pm Saturday, 9:30 am-5:30 pm Sunday, Closed",
     "image": "https://res.cloudinary.com/dmmjoywj6/image/upload/v1748795114/the-eighth-day_io5d0b.jpg",
-    "alt": "The restaurant front of The Eighth Day vegan restaurant on Oxford Road in Manchester.",
+    "alt": "The frontage of The Eighth Day on Oxford Road.",
     "facebook": "https://www.facebook.com/eighthdayveg/#",
     "twitter": "https://x.com/EighthDayVeg",
     "instagram": "https://www.instagram.com/eighthdayveg/",
@@ -255,6 +1820,150 @@
   {
     "name": "Wholesome Junkies",
     "slug": "wholesome-junkies",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Fully plant-based kitchen at Hinterland; host venue is alcohol-free.",
+    "locationSlug": "northern-quarter",
+    "isCityCentre": true,
+    "cuisines": [
+      "World-Menu"
+    ],
+    "introduction": "Wholesome Junkies has a fully vegan offering at Hinterland Bar, 16–20 Turner Street. Dine-in seating is recorded at this location.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/wholesomejunkies",
+      "instagram": null,
+      "x": "https://www.twitter.com/wholesomejunkie"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "10:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "10:00",
+            "closes": "18:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Official page publishes Wed-Fri 12:00-21:00, Sat 10:00-21:00, Sun 10:00-18:00. Monday and Tuesday are not stated and remain unknown. Separate kitchen times are unverified. Host page direct retrieval timed out; dietary evidence includes its indexed content."
+    },
+    "googleRating": {
+      "score": 4.8,
+      "reviewCount": null,
+      "legacyReviewCountText": "600+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://hinterland.bar/",
+            "https://www.veganfoodandliving.com/vegan-lifestyle/best-vegan-restaurants-manchester/"
+          ],
+          "note": "Host website search-indexed content explicitly says Everything vegan and identifies Wholesome Junkies as its kitchen partner; specialist coverage also describes the fully plant-based menu."
+        },
+        {
+          "fields": [
+            "address",
+            "facts.venueType",
+            "facts.dineIn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.wholesomejunkies.co.uk/example-menu"
+          ],
+          "note": "Official menus page corroborates Hinterland address and dining setting. Phone remains unknown."
+        },
+        {
+          "fields": [
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.wholesomejunkies.co.uk/example-menu"
+          ],
+          "note": "Official page publishes Wed-Fri 12:00-21:00, Sat 10:00-21:00, Sun 10:00-18:00. Monday and Tuesday are not stated and remain unknown. Separate kitchen times are unverified. Host page direct retrieval timed out; dietary evidence includes its indexed content."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.wholesomejunkies.co.uk/example-menu"
+          ],
+          "note": "Current trading has not been independently established; published listings, menus and schedules do not themselves confirm operation."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy links copied without validating ownership or activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating retained; live Google score and count not checked."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "World-Menu",
     "score": 4.8,
@@ -278,6 +1987,114 @@
   {
     "name": "Wah Ji Wah",
     "slug": "wah-ji-wah",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "vegan_options",
+    "dietaryNote": "Separate vegan menu; also serves meat and seafood.",
+    "locationSlug": "deansgate",
+    "isCityCentre": true,
+    "cuisines": [
+      "Indian",
+      "Curry"
+    ],
+    "introduction": "Wah Ji Wah is a restaurant at 37 King Street West with dine-in seating. It publishes a vegan menu alongside a dinner menu containing meat and seafood.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/wahjiwahmcr/",
+      "instagram": "https://www.instagram.com/wahjiwahmcr/",
+      "x": "https://twitter.com/WahJiWahMcr"
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "No sufficiently clear official weekly schedule obtained; venue and food-service hours remain unknown. Current official vegan PDF differs from unchanged legacy 2023 menu link."
+    },
+    "googleRating": {
+      "score": 4.3,
+      "reviewCount": null,
+      "legacyReviewCountText": "550+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://wahjiwah.co.uk/wp-content/uploads/2026/06/Vegan_July25.pdf",
+            "https://wahjiwah.co.uk/wp-content/uploads/2026/06/Dinner_July25.pdf"
+          ],
+          "note": "Currently linked official vegan menu lists plant-based dishes; official dinner menu lists lamb, chicken and seafood."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "facts.venueType",
+            "facts.dineIn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://wahjiwah.co.uk/contact/"
+          ],
+          "note": "Official contact page corroborates address, phone and table booking/dining."
+        },
+        {
+          "fields": [
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://wahjiwah.co.uk/contact/"
+          ],
+          "note": "No sufficiently clear official weekly schedule obtained; venue and food-service hours remain unknown. Current official vegan PDF differs from unchanged legacy 2023 menu link."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://wahjiwah.co.uk/contact/"
+          ],
+          "note": "Current trading has not been independently established; published listings, menus and schedules do not themselves confirm operation."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy links copied without validating ownership or activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating retained; live Google score and count not checked."
+        }
+      ]
+    },
     "type": "Vegan (Serves meat with a seperate full vegan menu)",
     "cuisine": "Indian, Curry",
     "score": 4.3,
@@ -301,6 +2118,115 @@
   {
     "name": "Bhaji Pala",
     "slug": "bhaji-pala",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Indian vegan restaurant; classification supported by official about and contact pages.",
+    "locationSlug": "cheadle",
+    "isCityCentre": false,
+    "cuisines": [
+      "Indian",
+      "Thali"
+    ],
+    "introduction": "Bhaji Pala is a fully vegan restaurant at 2 Old Hall Road, Gatley, Cheadle.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/bhaji.pala.restaurant/",
+      "instagram": "https://www.instagram.com/bhajipala/?hl=en",
+      "x": "https://twitter.com/bhajipala?lang=en"
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Official contact page labels its schedule as ordering hours: Mon and Wed-Fri 17:00-22:00, Tue closed, Sat 12:00-22:00, Sun 12:00-21:00. This differs from legacy hours and previously published ordering hours. The old order URL now redirects to a JavaScript-dependent ordering site. Dine-in versus ordering schedule scope remains unresolved; no schedule selected."
+    },
+    "googleRating": {
+      "score": 4.8,
+      "reviewCount": null,
+      "legacyReviewCountText": "450+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://bhajipalarestaurant.co.uk/about-vegan-indian-restaurant-gatley/",
+            "https://bhajipalarestaurant.co.uk/contact-bhajipala/"
+          ],
+          "note": "Official pages identify Bhaji Pala as a vegan Indian restaurant serving plant-based food; evidence retrieved through search-indexed official content after direct homepage timeout."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "facts.venueType"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://bhajipalarestaurant.co.uk/contact-bhajipala/"
+          ],
+          "note": "Source corroborates only the listed published fields; current trading is not confirmed."
+        },
+        {
+          "fields": [
+            "openingHours.venue",
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://bhajipalarestaurant.co.uk/contact-bhajipala/",
+            "https://bhajipalarestaurant.co.uk/order/"
+          ],
+          "note": "Official contact page labels its schedule as ordering hours: Mon and Wed-Fri 17:00-22:00, Tue closed, Sat 12:00-22:00, Sun 12:00-21:00. This differs from legacy hours and previously published ordering hours. The old order URL now redirects to a JavaScript-dependent ordering site. Dine-in versus ordering schedule scope remains unresolved; no schedule selected."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://bhajipalarestaurant.co.uk/contact-bhajipala/"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or current activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating preserved; live Google score and count not checked."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Indian, Thali",
     "score": 4.8,
@@ -324,6 +2250,137 @@
   {
     "name": "Lotus Plant Based Kitchen",
     "slug": "lotus-plant-based-kitchen",
+    "status": null,
+    "statusNote": "Official website announced reopening on 24 September 2026 after a temporary closure; current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": null,
+    "locationSlug": "withington",
+    "isCityCentre": false,
+    "cuisines": [
+      "Pan-Asian",
+      "Chinese",
+      "Dim-Sum"
+    ],
+    "introduction": "Lotus Plant Based Kitchen is a fully vegan restaurant at 536 Wilmslow Road, Withington, Manchester. Its published services include dine-in, takeaway and delivery.",
+    "facts": {
+      "venueType": "restaurant",
+      "dineIn": true,
+      "takeaway": true,
+      "delivery": true,
+      "bookingRequired": null,
+      "alcoholPolicy": "bring_your_own"
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/lotus.plantbased/?locale=en_GB",
+      "instagram": "https://www.instagram.com/lotus_plantbased_kitchen?igsh=Nm92ZTlmYmxoNW85&utm_source=qr",
+      "x": null
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [
+          {
+            "opens": "16:30",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [],
+        "wednesday": [],
+        "thursday": [
+          {
+            "opens": "16:30",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "16:30",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "16:30",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "16:30",
+            "closes": "21:30",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Published venue opening times; separate kitchen closing and last-order times are not verified. Delivery is through Deliveroo and depends on rider coverage."
+    },
+    "googleRating": {
+      "score": 4.8,
+      "reviewCount": null,
+      "legacyReviewCountText": "450+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.lotusplantbasedkitchen.com/",
+            "https://www.lotusplantbasedkitchen.com/general-5"
+          ],
+          "note": "Official homepage describes vegan cuisine; the FAQ explains that animal-named dishes use plant-based alternatives."
+        },
+        {
+          "fields": [
+            "address",
+            "phone",
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.lotusplantbasedkitchen.com/copy-of-find-us"
+          ],
+          "note": "Existing address, phone and weekly hours match the official contact page. This confirms published details, not current trading."
+        },
+        {
+          "fields": [
+            "facts.venueType",
+            "facts.dineIn",
+            "facts.takeaway",
+            "facts.delivery",
+            "facts.alcoholPolicy"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.lotusplantbasedkitchen.com/general-5"
+          ],
+          "note": "FAQ describes restaurant seating, collection orders by phone, Deliveroo delivery and bring-your-own alcohol with corkage."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.lotusplantbasedkitchen.com/copy-of-find-us"
+          ],
+          "note": "A planned reopening on 24 September 2026 is announced, but actual reopening and current trading have not been confirmed."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Pan-Asian, Chinese, Dim-Sum",
     "score": 4.8,
@@ -347,6 +2404,183 @@
   {
     "name": "Go Falafel - Piccadilly",
     "slug": "go-falafel-piccadilly",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Current official menu includes dairy halloumi alongside vegan choices; not fully vegan.",
+    "locationSlug": "picadilly",
+    "isCityCentre": true,
+    "cuisines": [
+      "Falafel"
+    ],
+    "introduction": "Go Falafel Piccadilly is listed at 3 Newton Street. Its vegetarian menu includes halloumi and plant-based dishes.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/gofalafel/",
+      "instagram": "https://www.instagram.com/gofalafel/?hl=en",
+      "x": "https://x.com/gofalafel"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [
+          {
+            "opens": "10:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [
+          {
+            "opens": "10:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "10:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "10:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "10:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "10:00",
+            "closes": "22:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": null
+      },
+      "foodService": null,
+      "note": "Official Mon-Sat schedule is 10:00-22:00, including Wednesday omitted from legacy hours. Sunday is printed as 11:00pm-10:00pm; no AM/PM correction or overnight interpretation made. Sunday, kitchen hours and phone remain unknown. Existing Picadilly label and slug remain unchanged."
+    },
+    "googleRating": {
+      "score": 4.5,
+      "reviewCount": null,
+      "legacyReviewCountText": "450+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://gofalafel.co.uk/menu/"
+          ],
+          "note": "Complete official menu lists halloumi falafel and plant-based dishes without meat or fish."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://gofalafel.co.uk/locations/"
+          ],
+          "note": "Source corroborates only the listed published fields; current trading is not confirmed."
+        },
+        {
+          "fields": [
+            "openingHours.venue.monday",
+            "openingHours.venue.tuesday",
+            "openingHours.venue.wednesday",
+            "openingHours.venue.thursday",
+            "openingHours.venue.friday",
+            "openingHours.venue.saturday"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://gofalafel.co.uk/locations/"
+          ],
+          "note": "Official Mon-Sat schedule is 10:00-22:00, including Wednesday omitted from legacy hours. Sunday is printed as 11:00pm-10:00pm; no AM/PM correction or overnight interpretation made. Sunday, kitchen hours and phone remain unknown. Existing Picadilly label and slug remain unchanged."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://gofalafel.co.uk/locations/"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or current activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating preserved; live Google score and count not checked."
+        },
+        {
+          "fields": [
+            "openingHours.venue.sunday"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://gofalafel.co.uk/locations/"
+          ],
+          "note": "Official Mon-Sat schedule is 10:00-22:00, including Wednesday omitted from legacy hours. Sunday is printed as 11:00pm-10:00pm; no AM/PM correction or overnight interpretation made. Sunday, kitchen hours and phone remain unknown. Existing Picadilly label and slug remain unchanged."
+        },
+        {
+          "fields": [
+            "menu"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://gofalafel.co.uk/",
+            "https://gofalafel.co.uk/menu/",
+            "https://gofalafel.co.uk/menu.html"
+          ],
+          "previousMenu": "https://gofalafel.co.uk/menu.html",
+          "note": "Old menu.html returns 404; official homepage links to working /menu/. Shared brand menu states options may differ by location."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Falafel",
     "score": 4.5,
@@ -356,9 +2590,9 @@
     "location": "Picadilly",
     "centre": "yes",
     "phone": "N/A",
-    "menu": "https://gofalafel.co.uk/menu.html",
+    "menu": "https://gofalafel.co.uk/menu/",
     "image": "https://res.cloudinary.com/dmmjoywj6/image/upload/v1748796462/go-felafel-picadilly_ta9egj.jpg",
-    "alt": "Two restaurant front of Go Felafel vegan restaurant in Picadilly in Manchester.",
+    "alt": "The frontage of Go Falafel Piccadilly.",
     "times": "Monday 10 am-10 pm, Tuesday 10 am-10 pm, Thursday 10 am-10 pm, Friday 10 am-10 pm, Saturday 10 am-10 pm, Sunday 11 am-10 pm",
     "facebook": "https://www.facebook.com/gofalafel/",
     "twitter": "https://x.com/gofalafel",
@@ -370,6 +2604,173 @@
   {
     "name": "Go Falafel - Deansgate",
     "slug": "go-falafel-deansgate",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Current official menu includes dairy halloumi alongside vegan choices; not fully vegan.",
+    "locationSlug": "deansgate",
+    "isCityCentre": true,
+    "cuisines": [
+      "Falafel"
+    ],
+    "introduction": "Go Falafel Deansgate is at 99 Deansgate. Its menu is vegetarian, with halloumi and plant-based dishes.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/gofalafel/",
+      "instagram": "https://www.instagram.com/gofalafel/?hl=en",
+      "x": "https://x.com/gofalafel"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": [
+          {
+            "opens": "11:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "tuesday": [
+          {
+            "opens": "11:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "wednesday": [
+          {
+            "opens": "11:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "11:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "11:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "11:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "12:00",
+            "closes": "20:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Official Deansgate venue hours match legacy hours: Mon-Sat 11:00-21:00, Sun 12:00-20:00. Separate kitchen hours and phone remain unknown. Legacy summary describing Northern Quarter remains unchanged."
+    },
+    "googleRating": {
+      "score": 4.5,
+      "reviewCount": null,
+      "legacyReviewCountText": "220+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://gofalafel.co.uk/menu/"
+          ],
+          "note": "Complete official menu lists halloumi falafel and plant-based dishes without meat or fish."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://gofalafel.co.uk/locations/"
+          ],
+          "note": "Source corroborates only the listed published fields; current trading is not confirmed."
+        },
+        {
+          "fields": [
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://gofalafel.co.uk/locations/"
+          ],
+          "note": "Official Deansgate venue hours match legacy hours: Mon-Sat 11:00-21:00, Sun 12:00-20:00. Separate kitchen hours and phone remain unknown. Legacy summary describing Northern Quarter remains unchanged."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://gofalafel.co.uk/locations/"
+          ],
+          "note": "No independent confirmation of current trading; status remains unknown."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or current activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating preserved; live Google score and count not checked."
+        },
+        {
+          "fields": [
+            "menu"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://gofalafel.co.uk/",
+            "https://gofalafel.co.uk/menu/",
+            "https://gofalafel.co.uk/menu.html"
+          ],
+          "previousMenu": "https://gofalafel.co.uk/menu.html",
+          "note": "Old menu.html returns 404; official homepage links to working /menu/. Shared brand menu states options may differ by location."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Falafel",
     "score": 4.5,
@@ -379,7 +2780,7 @@
     "location": "Deansgate",
     "centre": "yes",
     "phone": "N/A",
-    "menu": "https://gofalafel.co.uk/menu.html",
+    "menu": "https://gofalafel.co.uk/menu/",
     "times": "Monday 11 am-9 pm, Tuesday 11 am-9 pm, Wednesday 11 am-9 pm, Thursday 11 am-9 pm, Friday 11 am-9 pm, Saturday 11 am-9 pm, Sunday 12-8 pm",
     "image": "/images/MVG-logo.webp",
     "alt": "Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front.",
@@ -393,6 +2794,189 @@
   {
     "name": "Otto Vegan Empire",
     "slug": "otto-vegan-empire",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Vegan restaurant; classification applies to its food menu.",
+    "locationSlug": "bramhall",
+    "isCityCentre": false,
+    "cuisines": [
+      "World-Menu"
+    ],
+    "introduction": "Otto Vegan Empire has a fully vegan food menu. Its published address is 26A Bramhall Lane South, Bramhall, Stockport.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://m.facebook.com/ottoveganempire",
+      "instagram": "https://www.instagram.com/otto_veganempire/",
+      "x": "https://x.com/The_Ottomen"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "12:00",
+            "closes": "23:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "12:00",
+            "closes": "19:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "12:00",
+            "closes": "21:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": null
+      },
+      "note": "Official Wed-Sat venue hours are 12:00-23:00 with food until 21:00; Sunday venue hours 12:00-19:00. Sunday kitchen closing and ordinary Monday/Tuesday hours are unstated and remain unknown. Bank Holiday Monday is mentioned separately without extrapolating ordinary Monday hours."
+    },
+    "googleRating": {
+      "score": 4.9,
+      "reviewCount": null,
+      "legacyReviewCountText": "190+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://ottoveganempire.com/",
+            "https://ottoveganempire.com/wp-content/uploads/2024/07/OTTO-menu-2024.pdf"
+          ],
+          "note": "Vegan restaurant; classification applies to its food menu."
+        },
+        {
+          "fields": [
+            "address",
+            "phone"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://ottoveganempire.com/"
+          ],
+          "note": "Published address/contact corroboration; does not establish current trading."
+        },
+        {
+          "fields": [
+            "openingHours.venue.wednesday",
+            "openingHours.foodService.wednesday",
+            "openingHours.venue.thursday",
+            "openingHours.foodService.thursday",
+            "openingHours.venue.friday",
+            "openingHours.foodService.friday",
+            "openingHours.venue.saturday",
+            "openingHours.foodService.saturday",
+            "openingHours.venue.sunday"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://ottoveganempire.com/"
+          ],
+          "note": "Official Wed-Sat venue hours are 12:00-23:00 with food until 21:00; Sunday venue hours 12:00-19:00. Sunday kitchen closing and ordinary Monday/Tuesday hours are unstated and remain unknown. Bank Holiday Monday is mentioned separately without extrapolating ordinary Monday hours."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://ottoveganempire.com/"
+          ],
+          "note": "Current trading not independently established; website or booking links alone do not verify operation."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical Google rating and approximate count preserved without a current check."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "World-Menu",
     "score": 4.9,
@@ -416,6 +3000,111 @@
   {
     "name": "Ortica Italian Plant Based",
     "slug": "ortica-italian-plant-based",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Official Linktree describes a fully vegan Italian bar and deli.",
+    "locationSlug": "urmston",
+    "isCityCentre": false,
+    "cuisines": [
+      "Italian"
+    ],
+    "introduction": "Ortica describes itself as a fully vegan Italian bar and deli. Its recorded address is 70 Flixton Road, Urmston.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/orticaitalianplantbased",
+      "instagram": "https://instagram.com/ortica_italianplantbased",
+      "x": null
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Official Linktree confirms identity but not a weekly schedule. Secondary schedules conflict with each other and legacy hours, including Thursday trading; no schedule selected. Address and phone corroboration is secondary."
+    },
+    "googleRating": {
+      "score": 5,
+      "reviewCount": null,
+      "legacyReviewCountText": "180+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://linktr.ee/orticaplantbased"
+          ],
+          "note": "Official Linktree describes a fully vegan Italian bar and deli."
+        },
+        {
+          "fields": [
+            "address",
+            "phone"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.manchestersfinest.com/places/ortica/"
+          ],
+          "note": "Published address/contact corroboration; does not establish current trading."
+        },
+        {
+          "fields": [
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://www.manchestersfinest.com/places/ortica/",
+            "https://www.myvegantown.org.uk/ortica-italian-plant-based"
+          ],
+          "note": "Official Linktree confirms identity but not a weekly schedule. Secondary schedules conflict with each other and legacy hours, including Thursday trading; no schedule selected. Address and phone corroboration is secondary."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.manchestersfinest.com/places/ortica/"
+          ],
+          "note": "Current trading not independently established; website or booking links alone do not verify operation."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical Google rating and approximate count preserved without a current check."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "Italian",
     "score": 5,
@@ -439,6 +3128,117 @@
   {
     "name": "Herbivorous Vegan - Withington",
     "slug": "herbivorous-vegan-withington",
+    "status": "permanently_closed",
+    "statusNote": "The Caterer reported the founders' closure announcement and Manchester final trading date of 25 April 2025. Later Withington-specific listings confirm permanent closure. Date is the reported final trading date, not an independently observed final shift.",
+    "closedOn": "2025-04-25",
+    "dietary": "fully_vegan",
+    "dietaryNote": "Historical fully vegan offering at the permanently closed Withington restaurant.",
+    "locationSlug": "withington",
+    "isCityCentre": false,
+    "cuisines": [
+      "American",
+      "Burger",
+      "Fried-Food"
+    ],
+    "introduction": "Herbivorous Withington was a fully vegan restaurant at 445 Wilmslow Road. The Withington venue is permanently closed.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/HerbivorousFood/?locale=en_GB",
+      "instagram": "https://www.instagram.com/herbivorousfood/?hl=en",
+      "x": null
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Venue permanently closed; historical legacy hours retained but not represented as current schedules. Sources disagree on postcode (M20 4AN versus M20 4NW); legacy address retained."
+    },
+    "googleRating": {
+      "score": 4.8,
+      "reviewCount": null,
+      "legacyReviewCountText": "120+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.thecaterer.com/news/manchester-based-vegan-brand-herbivorous-to-close-remaining-restaurants",
+            "https://thatsup.co.uk/manchester/restaurant/herbivorous-withington/"
+          ],
+          "note": "Historical fully vegan offering at the permanently closed Withington restaurant."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://thatsup.co.uk/manchester/restaurant/herbivorous-withington/"
+          ],
+          "note": "Published address/contact corroboration; does not establish current trading."
+        },
+        {
+          "fields": [
+            "openingHours.venue",
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.thecaterer.com/news/manchester-based-vegan-brand-herbivorous-to-close-remaining-restaurants",
+            "https://thatsup.co.uk/manchester/restaurant/herbivorous-withington/"
+          ],
+          "note": "Venue permanently closed; historical legacy hours retained but not represented as current schedules. Sources disagree on postcode (M20 4AN versus M20 4NW); legacy address retained."
+        },
+        {
+          "fields": [
+            "status",
+            "closedOn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.thecaterer.com/news/manchester-based-vegan-brand-herbivorous-to-close-remaining-restaurants",
+            "https://thatsup.co.uk/manchester/restaurant/herbivorous-withington/",
+            "https://www.creativetourist.com/venue/herbivorous-withington/"
+          ],
+          "note": "The Caterer reported the founders' closure announcement and Manchester final trading date of 25 April 2025. Later Withington-specific listings confirm permanent closure. Date is the reported final trading date, not an independently observed final shift."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical Google rating and approximate count preserved without a current check."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "American, Burger, Fried-Food",
     "score": 4.8,
@@ -462,6 +3262,116 @@
   {
     "name": "Desert Island Dumplings - Plant Based Fusion Dumplings",
     "slug": "desert-island-dumplings-plant-based-fusion-dumplings",
+    "status": "permanently_closed",
+    "statusNote": "The Manc's 2 April 2025 report of the founder's announcement gives final day 15 June 2025. HappyCow subsequently reported June 2025 closure, and Thatsup marks the venue permanently closed. Exact date comes from the reported announcement, not conversion of a month-only report.",
+    "closedOn": "2025-06-15",
+    "dietary": "fully_vegan",
+    "dietaryNote": "Historical fully vegan offering at the permanently closed Afflecks shop.",
+    "locationSlug": "afflecks-palace",
+    "isCityCentre": true,
+    "cuisines": [
+      "Dim-Sum",
+      "Dumplings"
+    ],
+    "introduction": "Desert Island Dumplings operated a fully vegan shop on the third floor of Afflecks, 52 Church Street. That venue is permanently closed.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/Desertislanddumpling/?locale=en_GB",
+      "instagram": "https://www.instagram.com/desertislanddumplings/?hl=en",
+      "x": null
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Afflecks shop permanently closed; historical legacy hours retained without creating current schedules. Historical Afflecks references do not establish present trading."
+    },
+    "googleRating": {
+      "score": 4.8,
+      "reviewCount": null,
+      "legacyReviewCountText": "100+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.happycow.net/reviews/desert-island-dumplings-manchester-350676?page=1",
+            "https://thatsup.co.uk/manchester/restaurant/desert-island-dumplings/"
+          ],
+          "note": "Historical fully vegan offering at the permanently closed Afflecks shop."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.happycow.net/reviews/desert-island-dumplings-manchester-350676?page=1"
+          ],
+          "note": "Published address/contact corroboration; does not establish current trading."
+        },
+        {
+          "fields": [
+            "openingHours.venue",
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://themanc.com/eats/desert-island-dumplings-close-afflecks-manchester-shop/",
+            "https://www.happycow.net/reviews/desert-island-dumplings-manchester-350676?page=1"
+          ],
+          "note": "Afflecks shop permanently closed; historical legacy hours retained without creating current schedules. Historical Afflecks references do not establish present trading."
+        },
+        {
+          "fields": [
+            "status",
+            "closedOn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://themanc.com/eats/desert-island-dumplings-close-afflecks-manchester-shop/",
+            "https://www.happycow.net/reviews/desert-island-dumplings-manchester-350676?page=1",
+            "https://thatsup.co.uk/manchester/restaurant/desert-island-dumplings/"
+          ],
+          "note": "The Manc's 2 April 2025 report of the founder's announcement gives final day 15 June 2025. HappyCow subsequently reported June 2025 closure, and Thatsup marks the venue permanently closed. Exact date comes from the reported announcement, not conversion of a month-only report."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical Google rating and approximate count preserved without a current check."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "Dim-Sum, Dumplings",
     "score": 4.8,
@@ -485,6 +3395,125 @@
   {
     "name": "Vegan Shack",
     "slug": "vegan-shack",
+    "status": "permanently_closed",
+    "statusNote": "HappyCow and Thatsup identify permanent closure specifically at 184 Rochdale Road, Collyhurst. HappyCow reports December 2025; other reporting suggests November 2025. Exact date unresolved.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Historical fully plant-based offering at the closed Collyhurst branch, supported by the branch ordering description and HappyCow.",
+    "locationSlug": "collyhurst",
+    "isCityCentre": false,
+    "cuisines": [
+      "World-Menu",
+      "Burger",
+      "Fried-Food"
+    ],
+    "introduction": "Vegan Shack Collyhurst had a fully plant-based offering at 184 Rochdale Road. This branch is permanently closed.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/veganshackuk",
+      "instagram": "https://www.instagram.com/veganshackuk",
+      "x": "https://twitter.com/veganshackuk"
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Permanently closed. Legacy schedules remain unchanged; platform availability and historical schedules are not current opening hours."
+    },
+    "googleRating": {
+      "score": 4.7,
+      "reviewCount": null,
+      "legacyReviewCountText": "70+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.happycow.net/reviews/vegan-shack-manchester-187868",
+            "https://thatsup.co.uk/manchester/restaurant/vegan-shack-collyhurst"
+          ],
+          "note": "Both sources identify permanent closure at the legacy Collyhurst address, distinct from Piccadilly Gardens. Delivery-platform closed-now messages are not used to prove permanent closure."
+        },
+        {
+          "fields": [
+            "closedOn"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://www.happycow.net/reviews/vegan-shack-manchester-187868",
+            "https://ie.headtopics.com/news/all-the-greater-manchester-restaurants-bars-pubs-and-77691164"
+          ],
+          "note": "HappyCow reports December 2025; syndicated reporting says the owners announced immediate closure in November 2025 after insolvency. No exact date or original announcement obtained; closedOn remains null."
+        },
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://deliveroo.co.uk/menu/manchester/smedley/vegan-shack-collyhurst",
+            "https://www.happycow.net/reviews/vegan-shack-manchester-187868"
+          ],
+          "note": "Branch Deliveroo description states 100% plant-based; HappyCow categorises the Rochdale Road venue as vegan. Historical offering, not evidence of present trading."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.happycow.net/reviews/vegan-shack-manchester-187868",
+            "https://thatsup.co.uk/manchester/restaurant/vegan-shack-collyhurst"
+          ],
+          "note": "Both closure listings refer specifically to 184 Rochdale Road, M40 7RA."
+        },
+        {
+          "fields": [
+            "openingHours.foodService",
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Permanently closed. Legacy schedules remain unchanged; platform availability and historical schedules are not current opening hours."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without checking ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating and approximate review count retained without a current Google check."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "World-Menu, Burger, Fried-Food",
     "score": 4.7,
@@ -508,6 +3537,113 @@
   {
     "name": "Vegan Green Kitchen Chinese",
     "slug": "vegan-green-kitchen-chinese",
+    "status": null,
+    "statusNote": "Current trading status has not been independently confirmed.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Fully plant-based Chinese takeaway supported by independent business listings; official ordering content is embedded.",
+    "locationSlug": "picadilly",
+    "isCityCentre": true,
+    "cuisines": [
+      "Chinese"
+    ],
+    "introduction": "Vegan Green Kitchen Chinese has a fully plant-based offering. Its published address is Unit D, Pod 12, Aldow Enterprise Park on Blackett Street.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/vegangreenkitchenchinese/",
+      "instagram": "https://www.instagram.com/vegangreenkitchen.mcr/?locale=bz-hans&hl=am-et",
+      "x": "https://twitter.com/greenkitchenuk"
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Secondary listings give 15:00-midnight, 14:00-02:00 and platform-specific evening/overnight schedules. Official site exposes an ordering iframe without readable hours. No schedule selected; phone and dine-in availability remain unverified. Existing Picadilly classification retained."
+    },
+    "googleRating": {
+      "score": 4.5,
+      "reviewCount": null,
+      "legacyReviewCountText": "65+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://thatsup.co.uk/manchester/restaurant/vegan-green-kitchen-chinese/",
+            "https://www.yell.com/biz/vegan-green-kitchen-chinese-manchester-10376987/"
+          ],
+          "note": "Fully plant-based Chinese takeaway supported by independent business listings; official ordering content is embedded."
+        },
+        {
+          "fields": [
+            "address"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://www.vegangreenkitchen.co.uk/"
+          ],
+          "note": "Published address/contact corroboration; does not establish current trading."
+        },
+        {
+          "fields": [
+            "openingHours.venue",
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://thatsup.co.uk/manchester/restaurant/vegan-green-kitchen-chinese/",
+            "https://www.yell.com/biz/vegan-green-kitchen-chinese-manchester-10376987/",
+            "https://www.ubereats.com/gb/store/vegan-green-kitchen-chinese/MVJ710O1Xe-7qyFACdvegQ"
+          ],
+          "note": "Secondary listings give 15:00-midnight, 14:00-02:00 and platform-specific evening/overnight schedules. Official site exposes an ordering iframe without readable hours. No schedule selected; phone and dine-in availability remain unverified. Existing Picadilly classification retained."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://www.vegangreenkitchen.co.uk/"
+          ],
+          "note": "Current trading not independently established; website or booking links alone do not verify operation."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without verification of ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical Google rating and approximate count preserved without a current check."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "Chinese",
     "score": 4.5,
@@ -531,6 +3667,126 @@
   {
     "name": "Wawin Vegan Chinese - Manchester",
     "slug": "wawin-vegan-chinese-manchester",
+    "status": null,
+    "statusNote": "Current trading and the correct Manchester-area branch have not been established. Manchester Bale Street and Salford Ordsall Lane listings conflict.",
+    "closedOn": null,
+    "dietary": "fully_vegan",
+    "dietaryNote": "Official Wawin site describes Full Vegan Chinese. Brand offering corroborated; current Manchester-area branch identity remains unresolved.",
+    "locationSlug": "central-manchester",
+    "isCityCentre": true,
+    "cuisines": [
+      "Chinese"
+    ],
+    "introduction": "Wawin describes its food as fully vegan Chinese cuisine.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/p/Wawin-Chinese-Restaurant-100039534408204/",
+      "instagram": "https://www.instagram.com/wawinveganchinese/?hl=en",
+      "x": null
+    },
+    "openingHours": {
+      "venue": null,
+      "foodService": null,
+      "note": "Correct branch unresolved; no reliable branch-specific venue or food-service schedule established. Legacy hours preserved."
+    },
+    "googleRating": {
+      "score": 4.3,
+      "reviewCount": null,
+      "legacyReviewCountText": "20+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://wawin.co.uk/",
+            "https://www.veganfix.com/listing/wawin-vegan-chinese-manchester/"
+          ],
+          "note": "Official brand site states Full Vegan Chinese; Vegan Fix describes 100% vegan food. This verifies dietary offering, not branch address or current trading."
+        },
+        {
+          "fields": [
+            "address",
+            "phone"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "conflicting",
+          "sources": [
+            "https://www.ubereats.com/gb/store/wawin-vegan-chinese/ZF12oUiOVeaMDpoYxMxNXg",
+            "https://www.veganfix.com/listing/wawin-vegan-chinese-manchester/"
+          ],
+          "note": "Legacy address is Don Giovanni Rear Entrance, Bale St, Manchester M1 5AN; Uber Eats lists Bale Street M1 5AN. Vegan Fix lists Unit 10, Foundry, Ordsall Lane, Salford M5 3AN, while its map location shows M5 3HP. No address selected or relocation inferred. Branch phone remains unverified."
+        },
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://wawin.co.uk/",
+            "https://www.ubereats.com/gb/store/wawin-vegan-chinese/ZF12oUiOVeaMDpoYxMxNXg",
+            "https://www.veganfix.com/listing/wawin-vegan-chinese-manchester/"
+          ],
+          "note": "Official brand website and ordering listings do not establish the correct branch or current trading."
+        },
+        {
+          "fields": [
+            "openingHours.foodService",
+            "openingHours.venue"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Correct branch unresolved; no reliable branch-specific venue or food-service schedule established. Legacy hours preserved."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without checking ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating and approximate review count retained without a current Google check."
+        },
+        {
+          "fields": [
+            "menu"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [
+            "https://wawin.co.uk/",
+            "https://wawin.co.uk/menu-%26-order"
+          ],
+          "previousMenu": "https://wawin.co.uk/menu-%26-order",
+          "note": "Old menu-%26-order returns 404 despite stale search-indexed content. No usable current official Manchester menu verified. Storekit ordering link not substituted without approval. Menu action hidden."
+        }
+      ]
+    },
     "type": "Vegan",
     "cuisine": "Chinese",
     "score": 4.3,
@@ -540,7 +3796,7 @@
     "location": "Central Manchester",
     "centre": "yes",
     "phone": "01618080061",
-    "menu": "https://wawin.co.uk/menu-%26-order",
+    "menu": null,
     "times": "Monday 1:30-9:45 pm, Tuesday 1:30-9:45 pm, Wednesday 1:30-9:45 pm, Thursday 1:30-9:45 pm, Friday 1:30-9:45 pm, Saturday 1:30-9:45 pm, Sunday 1:30-9:45 pm",
     "image": "/images/MVG-logo.webp",
     "alt": "Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front.",
@@ -554,16 +3810,188 @@
   {
     "name": "World Peace Cafe",
     "slug": "world-peace-cafe",
+    "status": "open",
+    "statusNote": "Official cafe page announces reopening, and a September 2026 Kadampa report documents visitors enjoying the Manchester cafe. Evidence of recent operation, not a guarantee of daily availability.",
+    "closedOn": null,
+    "dietary": "vegetarian",
+    "dietaryNote": "Official cafe page explicitly describes a vegetarian cafe with vegan options.",
+    "locationSlug": "chorlton",
+    "isCityCentre": false,
+    "cuisines": [
+      "World-Menu"
+    ],
+    "introduction": "World Peace Cafe is a vegetarian café at 76 High Lane, Chorlton. Its published offering includes vegan options.",
+    "facts": {
+      "venueType": null,
+      "dineIn": null,
+      "takeaway": null,
+      "delivery": null,
+      "bookingRequired": null,
+      "alcoholPolicy": null
+    },
+    "socials": {
+      "facebook": "https://www.facebook.com/worldpeacecafemanchester/",
+      "instagram": "https://www.instagram.com/world_peace_cafe_chorlton/",
+      "x": "https://x.com/wpcmanchester"
+    },
+    "openingHours": {
+      "venue": {
+        "monday": null,
+        "tuesday": null,
+        "wednesday": [
+          {
+            "opens": "10:00",
+            "closes": "16:00",
+            "closesNextDay": false
+          }
+        ],
+        "thursday": [
+          {
+            "opens": "10:00",
+            "closes": "16:00",
+            "closesNextDay": false
+          }
+        ],
+        "friday": [
+          {
+            "opens": "10:00",
+            "closes": "16:00",
+            "closesNextDay": false
+          }
+        ],
+        "saturday": [
+          {
+            "opens": "10:00",
+            "closes": "16:00",
+            "closesNextDay": false
+          }
+        ],
+        "sunday": [
+          {
+            "opens": "10:00",
+            "closes": "16:00",
+            "closesNextDay": false
+          }
+        ]
+      },
+      "foodService": null,
+      "note": "Official cafe opening hours Wednesday-Sunday 10:00-16:00 differ from legacy times, which remain unchanged. Food-service hours and Monday/Tuesday arrangements are not independently specified."
+    },
+    "googleRating": {
+      "score": 4.5,
+      "reviewCount": null,
+      "legacyReviewCountText": "15+",
+      "checkedAt": null
+    },
+    "verification": {
+      "lastReviewedAt": "2026-10-12",
+      "checks": [
+        {
+          "fields": [
+            "status"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://meditateinmcr.org/world-peace-cafe/",
+            "https://kadampa.org/2026/09/special-events-bring-communities-together"
+          ],
+          "note": "Official cafe page says it has reopened; Kadampa report dated 20 September 2026 documents Manchester open-day visitors enjoying the World Peace Cafe. Recent activity corroborates operation beyond website existence alone."
+        },
+        {
+          "fields": [
+            "dietary",
+            "dietaryNote"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://meditateinmcr.org/world-peace-cafe/"
+          ],
+          "note": "Official page explicitly states vegetarian cafe with gluten-free and vegan options."
+        },
+        {
+          "fields": [
+            "address",
+            "phone"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://meditateinmcr.org/world-peace-cafe/"
+          ],
+          "note": "Official page gives 76 High Lane, M21 9XF and centre WhatsApp contact +44 161 861 7012; does not establish a dedicated cafe phone."
+        },
+        {
+          "fields": [
+            "openingHours.venue.wednesday",
+            "openingHours.venue.thursday",
+            "openingHours.venue.friday",
+            "openingHours.venue.saturday",
+            "openingHours.venue.sunday"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://meditateinmcr.org/world-peace-cafe/"
+          ],
+          "note": "Official cafe page repeatedly publishes Wednesday-Sunday 10:00-16:00. Monday/Tuesday remain unknown rather than inferred; kitchen hours are not stated."
+        },
+        {
+          "fields": [
+            "openingHours.foodService"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Official cafe opening hours Wednesday-Sunday 10:00-16:00 differ from legacy times, which remain unchanged. Food-service hours and Monday/Tuesday arrangements are not independently specified."
+        },
+        {
+          "fields": [
+            "socials"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Legacy destinations copied without checking ownership or recent activity."
+        },
+        {
+          "fields": [
+            "googleRating"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "unverified",
+          "sources": [],
+          "note": "Historical rating and approximate review count retained without a current Google check."
+        },
+        {
+          "fields": [
+            "website",
+            "menu"
+          ],
+          "checkedAt": "2026-10-12",
+          "result": "confirmed",
+          "sources": [
+            "https://meditateinmcr.org/world-peace-cafe/",
+            "https://meditateinmcr.org/wpc-menu-june-2026/",
+            "https://meditateinmcr.org/wp-content/uploads/2026/06/wpc-menu-june-2026.jpg"
+          ],
+          "previousMenu": "https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/486847630_1238529381606549_1392469357796614050_n.jpg?stp=c0.193.1414.1414a_dst-jpg_s206x206_tt6&_nc_cat=100&ccb=1-7&_nc_sid=714c7a&_nc_ohc=Ggb5UXK1gvQQ7kNvwHSO0y7&_nc_oc=Adloa5EfIfzjyc12HlGyUYVwO2A0qklzgVJOYaVlSoHbdbk14noI7RKIREIUjScAJyQ&_nc_zt=23&_nc_ht=scontent-man2-1.xx&_nc_gid=34dCfc2gN8qBQ3JokOdQPQ&oh=00_AfGcbkbx9uQUPBaq2e8wwi5BX2ZlwYXk0FQu5372YCD7-g&oe=6800529D",
+          "previousWebsite": "https://kmcmanchester.org/about/world-peace-cafe/",
+          "note": "Official cafe page links View Menu to /wpc-menu-june-2026/, which redirects to the official menu image (HTTP 200). Previous website directly returned 404 after browsing timeouts; previous Facebook CDN image returned 403, without proving permanent unavailability."
+        }
+      ]
+    },
     "type": "Vegan & Vegetarian",
     "cuisine": "World-Menu",
     "score": 4.5,
     "reviews": "15+",
-    "website": "https://kmcmanchester.org/about/world-peace-cafe/",
+    "website": "https://meditateinmcr.org/world-peace-cafe/",
     "address": "76 High Ln, Chorlton-cum-Hardy, Manchester M21 9XF",
     "location": "Chorlton",
     "centre": "no",
     "phone": "01618617012",
-    "menu": "https://scontent-man2-1.xx.fbcdn.net/v/t39.30808-6/486847630_1238529381606549_1392469357796614050_n.jpg?stp=c0.193.1414.1414a_dst-jpg_s206x206_tt6&_nc_cat=100&ccb=1-7&_nc_sid=714c7a&_nc_ohc=Ggb5UXK1gvQQ7kNvwHSO0y7&_nc_oc=Adloa5EfIfzjyc12HlGyUYVwO2A0qklzgVJOYaVlSoHbdbk14noI7RKIREIUjScAJyQ&_nc_zt=23&_nc_ht=scontent-man2-1.xx&_nc_gid=34dCfc2gN8qBQ3JokOdQPQ&oh=00_AfGcbkbx9uQUPBaq2e8wwi5BX2ZlwYXk0FQu5372YCD7-g&oe=6800529D",
+    "menu": "https://meditateinmcr.org/wp-content/uploads/2026/06/wpc-menu-june-2026.jpg",
     "times": "Monday 12-2 pm, Tuesday 12-2 pm, Wednesday 11 am-3 pm, Thursday 11 am-3 pm, Friday 11 am-3 pm, Saturday 11 am-3 pm, Sunday 11 am-3 pm",
     "image": "/images/MVG-logo.webp",
     "alt": "Two books on a green table, one above the other, both with the Manchester Vegan Guide logo on the front.",

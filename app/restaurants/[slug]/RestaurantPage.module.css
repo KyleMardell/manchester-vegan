@@ -41,6 +41,13 @@
     transform: scale(1.1);
 }
 
+.SocialIcon:focus-visible,
+.RestLink:focus-visible,
+.CTALink:focus-visible {
+    outline: 3px solid #244b2b;
+    outline-offset: 3px;
+}
+
 @media screen and (min-width: 768px) {
     .CTALink {
         font-size: 1.6rem;
@@ -54,4 +61,24 @@
         font-size: 2.5rem;
     }
     
+}
+
+.DietaryBadge {
+    background-color: #e8f3e8;
+    color: #244b2b;
+    border: 1px solid #b9d5bd;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.6rem 1rem;
+    margin-top: 0.5rem;
+}
+
+.BreweryAtAGlance {
+    max-width: 48rem;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border: 1px solid #b9d5bd;
+    border-radius: 0.75rem;
+    background-color: #f0f7f0;
+    overflow-wrap: anywhere;
 }

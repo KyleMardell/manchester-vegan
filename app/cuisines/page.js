@@ -1,10 +1,13 @@
-import data from "@/data/restaurants.json";
+import rawData from "@/data/restaurants.json";
+import { getActiveRestaurants, normalizeRestaurants } from "@/utils/restaurants";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import CuisineCard from "@/components/CuisineCard";
 import styles from "./CuisinesPage.module.css";
 import Link from "next/link";
+
+const data = getActiveRestaurants(normalizeRestaurants(rawData));
 
 export const metadata = {
     title: "Vegan and Vegetarian Cuisines in Manchester | Manchester Vegan Guide",

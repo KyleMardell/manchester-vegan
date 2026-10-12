@@ -1,9 +1,12 @@
 import RestaurantCard from "@/components/RestaurantCard";
-import data from "@/data/restaurants.json";
+import rawData from "@/data/restaurants.json";
+import { getVeganRestaurants, normalizeRestaurants } from "@/utils/restaurants";
 import styles from "./VeganOnlyPage.module.css";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
+
+const data = normalizeRestaurants(rawData);
 
 export const metadata = {
     title: "Vegan Restaurants in Manchester | Manchester Vegan Guide",
@@ -43,7 +46,7 @@ export const metadata = {
 };
 
 export default function VeganOnlyPage() {
-    const veganOnlyRestaurants = data.filter((rest) => rest.type === "Vegan");
+    const veganOnlyRestaurants = getVeganRestaurants(data);
 
     return (
         <Container fluid="lg">
@@ -101,7 +104,8 @@ export default function VeganOnlyPage() {
                             <RestaurantCard
                                 name={restaurant.name}
                                 slug={restaurant.slug}
-                                restType={restaurant.type}
+                                dietary={restaurant.dietary}
+                                verification={restaurant.verification}
                                 location={restaurant.location}
                                 mapembed={restaurant.mapembed}
                                 cuisine={restaurant.cuisine}

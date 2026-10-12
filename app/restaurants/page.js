@@ -1,9 +1,12 @@
 import RestaurantCard from "@/components/RestaurantCard";
-import data from "@/data/restaurants.json";
+import rawData from "@/data/restaurants.json";
+import { getActiveRestaurants, normalizeRestaurants } from "@/utils/restaurants";
 import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import styles from "./RestaurantsPage.module.css";
 import Link from "next/link";
+
+const data = getActiveRestaurants(normalizeRestaurants(rawData));
 
 export const metadata = {
     title: "Best Vegan and Vegetarian Restaurants in Manchester | Manchester Vegan Guide",
@@ -72,7 +75,7 @@ export default function Restaurants() {
                         From proper vegan pub grub to flavour-packed vegetarian
                         Chinese dishes and stylish plant-based bistros, this
                         guide brings together a wide range of options, all in
-                        one place. The full list features over 25 vegan and
+                        one place. The full list features {data.length} vegan and
                         vegetarian restaurants in Manchester, including hidden
                         gems, popular street food vendors, and long-standing
                         favourites known for doing meat-free food well.
@@ -95,7 +98,8 @@ export default function Restaurants() {
                             <RestaurantCard
                                 name={restaurant.name}
                                 slug={restaurant.slug}
-                                restType={restaurant.type}
+                                dietary={restaurant.dietary}
+                                verification={restaurant.verification}
                                 location={restaurant.location}
                                 mapembed={restaurant.mapembed}
                                 cuisine={restaurant.cuisine}

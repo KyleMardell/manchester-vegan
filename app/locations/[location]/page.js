@@ -1,4 +1,5 @@
-import data from "@/data/restaurants.json";
+import rawData from "@/data/restaurants.json";
+import { getActiveRestaurants, normalizeRestaurants } from "@/utils/restaurants";
 import Link from "next/link";
 import { slugify } from "@/utils/slugify";
 import { Container, Row, Col } from "react-bootstrap";
@@ -6,6 +7,8 @@ import RestaurantCard from "@/components/RestaurantCard";
 import Image from "next/image";
 import styles from "./LocationPage.module.css";
 import BackButton from "@/components/BackButton";
+
+const data = normalizeRestaurants(rawData);
 
 export async function generateMetadata({ params }) {
     const { location } = await params;
@@ -59,11 +62,11 @@ export async function generateStaticParams() {
 
 export default async function LocationPage({ params }) {
     const { location } = await params;
-    const restaurants = data.filter(
+    const restaurants = getActiveRestaurants(data).filter(
         (rest) => slugify(rest.location) === location
     );
 
-    const readableLocation = restaurants[0]?.location || params.location;
+    const readableLocation = data.find((rest) => slugify(rest.location) === location)?.location || location;
 
     return (
         <Container fluid="lg">
@@ -104,6 +107,13 @@ export default async function LocationPage({ params }) {
                 </Col>
             </Row>
 
+            {restaurants.length === 0 && (
+                <Row>
+                    <Col xs={12} className="text-center my-4">
+                        <p>No active restaurant listings are currently available for this category.</p>
+                    </Col>
+                </Row>
+            )}
             <Row>
                 {[...restaurants]
                     .sort((a, b) => a.name.localeCompare(b.name))
@@ -112,7 +122,8 @@ export default async function LocationPage({ params }) {
                             <RestaurantCard
                                 name={restaurant.name}
                                 slug={restaurant.slug}
-                                restType={restaurant.type}
+                                dietary={restaurant.dietary}
+                                verification={restaurant.verification}
                                 location={restaurant.location}
                                 mapembed={restaurant.mapembed}
                                 cuisine={restaurant.cuisine}
